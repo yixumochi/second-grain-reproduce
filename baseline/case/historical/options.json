@@ -1,0 +1,2303 @@
+{
+  "schema": "AI_TIMBER_SECONDARY_BACKING_OPTIONS_V1",
+  "options": [
+    {
+      "option_id": "BACKING_OPTION_A_HORIZONTAL_RAILS_WITH_JAMB_RETURNS",
+      "topology_archetype": "HORIZONTAL_BACKING_RAILS_WITH_JAMB_RETURNS",
+      "new_member_geometry": [
+        {
+          "member_token": "RAIL_01",
+          "role": "SECONDARY_BACKING_RAIL",
+          "start_mm": [
+            -450.0,
+            -341.36941504209483,
+            241.3
+          ],
+          "end_mm": [
+            450.0,
+            -341.36941504209483,
+            241.3
+          ],
+          "required_length_mm": 900.0
+        },
+        {
+          "member_token": "TIE_01_L",
+          "role": "SECONDARY_BACKING_RETURN",
+          "start_mm": [
+            -450.0,
+            -341.36941504209483,
+            241.3
+          ],
+          "end_mm": [
+            -469.05,
+            -720.7194150420949,
+            241.3
+          ],
+          "required_length_mm": 379.8280202933954
+        },
+        {
+          "member_token": "TIE_01_R",
+          "role": "SECONDARY_BACKING_RETURN",
+          "start_mm": [
+            450.0,
+            -341.36941504209483,
+            241.3
+          ],
+          "end_mm": [
+            469.04999999999995,
+            -722.3069150420948,
+            241.3
+          ],
+          "required_length_mm": 381.41353070683004
+        },
+        {
+          "member_token": "RAIL_02",
+          "role": "SECONDARY_BACKING_RAIL",
+          "start_mm": [
+            -450.0,
+            -341.36941504209483,
+            747.5375
+          ],
+          "end_mm": [
+            450.0,
+            -341.36941504209483,
+            747.5375
+          ],
+          "required_length_mm": 900.0
+        },
+        {
+          "member_token": "TIE_02_L",
+          "role": "SECONDARY_BACKING_RETURN",
+          "start_mm": [
+            -450.0,
+            -341.36941504209483,
+            747.5375
+          ],
+          "end_mm": [
+            -469.05,
+            -720.7194150420949,
+            747.5375
+          ],
+          "required_length_mm": 379.8280202933954
+        },
+        {
+          "member_token": "TIE_02_R",
+          "role": "SECONDARY_BACKING_RETURN",
+          "start_mm": [
+            450.0,
+            -341.36941504209483,
+            747.5375
+          ],
+          "end_mm": [
+            469.04999999999995,
+            -722.3069150420948,
+            747.5375
+          ],
+          "required_length_mm": 381.41353070683004
+        },
+        {
+          "member_token": "RAIL_03",
+          "role": "SECONDARY_BACKING_RAIL",
+          "start_mm": [
+            -450.0,
+            -341.36941504209483,
+            1276.0
+          ],
+          "end_mm": [
+            450.0,
+            -341.36941504209483,
+            1276.0
+          ],
+          "required_length_mm": 900.0
+        },
+        {
+          "member_token": "TIE_03_L",
+          "role": "SECONDARY_BACKING_RETURN",
+          "start_mm": [
+            -450.0,
+            -341.36941504209483,
+            1276.0
+          ],
+          "end_mm": [
+            -469.05,
+            -720.7194150420949,
+            1276.0
+          ],
+          "required_length_mm": 379.8280202933954
+        },
+        {
+          "member_token": "TIE_03_R",
+          "role": "SECONDARY_BACKING_RETURN",
+          "start_mm": [
+            450.0,
+            -341.36941504209483,
+            1276.0
+          ],
+          "end_mm": [
+            469.04999999999995,
+            -722.3069150420948,
+            1276.0
+          ],
+          "required_length_mm": 381.41353070683004
+        },
+        {
+          "member_token": "RAIL_04",
+          "role": "SECONDARY_BACKING_RAIL",
+          "start_mm": [
+            -450.0,
+            -341.36941504209483,
+            1818.7500000000005
+          ],
+          "end_mm": [
+            450.0,
+            -341.36941504209483,
+            1818.7500000000005
+          ],
+          "required_length_mm": 900.0
+        },
+        {
+          "member_token": "TIE_04_L",
+          "role": "SECONDARY_BACKING_RETURN",
+          "start_mm": [
+            -450.0,
+            -341.36941504209483,
+            1818.7500000000005
+          ],
+          "end_mm": [
+            -469.05,
+            -720.7194150420949,
+            1818.7500000000005
+          ],
+          "required_length_mm": 379.8280202933954
+        },
+        {
+          "member_token": "TIE_04_R",
+          "role": "SECONDARY_BACKING_RETURN",
+          "start_mm": [
+            450.0,
+            -341.36941504209483,
+            1818.7500000000005
+          ],
+          "end_mm": [
+            469.04999999999995,
+            -722.3069150420948,
+            1818.7500000000005
+          ],
+          "required_length_mm": 381.41353070683004
+        },
+        {
+          "member_token": "RAIL_05",
+          "role": "SECONDARY_BACKING_RAIL",
+          "start_mm": [
+            -450.0,
+            -341.36941504209483,
+            2098.9875
+          ],
+          "end_mm": [
+            450.0,
+            -341.36941504209483,
+            2098.9875
+          ],
+          "required_length_mm": 900.0
+        },
+        {
+          "member_token": "TIE_05_L",
+          "role": "SECONDARY_BACKING_RETURN",
+          "start_mm": [
+            -450.0,
+            -341.36941504209483,
+            2098.9875
+          ],
+          "end_mm": [
+            -469.05,
+            -720.7194150420949,
+            2098.9875
+          ],
+          "required_length_mm": 379.8280202933954
+        },
+        {
+          "member_token": "TIE_05_R",
+          "role": "SECONDARY_BACKING_RETURN",
+          "start_mm": [
+            450.0,
+            -341.36941504209483,
+            2098.9875
+          ],
+          "end_mm": [
+            469.04999999999995,
+            -722.3069150420948,
+            2098.9875
+          ],
+          "required_length_mm": 381.41353070683004
+        }
+      ],
+      "required_member_lengths_mm": [
+        900.0,
+        379.8280202933954,
+        381.41353070683004,
+        900.0,
+        379.8280202933954,
+        381.41353070683004,
+        900.0,
+        379.8280202933954,
+        381.41353070683004,
+        900.0,
+        379.8280202933954,
+        381.41353070683004,
+        900.0,
+        379.8280202933954,
+        381.41353070683004
+      ],
+      "candidate_downstream_hosts": [
+        "JAMB_STUD_LIVE_FACE_000_0_LEFT",
+        "JAMB_STUD_LIVE_FACE_000_0_RIGHT"
+      ],
+      "panel_attachment_map": [
+        {
+          "panel_id": "LIVE_FACE_006_ZONE_00_B18_STRIP_001_SEG_01",
+          "host_member_token": "RAIL_01",
+          "status": "COMPLETE"
+        },
+        {
+          "panel_id": "LIVE_FACE_006_ZONE_00_B18_STRIP_002_SEG_01",
+          "host_member_token": "RAIL_02",
+          "status": "COMPLETE"
+        },
+        {
+          "panel_id": "LIVE_FACE_006_ZONE_00_B18_STRIP_003_SEG_01",
+          "host_member_token": "RAIL_03",
+          "status": "COMPLETE"
+        },
+        {
+          "panel_id": "LIVE_FACE_006_ZONE_00_B18_STRIP_004_SEG_01",
+          "host_member_token": "RAIL_04",
+          "status": "COMPLETE"
+        },
+        {
+          "panel_id": "LIVE_FACE_006_ZONE_00_B18_EDGE_STRIP_001_SEG_01",
+          "host_member_token": "RAIL_05",
+          "status": "COMPLETE"
+        }
+      ],
+      "backing_to_structure_connection_map": [
+        {
+          "backing_member_token": "RAIL_01",
+          "return_member_token": "TIE_01_L",
+          "downstream_host_id": "JAMB_STUD_LIVE_FACE_000_0_LEFT",
+          "status": "MODELED_LOAD_PATH_CONNECTION",
+          "capacity": "ENGINEERING_CHECK_REQUIRED"
+        },
+        {
+          "backing_member_token": "RAIL_01",
+          "return_member_token": "TIE_01_R",
+          "downstream_host_id": "JAMB_STUD_LIVE_FACE_000_0_RIGHT",
+          "status": "MODELED_LOAD_PATH_CONNECTION",
+          "capacity": "ENGINEERING_CHECK_REQUIRED"
+        },
+        {
+          "backing_member_token": "RAIL_02",
+          "return_member_token": "TIE_02_L",
+          "downstream_host_id": "JAMB_STUD_LIVE_FACE_000_0_LEFT",
+          "status": "MODELED_LOAD_PATH_CONNECTION",
+          "capacity": "ENGINEERING_CHECK_REQUIRED"
+        },
+        {
+          "backing_member_token": "RAIL_02",
+          "return_member_token": "TIE_02_R",
+          "downstream_host_id": "JAMB_STUD_LIVE_FACE_000_0_RIGHT",
+          "status": "MODELED_LOAD_PATH_CONNECTION",
+          "capacity": "ENGINEERING_CHECK_REQUIRED"
+        },
+        {
+          "backing_member_token": "RAIL_03",
+          "return_member_token": "TIE_03_L",
+          "downstream_host_id": "JAMB_STUD_LIVE_FACE_000_0_LEFT",
+          "status": "MODELED_LOAD_PATH_CONNECTION",
+          "capacity": "ENGINEERING_CHECK_REQUIRED"
+        },
+        {
+          "backing_member_token": "RAIL_03",
+          "return_member_token": "TIE_03_R",
+          "downstream_host_id": "JAMB_STUD_LIVE_FACE_000_0_RIGHT",
+          "status": "MODELED_LOAD_PATH_CONNECTION",
+          "capacity": "ENGINEERING_CHECK_REQUIRED"
+        },
+        {
+          "backing_member_token": "RAIL_04",
+          "return_member_token": "TIE_04_L",
+          "downstream_host_id": "JAMB_STUD_LIVE_FACE_000_0_LEFT",
+          "status": "MODELED_LOAD_PATH_CONNECTION",
+          "capacity": "ENGINEERING_CHECK_REQUIRED"
+        },
+        {
+          "backing_member_token": "RAIL_04",
+          "return_member_token": "TIE_04_R",
+          "downstream_host_id": "JAMB_STUD_LIVE_FACE_000_0_RIGHT",
+          "status": "MODELED_LOAD_PATH_CONNECTION",
+          "capacity": "ENGINEERING_CHECK_REQUIRED"
+        },
+        {
+          "backing_member_token": "RAIL_05",
+          "return_member_token": "TIE_05_L",
+          "downstream_host_id": "JAMB_STUD_LIVE_FACE_000_0_LEFT",
+          "status": "MODELED_LOAD_PATH_CONNECTION",
+          "capacity": "ENGINEERING_CHECK_REQUIRED"
+        },
+        {
+          "backing_member_token": "RAIL_05",
+          "return_member_token": "TIE_05_R",
+          "downstream_host_id": "JAMB_STUD_LIVE_FACE_000_0_RIGHT",
+          "status": "MODELED_LOAD_PATH_CONNECTION",
+          "capacity": "ENGINEERING_CHECK_REQUIRED"
+        }
+      ],
+      "load_path": [
+        "PANEL",
+        "HORIZONTAL_BACKING_RAIL",
+        "RETURN_MEMBER",
+        "EXISTING_JAMB_STUD",
+        "CURRENT_PRIMARY_SYSTEM"
+      ],
+      "architectural_clearance_status": "PASS_WITH_EXPLICIT_CONNECTION_REGIONS",
+      "geometry_conflict_status": "ZERO_UNCONTROLLED_CONFLICTS",
+      "fabrication_status": "CUTTING_REQUIRED_NO_SPLICING",
+      "structural_modeling_status": "VALID_RESEARCH_LOAD_PATH_CONNECTION_CAPACITY_UNVERIFIED",
+      "complete_valid_load_path": true,
+      "geometry_valid": true,
+      "added_connection_count": 20,
+      "supply": {
+        "status": "STOCK_FEASIBLE",
+        "stock_feasible": true,
+        "assignments": [
+          {
+            "member_token": "RAIL_01",
+            "role": "SECONDARY_BACKING_RAIL",
+            "start_mm": [
+              -450.0,
+              -341.36941504209483,
+              241.3
+            ],
+            "end_mm": [
+              450.0,
+              -341.36941504209483,
+              241.3
+            ],
+            "required_length_mm": 900.0,
+            "element_id": "SECONDARY_BACKING__A__RAIL_01",
+            "source_stock_instance_id": "119600_001",
+            "listing_id": "119600",
+            "material_section_family_id": "MSF_FIR_A56B298152__DIMENSION_LUMBER",
+            "source_kind": "RESIDUAL_OFFCUT",
+            "source_interval_mm": [
+              3168.277660168,
+              4068.277660168
+            ],
+            "kerf_interval_mm": [
+              4068.277660168,
+              4071.277660168
+            ],
+            "section": {
+              "width_mm": 95.25,
+              "depth_mm": 146.05,
+              "basis": "RECORDED_EARTHWISE_EXACT_SECTION"
+            },
+            "allocation_status": "REAL_RESIDUAL_ALLOCATED",
+            "joining": "NONE",
+            "fabrication_status": "CROSS_CUT_REQUIRED",
+            "structural_verification_status": "NOT_YET_RUN_MISSING_CODE_PROPERTY"
+          },
+          {
+            "member_token": "RAIL_02",
+            "role": "SECONDARY_BACKING_RAIL",
+            "start_mm": [
+              -450.0,
+              -341.36941504209483,
+              747.5375
+            ],
+            "end_mm": [
+              450.0,
+              -341.36941504209483,
+              747.5375
+            ],
+            "required_length_mm": 900.0,
+            "element_id": "SECONDARY_BACKING__A__RAIL_02",
+            "source_stock_instance_id": "120235_001",
+            "listing_id": "120235",
+            "material_section_family_id": "MSF_CEDAR_D9624E0806__DIMENSION_LUMBER",
+            "source_kind": "RESIDUAL_OFFCUT",
+            "source_interval_mm": [
+              687.1388300841895,
+              1587.1388300841895
+            ],
+            "kerf_interval_mm": [
+              1587.1388300841895,
+              1590.1388300841895
+            ],
+            "section": {
+              "width_mm": 38.1,
+              "depth_mm": 139.7,
+              "basis": "RECORDED_EARTHWISE_EXACT_SECTION"
+            },
+            "allocation_status": "REAL_RESIDUAL_ALLOCATED",
+            "joining": "NONE",
+            "fabrication_status": "CROSS_CUT_REQUIRED",
+            "structural_verification_status": "NOT_YET_RUN_MISSING_CODE_PROPERTY"
+          },
+          {
+            "member_token": "RAIL_03",
+            "role": "SECONDARY_BACKING_RAIL",
+            "start_mm": [
+              -450.0,
+              -341.36941504209483,
+              1276.0
+            ],
+            "end_mm": [
+              450.0,
+              -341.36941504209483,
+              1276.0
+            ],
+            "required_length_mm": 900.0,
+            "element_id": "SECONDARY_BACKING__A__RAIL_03",
+            "source_stock_instance_id": "113209_001",
+            "listing_id": "113209",
+            "material_section_family_id": "MSF_FIR_54DBE03855__DIMENSION_LUMBER",
+            "source_kind": "RESIDUAL_OFFCUT",
+            "source_interval_mm": [
+              3168.277660168,
+              4068.277660168
+            ],
+            "kerf_interval_mm": [
+              4068.277660168,
+              4071.277660168
+            ],
+            "section": {
+              "width_mm": 50.8,
+              "depth_mm": 234.95,
+              "basis": "RECORDED_EARTHWISE_EXACT_SECTION"
+            },
+            "allocation_status": "REAL_RESIDUAL_ALLOCATED",
+            "joining": "NONE",
+            "fabrication_status": "CROSS_CUT_REQUIRED",
+            "structural_verification_status": "NOT_YET_RUN_MISSING_CODE_PROPERTY"
+          },
+          {
+            "member_token": "RAIL_04",
+            "role": "SECONDARY_BACKING_RAIL",
+            "start_mm": [
+              -450.0,
+              -341.36941504209483,
+              1818.7500000000005
+            ],
+            "end_mm": [
+              450.0,
+              -341.36941504209483,
+              1818.7500000000005
+            ],
+            "required_length_mm": 900.0,
+            "element_id": "SECONDARY_BACKING__A__RAIL_04",
+            "source_stock_instance_id": "120443_001",
+            "listing_id": "120443",
+            "material_section_family_id": "MSF_FIR_0FB753EABE__DIMENSION_LUMBER",
+            "source_kind": "RESIDUAL_OFFCUT",
+            "source_interval_mm": [
+              2064.9,
+              2964.9
+            ],
+            "kerf_interval_mm": [
+              2964.9,
+              2967.9
+            ],
+            "section": {
+              "width_mm": 38.1,
+              "depth_mm": 146.05,
+              "basis": "RECORDED_EARTHWISE_EXACT_SECTION"
+            },
+            "allocation_status": "REAL_RESIDUAL_ALLOCATED",
+            "joining": "NONE",
+            "fabrication_status": "CROSS_CUT_REQUIRED",
+            "structural_verification_status": "NOT_YET_RUN_MISSING_CODE_PROPERTY"
+          },
+          {
+            "member_token": "RAIL_05",
+            "role": "SECONDARY_BACKING_RAIL",
+            "start_mm": [
+              -450.0,
+              -341.36941504209483,
+              2098.9875
+            ],
+            "end_mm": [
+              450.0,
+              -341.36941504209483,
+              2098.9875
+            ],
+            "required_length_mm": 900.0,
+            "element_id": "SECONDARY_BACKING__A__RAIL_05",
+            "source_stock_instance_id": "119270_001",
+            "listing_id": "119270",
+            "material_section_family_id": "MSF_HEMLOCK_4E20D6BE43__DIMENSION_LUMBER",
+            "source_kind": "RESIDUAL_OFFCUT",
+            "source_interval_mm": [
+              0.0,
+              900.0
+            ],
+            "kerf_interval_mm": [
+              900.0,
+              903.0
+            ],
+            "section": {
+              "width_mm": 19.05,
+              "depth_mm": 88.9,
+              "basis": "RECORDED_EARTHWISE_EXACT_SECTION"
+            },
+            "allocation_status": "REAL_RESIDUAL_ALLOCATED",
+            "joining": "NONE",
+            "fabrication_status": "CROSS_CUT_REQUIRED",
+            "structural_verification_status": "NOT_YET_RUN_MISSING_CODE_PROPERTY"
+          },
+          {
+            "member_token": "TIE_01_R",
+            "role": "SECONDARY_BACKING_RETURN",
+            "start_mm": [
+              450.0,
+              -341.36941504209483,
+              241.3
+            ],
+            "end_mm": [
+              469.04999999999995,
+              -722.3069150420948,
+              241.3
+            ],
+            "required_length_mm": 381.41353070683004,
+            "element_id": "SECONDARY_BACKING__A__TIE_01_R",
+            "source_stock_instance_id": "118162_001",
+            "listing_id": "118162",
+            "material_section_family_id": "MSF_FIR_0FB753EABE__DIMENSION_LUMBER",
+            "source_kind": "RESIDUAL_OFFCUT",
+            "source_interval_mm": [
+              2064.9,
+              2446.31353070683
+            ],
+            "kerf_interval_mm": [
+              2446.31353070683,
+              2449.31353070683
+            ],
+            "section": {
+              "width_mm": 38.1,
+              "depth_mm": 142.875,
+              "basis": "RECORDED_EARTHWISE_EXACT_SECTION"
+            },
+            "allocation_status": "REAL_RESIDUAL_ALLOCATED",
+            "joining": "NONE",
+            "fabrication_status": "CROSS_CUT_REQUIRED",
+            "structural_verification_status": "NOT_YET_RUN_MISSING_CODE_PROPERTY"
+          },
+          {
+            "member_token": "TIE_02_R",
+            "role": "SECONDARY_BACKING_RETURN",
+            "start_mm": [
+              450.0,
+              -341.36941504209483,
+              747.5375
+            ],
+            "end_mm": [
+              469.04999999999995,
+              -722.3069150420948,
+              747.5375
+            ],
+            "required_length_mm": 381.41353070683004,
+            "element_id": "SECONDARY_BACKING__A__TIE_02_R",
+            "source_stock_instance_id": "118507_001",
+            "listing_id": "118507",
+            "material_section_family_id": "MSF_FIR_0626844638__DIMENSION_LUMBER",
+            "source_kind": "RESIDUAL_OFFCUT",
+            "source_interval_mm": [
+              3168.277660168379,
+              3549.691190875209
+            ],
+            "kerf_interval_mm": [
+              3549.691190875209,
+              3552.691190875209
+            ],
+            "section": {
+              "width_mm": 31.75,
+              "depth_mm": 149.225,
+              "basis": "RECORDED_EARTHWISE_EXACT_SECTION"
+            },
+            "allocation_status": "REAL_RESIDUAL_ALLOCATED",
+            "joining": "NONE",
+            "fabrication_status": "CROSS_CUT_REQUIRED",
+            "structural_verification_status": "NOT_YET_RUN_MISSING_CODE_PROPERTY"
+          },
+          {
+            "member_token": "TIE_03_R",
+            "role": "SECONDARY_BACKING_RETURN",
+            "start_mm": [
+              450.0,
+              -341.36941504209483,
+              1276.0
+            ],
+            "end_mm": [
+              469.04999999999995,
+              -722.3069150420948,
+              1276.0
+            ],
+            "required_length_mm": 381.41353070683004,
+            "element_id": "SECONDARY_BACKING__A__TIE_03_R",
+            "source_stock_instance_id": "113209_001",
+            "listing_id": "113209",
+            "material_section_family_id": "MSF_FIR_54DBE03855__DIMENSION_LUMBER",
+            "source_kind": "RESIDUAL_OFFCUT",
+            "source_interval_mm": [
+              4071.277660168,
+              4452.69119087483
+            ],
+            "kerf_interval_mm": [
+              4452.69119087483,
+              4455.69119087483
+            ],
+            "section": {
+              "width_mm": 50.8,
+              "depth_mm": 234.95,
+              "basis": "RECORDED_EARTHWISE_EXACT_SECTION"
+            },
+            "allocation_status": "REAL_RESIDUAL_ALLOCATED",
+            "joining": "NONE",
+            "fabrication_status": "CROSS_CUT_REQUIRED",
+            "structural_verification_status": "NOT_YET_RUN_MISSING_CODE_PROPERTY"
+          },
+          {
+            "member_token": "TIE_04_R",
+            "role": "SECONDARY_BACKING_RETURN",
+            "start_mm": [
+              450.0,
+              -341.36941504209483,
+              1818.7500000000005
+            ],
+            "end_mm": [
+              469.04999999999995,
+              -722.3069150420948,
+              1818.7500000000005
+            ],
+            "required_length_mm": 381.41353070683004,
+            "element_id": "SECONDARY_BACKING__A__TIE_04_R",
+            "source_stock_instance_id": "120443_001",
+            "listing_id": "120443",
+            "material_section_family_id": "MSF_FIR_0FB753EABE__DIMENSION_LUMBER",
+            "source_kind": "RESIDUAL_OFFCUT",
+            "source_interval_mm": [
+              2967.9,
+              3349.31353070683
+            ],
+            "kerf_interval_mm": [
+              3349.31353070683,
+              3352.31353070683
+            ],
+            "section": {
+              "width_mm": 38.1,
+              "depth_mm": 146.05,
+              "basis": "RECORDED_EARTHWISE_EXACT_SECTION"
+            },
+            "allocation_status": "REAL_RESIDUAL_ALLOCATED",
+            "joining": "NONE",
+            "fabrication_status": "CROSS_CUT_REQUIRED",
+            "structural_verification_status": "NOT_YET_RUN_MISSING_CODE_PROPERTY"
+          },
+          {
+            "member_token": "TIE_05_R",
+            "role": "SECONDARY_BACKING_RETURN",
+            "start_mm": [
+              450.0,
+              -341.36941504209483,
+              2098.9875
+            ],
+            "end_mm": [
+              469.04999999999995,
+              -722.3069150420948,
+              2098.9875
+            ],
+            "required_length_mm": 381.41353070683004,
+            "element_id": "SECONDARY_BACKING__A__TIE_05_R",
+            "source_stock_instance_id": "118159_001",
+            "listing_id": "118159",
+            "material_section_family_id": "MSF_FIR_2F4626736E__DIMENSION_LUMBER",
+            "source_kind": "RESIDUAL_OFFCUT",
+            "source_interval_mm": [
+              1584.13883,
+              1965.55236070683
+            ],
+            "kerf_interval_mm": [
+              1965.55236070683,
+              1968.55236070683
+            ],
+            "section": {
+              "width_mm": 38.1,
+              "depth_mm": 171.45,
+              "basis": "RECORDED_EARTHWISE_EXACT_SECTION"
+            },
+            "allocation_status": "REAL_RESIDUAL_ALLOCATED",
+            "joining": "NONE",
+            "fabrication_status": "CROSS_CUT_REQUIRED",
+            "structural_verification_status": "NOT_YET_RUN_MISSING_CODE_PROPERTY"
+          },
+          {
+            "member_token": "TIE_01_L",
+            "role": "SECONDARY_BACKING_RETURN",
+            "start_mm": [
+              -450.0,
+              -341.36941504209483,
+              241.3
+            ],
+            "end_mm": [
+              -469.05,
+              -720.7194150420949,
+              241.3
+            ],
+            "required_length_mm": 379.8280202933954,
+            "element_id": "SECONDARY_BACKING__A__TIE_01_L",
+            "source_stock_instance_id": "119270_001",
+            "listing_id": "119270",
+            "material_section_family_id": "MSF_HEMLOCK_4E20D6BE43__DIMENSION_LUMBER",
+            "source_kind": "RESIDUAL_OFFCUT",
+            "source_interval_mm": [
+              903.0,
+              1282.8280202933954
+            ],
+            "kerf_interval_mm": [
+              1282.8280202933954,
+              1285.8280202933954
+            ],
+            "section": {
+              "width_mm": 19.05,
+              "depth_mm": 88.9,
+              "basis": "RECORDED_EARTHWISE_EXACT_SECTION"
+            },
+            "allocation_status": "REAL_RESIDUAL_ALLOCATED",
+            "joining": "NONE",
+            "fabrication_status": "CROSS_CUT_REQUIRED",
+            "structural_verification_status": "NOT_YET_RUN_MISSING_CODE_PROPERTY"
+          },
+          {
+            "member_token": "TIE_02_L",
+            "role": "SECONDARY_BACKING_RETURN",
+            "start_mm": [
+              -450.0,
+              -341.36941504209483,
+              747.5375
+            ],
+            "end_mm": [
+              -469.05,
+              -720.7194150420949,
+              747.5375
+            ],
+            "required_length_mm": 379.8280202933954,
+            "element_id": "SECONDARY_BACKING__A__TIE_02_L",
+            "source_stock_instance_id": "118509_001",
+            "listing_id": "118509",
+            "material_section_family_id": "MSF_FIR_0626844638__DIMENSION_LUMBER",
+            "source_kind": "RESIDUAL_OFFCUT",
+            "source_interval_mm": [
+              3168.277660168379,
+              3548.1056804617747
+            ],
+            "kerf_interval_mm": [
+              3548.1056804617747,
+              3551.1056804617747
+            ],
+            "section": {
+              "width_mm": 31.75,
+              "depth_mm": 149.225,
+              "basis": "RECORDED_EARTHWISE_EXACT_SECTION"
+            },
+            "allocation_status": "REAL_RESIDUAL_ALLOCATED",
+            "joining": "NONE",
+            "fabrication_status": "CROSS_CUT_REQUIRED",
+            "structural_verification_status": "NOT_YET_RUN_MISSING_CODE_PROPERTY"
+          },
+          {
+            "member_token": "TIE_03_L",
+            "role": "SECONDARY_BACKING_RETURN",
+            "start_mm": [
+              -450.0,
+              -341.36941504209483,
+              1276.0
+            ],
+            "end_mm": [
+              -469.05,
+              -720.7194150420949,
+              1276.0
+            ],
+            "required_length_mm": 379.8280202933954,
+            "element_id": "SECONDARY_BACKING__A__TIE_03_L",
+            "source_stock_instance_id": "118509_001",
+            "listing_id": "118509",
+            "material_section_family_id": "MSF_FIR_0626844638__DIMENSION_LUMBER",
+            "source_kind": "RESIDUAL_OFFCUT",
+            "source_interval_mm": [
+              3551.1056804617747,
+              3930.9337007551703
+            ],
+            "kerf_interval_mm": [
+              3930.9337007551703,
+              3933.9337007551703
+            ],
+            "section": {
+              "width_mm": 31.75,
+              "depth_mm": 149.225,
+              "basis": "RECORDED_EARTHWISE_EXACT_SECTION"
+            },
+            "allocation_status": "REAL_RESIDUAL_ALLOCATED",
+            "joining": "NONE",
+            "fabrication_status": "CROSS_CUT_REQUIRED",
+            "structural_verification_status": "NOT_YET_RUN_MISSING_CODE_PROPERTY"
+          },
+          {
+            "member_token": "TIE_04_L",
+            "role": "SECONDARY_BACKING_RETURN",
+            "start_mm": [
+              -450.0,
+              -341.36941504209483,
+              1818.7500000000005
+            ],
+            "end_mm": [
+              -469.05,
+              -720.7194150420949,
+              1818.7500000000005
+            ],
+            "required_length_mm": 379.8280202933954,
+            "element_id": "SECONDARY_BACKING__A__TIE_04_L",
+            "source_stock_instance_id": "118511_001",
+            "listing_id": "118511",
+            "material_section_family_id": "MSF_FIR_0626844638__DIMENSION_LUMBER",
+            "source_kind": "RESIDUAL_OFFCUT",
+            "source_interval_mm": [
+              3168.277660168379,
+              3548.1056804617747
+            ],
+            "kerf_interval_mm": [
+              3548.1056804617747,
+              3551.1056804617747
+            ],
+            "section": {
+              "width_mm": 31.75,
+              "depth_mm": 149.225,
+              "basis": "RECORDED_EARTHWISE_EXACT_SECTION"
+            },
+            "allocation_status": "REAL_RESIDUAL_ALLOCATED",
+            "joining": "NONE",
+            "fabrication_status": "CROSS_CUT_REQUIRED",
+            "structural_verification_status": "NOT_YET_RUN_MISSING_CODE_PROPERTY"
+          },
+          {
+            "member_token": "TIE_05_L",
+            "role": "SECONDARY_BACKING_RETURN",
+            "start_mm": [
+              -450.0,
+              -341.36941504209483,
+              2098.9875
+            ],
+            "end_mm": [
+              -469.05,
+              -720.7194150420949,
+              2098.9875
+            ],
+            "required_length_mm": 379.8280202933954,
+            "element_id": "SECONDARY_BACKING__A__TIE_05_L",
+            "source_stock_instance_id": "118511_001",
+            "listing_id": "118511",
+            "material_section_family_id": "MSF_FIR_0626844638__DIMENSION_LUMBER",
+            "source_kind": "RESIDUAL_OFFCUT",
+            "source_interval_mm": [
+              3551.1056804617747,
+              3930.9337007551703
+            ],
+            "kerf_interval_mm": [
+              3930.9337007551703,
+              3933.9337007551703
+            ],
+            "section": {
+              "width_mm": 31.75,
+              "depth_mm": 149.225,
+              "basis": "RECORDED_EARTHWISE_EXACT_SECTION"
+            },
+            "allocation_status": "REAL_RESIDUAL_ALLOCATED",
+            "joining": "NONE",
+            "fabrication_status": "CROSS_CUT_REQUIRED",
+            "structural_verification_status": "NOT_YET_RUN_MISSING_CODE_PROPERTY"
+          }
+        ],
+        "ledger": [
+          {
+            "stock_instance_id": "119270_001",
+            "listing_id": "119270",
+            "material_section_family_id": "MSF_HEMLOCK_4E20D6BE43__DIMENSION_LUMBER",
+            "source_kind": "RESIDUAL_OFFCUT",
+            "available_interval_before_mm": [
+              0.0,
+              1581.138830084
+            ],
+            "cut_intervals_mm": [
+              [
+                0.0,
+                900.0
+              ],
+              [
+                903.0,
+                1282.8280202933954
+              ]
+            ],
+            "kerf_intervals_mm": [
+              [
+                900.0,
+                903.0
+              ],
+              [
+                1282.8280202933954,
+                1285.8280202933954
+              ]
+            ],
+            "residual_interval_after_mm": [
+              1285.8280202933954,
+              1581.138830084
+            ],
+            "residual_length_after_mm": 295.3108097906045,
+            "member_ids": [
+              "SECONDARY_BACKING__A__RAIL_05",
+              "SECONDARY_BACKING__A__TIE_01_L"
+            ]
+          },
+          {
+            "stock_instance_id": "118507_001",
+            "listing_id": "118507",
+            "material_section_family_id": "MSF_FIR_0626844638__DIMENSION_LUMBER",
+            "source_kind": "RESIDUAL_OFFCUT",
+            "available_interval_before_mm": [
+              3168.277660168379,
+              3657.6
+            ],
+            "cut_intervals_mm": [
+              [
+                3168.277660168379,
+                3549.691190875209
+              ]
+            ],
+            "kerf_intervals_mm": [
+              [
+                3549.691190875209,
+                3552.691190875209
+              ]
+            ],
+            "residual_interval_after_mm": [
+              3552.691190875209,
+              3657.6
+            ],
+            "residual_length_after_mm": 104.90880912479088,
+            "member_ids": [
+              "SECONDARY_BACKING__A__TIE_02_R"
+            ]
+          },
+          {
+            "stock_instance_id": "118509_001",
+            "listing_id": "118509",
+            "material_section_family_id": "MSF_FIR_0626844638__DIMENSION_LUMBER",
+            "source_kind": "RESIDUAL_OFFCUT",
+            "available_interval_before_mm": [
+              3168.277660168379,
+              4013.2
+            ],
+            "cut_intervals_mm": [
+              [
+                3168.277660168379,
+                3548.1056804617747
+              ],
+              [
+                3551.1056804617747,
+                3930.9337007551703
+              ]
+            ],
+            "kerf_intervals_mm": [
+              [
+                3548.1056804617747,
+                3551.1056804617747
+              ],
+              [
+                3930.9337007551703,
+                3933.9337007551703
+              ]
+            ],
+            "residual_interval_after_mm": [
+              3933.9337007551703,
+              4013.2
+            ],
+            "residual_length_after_mm": 79.2662992448295,
+            "member_ids": [
+              "SECONDARY_BACKING__A__TIE_02_L",
+              "SECONDARY_BACKING__A__TIE_03_L"
+            ]
+          },
+          {
+            "stock_instance_id": "118511_001",
+            "listing_id": "118511",
+            "material_section_family_id": "MSF_FIR_0626844638__DIMENSION_LUMBER",
+            "source_kind": "RESIDUAL_OFFCUT",
+            "available_interval_before_mm": [
+              3168.277660168379,
+              4013.2
+            ],
+            "cut_intervals_mm": [
+              [
+                3168.277660168379,
+                3548.1056804617747
+              ],
+              [
+                3551.1056804617747,
+                3930.9337007551703
+              ]
+            ],
+            "kerf_intervals_mm": [
+              [
+                3548.1056804617747,
+                3551.1056804617747
+              ],
+              [
+                3930.9337007551703,
+                3933.9337007551703
+              ]
+            ],
+            "residual_interval_after_mm": [
+              3933.9337007551703,
+              4013.2
+            ],
+            "residual_length_after_mm": 79.2662992448295,
+            "member_ids": [
+              "SECONDARY_BACKING__A__TIE_04_L",
+              "SECONDARY_BACKING__A__TIE_05_L"
+            ]
+          },
+          {
+            "stock_instance_id": "120235_001",
+            "listing_id": "120235",
+            "material_section_family_id": "MSF_CEDAR_D9624E0806__DIMENSION_LUMBER",
+            "source_kind": "RESIDUAL_OFFCUT",
+            "available_interval_before_mm": [
+              687.1388300841895,
+              1828.8
+            ],
+            "cut_intervals_mm": [
+              [
+                687.1388300841895,
+                1587.1388300841895
+              ]
+            ],
+            "kerf_intervals_mm": [
+              [
+                1587.1388300841895,
+                1590.1388300841895
+              ]
+            ],
+            "residual_interval_after_mm": [
+              1590.1388300841895,
+              1828.8
+            ],
+            "residual_length_after_mm": 238.66116991581043,
+            "member_ids": [
+              "SECONDARY_BACKING__A__RAIL_02"
+            ]
+          },
+          {
+            "stock_instance_id": "118162_001",
+            "listing_id": "118162",
+            "material_section_family_id": "MSF_FIR_0FB753EABE__DIMENSION_LUMBER",
+            "source_kind": "RESIDUAL_OFFCUT",
+            "available_interval_before_mm": [
+              2064.9,
+              2473.325
+            ],
+            "cut_intervals_mm": [
+              [
+                2064.9,
+                2446.31353070683
+              ]
+            ],
+            "kerf_intervals_mm": [
+              [
+                2446.31353070683,
+                2449.31353070683
+              ]
+            ],
+            "residual_interval_after_mm": [
+              2449.31353070683,
+              2473.325
+            ],
+            "residual_length_after_mm": 24.01146929316974,
+            "member_ids": [
+              "SECONDARY_BACKING__A__TIE_01_R"
+            ]
+          },
+          {
+            "stock_instance_id": "120443_001",
+            "listing_id": "120443",
+            "material_section_family_id": "MSF_FIR_0FB753EABE__DIMENSION_LUMBER",
+            "source_kind": "RESIDUAL_OFFCUT",
+            "available_interval_before_mm": [
+              2064.9,
+              3470.275
+            ],
+            "cut_intervals_mm": [
+              [
+                2064.9,
+                2964.9
+              ],
+              [
+                2967.9,
+                3349.31353070683
+              ]
+            ],
+            "kerf_intervals_mm": [
+              [
+                2964.9,
+                2967.9
+              ],
+              [
+                3349.31353070683,
+                3352.31353070683
+              ]
+            ],
+            "residual_interval_after_mm": [
+              3352.31353070683,
+              3470.275
+            ],
+            "residual_length_after_mm": 117.96146929317001,
+            "member_ids": [
+              "SECONDARY_BACKING__A__RAIL_04",
+              "SECONDARY_BACKING__A__TIE_04_R"
+            ]
+          },
+          {
+            "stock_instance_id": "118159_001",
+            "listing_id": "118159",
+            "material_section_family_id": "MSF_FIR_2F4626736E__DIMENSION_LUMBER",
+            "source_kind": "RESIDUAL_OFFCUT",
+            "available_interval_before_mm": [
+              1584.13883,
+              2197.1
+            ],
+            "cut_intervals_mm": [
+              [
+                1584.13883,
+                1965.55236070683
+              ]
+            ],
+            "kerf_intervals_mm": [
+              [
+                1965.55236070683,
+                1968.55236070683
+              ]
+            ],
+            "residual_interval_after_mm": [
+              1968.55236070683,
+              2197.1
+            ],
+            "residual_length_after_mm": 228.54763929316982,
+            "member_ids": [
+              "SECONDARY_BACKING__A__TIE_05_R"
+            ]
+          },
+          {
+            "stock_instance_id": "113209_001",
+            "listing_id": "113209",
+            "material_section_family_id": "MSF_FIR_54DBE03855__DIMENSION_LUMBER",
+            "source_kind": "RESIDUAL_OFFCUT",
+            "available_interval_before_mm": [
+              3168.277660168,
+              4572.0
+            ],
+            "cut_intervals_mm": [
+              [
+                3168.277660168,
+                4068.277660168
+              ],
+              [
+                4071.277660168,
+                4452.69119087483
+              ]
+            ],
+            "kerf_intervals_mm": [
+              [
+                4068.277660168,
+                4071.277660168
+              ],
+              [
+                4452.69119087483,
+                4455.69119087483
+              ]
+            ],
+            "residual_interval_after_mm": [
+              4455.69119087483,
+              4572.0
+            ],
+            "residual_length_after_mm": 116.30880912517023,
+            "member_ids": [
+              "SECONDARY_BACKING__A__RAIL_03",
+              "SECONDARY_BACKING__A__TIE_03_R"
+            ]
+          },
+          {
+            "stock_instance_id": "119600_001",
+            "listing_id": "119600",
+            "material_section_family_id": "MSF_FIR_A56B298152__DIMENSION_LUMBER",
+            "source_kind": "RESIDUAL_OFFCUT",
+            "available_interval_before_mm": [
+              3168.277660168,
+              4267.2
+            ],
+            "cut_intervals_mm": [
+              [
+                3168.277660168,
+                4068.277660168
+              ]
+            ],
+            "kerf_intervals_mm": [
+              [
+                4068.277660168,
+                4071.277660168
+              ]
+            ],
+            "residual_interval_after_mm": [
+              4071.277660168,
+              4267.2
+            ],
+            "residual_length_after_mm": 195.92233983200003,
+            "member_ids": [
+              "SECONDARY_BACKING__A__RAIL_01"
+            ]
+          }
+        ],
+        "residual_reuse_length_mm": 8306.207755001127,
+        "new_stock_consumed_length_mm": 0,
+        "cut_count": 15,
+        "source_count": 10
+      },
+      "stock_feasible": true
+    },
+    {
+      "option_id": "BACKING_OPTION_B_VERTICAL_FRAME_WITH_JAMB_RETURNS",
+      "topology_archetype": "VERTICAL_SECONDARY_STUD_FRAME_WITH_JAMB_RETURNS",
+      "new_member_geometry": [
+        {
+          "member_token": "STUD_01",
+          "role": "SECONDARY_BACKING_STUD",
+          "start_mm": [
+            -450.0,
+            -341.36941504209483,
+            -1.4210854715202004e-14
+          ],
+          "end_mm": [
+            -450.0,
+            -341.36941504209483,
+            2100.0
+          ],
+          "required_length_mm": 2100.0
+        },
+        {
+          "member_token": "STUD_02",
+          "role": "SECONDARY_BACKING_STUD",
+          "start_mm": [
+            0.0,
+            -341.36941504209483,
+            -1.4210854715202004e-14
+          ],
+          "end_mm": [
+            0.0,
+            -341.36941504209483,
+            2100.0
+          ],
+          "required_length_mm": 2100.0
+        },
+        {
+          "member_token": "STUD_03",
+          "role": "SECONDARY_BACKING_STUD",
+          "start_mm": [
+            450.0,
+            -341.36941504209483,
+            -1.4210854715202004e-14
+          ],
+          "end_mm": [
+            450.0,
+            -341.36941504209483,
+            2100.0
+          ],
+          "required_length_mm": 2100.0
+        },
+        {
+          "member_token": "FRAME_BOTTOM",
+          "role": "SECONDARY_BACKING_RAIL",
+          "start_mm": [
+            -450.0,
+            -341.36941504209483,
+            -1.4210854715202004e-14
+          ],
+          "end_mm": [
+            450.0,
+            -341.36941504209483,
+            -1.4210854715202004e-14
+          ],
+          "required_length_mm": 900.0
+        },
+        {
+          "member_token": "FRAME_BOTTOM_L",
+          "role": "SECONDARY_BACKING_RETURN",
+          "start_mm": [
+            -450.0,
+            -341.36941504209483,
+            -1.4210854715202004e-14
+          ],
+          "end_mm": [
+            -469.05,
+            -720.7194150420949,
+            -1.4210854715202004e-14
+          ],
+          "required_length_mm": 379.8280202933954
+        },
+        {
+          "member_token": "FRAME_BOTTOM_R",
+          "role": "SECONDARY_BACKING_RETURN",
+          "start_mm": [
+            450.0,
+            -341.36941504209483,
+            -1.4210854715202004e-14
+          ],
+          "end_mm": [
+            469.04999999999995,
+            -722.3069150420948,
+            -1.4210854715202004e-14
+          ],
+          "required_length_mm": 381.41353070683004
+        },
+        {
+          "member_token": "FRAME_TOP",
+          "role": "SECONDARY_BACKING_RAIL",
+          "start_mm": [
+            -450.0,
+            -341.36941504209483,
+            2100.0
+          ],
+          "end_mm": [
+            450.0,
+            -341.36941504209483,
+            2100.0
+          ],
+          "required_length_mm": 900.0
+        },
+        {
+          "member_token": "FRAME_TOP_L",
+          "role": "SECONDARY_BACKING_RETURN",
+          "start_mm": [
+            -450.0,
+            -341.36941504209483,
+            2100.0
+          ],
+          "end_mm": [
+            -469.05,
+            -720.7194150420949,
+            2100.0
+          ],
+          "required_length_mm": 379.8280202933954
+        },
+        {
+          "member_token": "FRAME_TOP_R",
+          "role": "SECONDARY_BACKING_RETURN",
+          "start_mm": [
+            450.0,
+            -341.36941504209483,
+            2100.0
+          ],
+          "end_mm": [
+            469.04999999999995,
+            -722.3069150420948,
+            2100.0
+          ],
+          "required_length_mm": 381.41353070683004
+        }
+      ],
+      "required_member_lengths_mm": [
+        2100.0,
+        2100.0,
+        2100.0,
+        900.0,
+        379.8280202933954,
+        381.41353070683004,
+        900.0,
+        379.8280202933954,
+        381.41353070683004
+      ],
+      "candidate_downstream_hosts": [
+        "JAMB_STUD_LIVE_FACE_000_0_LEFT",
+        "JAMB_STUD_LIVE_FACE_000_0_RIGHT"
+      ],
+      "panel_attachment_map": [
+        {
+          "panel_id": "LIVE_FACE_006_ZONE_00_B18_STRIP_001_SEG_01",
+          "host_member_tokens": [
+            "STUD_01",
+            "STUD_02",
+            "STUD_03"
+          ],
+          "status": "COMPLETE"
+        },
+        {
+          "panel_id": "LIVE_FACE_006_ZONE_00_B18_STRIP_002_SEG_01",
+          "host_member_tokens": [
+            "STUD_01",
+            "STUD_02",
+            "STUD_03"
+          ],
+          "status": "COMPLETE"
+        },
+        {
+          "panel_id": "LIVE_FACE_006_ZONE_00_B18_STRIP_003_SEG_01",
+          "host_member_tokens": [
+            "STUD_01",
+            "STUD_02",
+            "STUD_03"
+          ],
+          "status": "COMPLETE"
+        },
+        {
+          "panel_id": "LIVE_FACE_006_ZONE_00_B18_STRIP_004_SEG_01",
+          "host_member_tokens": [
+            "STUD_01",
+            "STUD_02",
+            "STUD_03"
+          ],
+          "status": "COMPLETE"
+        },
+        {
+          "panel_id": "LIVE_FACE_006_ZONE_00_B18_EDGE_STRIP_001_SEG_01",
+          "host_member_tokens": [
+            "STUD_01",
+            "STUD_02",
+            "STUD_03"
+          ],
+          "status": "COMPLETE"
+        }
+      ],
+      "backing_to_structure_connection_map": [
+        {
+          "backing_member_token": "FRAME_BOTTOM_L",
+          "downstream_host_id": "JAMB_STUD_LIVE_FACE_000_0_LEFT",
+          "status": "MODELED_LOAD_PATH_CONNECTION",
+          "capacity": "ENGINEERING_CHECK_REQUIRED"
+        },
+        {
+          "backing_member_token": "FRAME_BOTTOM_R",
+          "downstream_host_id": "JAMB_STUD_LIVE_FACE_000_0_RIGHT",
+          "status": "MODELED_LOAD_PATH_CONNECTION",
+          "capacity": "ENGINEERING_CHECK_REQUIRED"
+        },
+        {
+          "backing_member_token": "FRAME_TOP_L",
+          "downstream_host_id": "JAMB_STUD_LIVE_FACE_000_0_LEFT",
+          "status": "MODELED_LOAD_PATH_CONNECTION",
+          "capacity": "ENGINEERING_CHECK_REQUIRED"
+        },
+        {
+          "backing_member_token": "FRAME_TOP_R",
+          "downstream_host_id": "JAMB_STUD_LIVE_FACE_000_0_RIGHT",
+          "status": "MODELED_LOAD_PATH_CONNECTION",
+          "capacity": "ENGINEERING_CHECK_REQUIRED"
+        }
+      ],
+      "load_path": [
+        "PANEL",
+        "VERTICAL_BACKING_STUD",
+        "PERIMETER_BACKING_RAIL",
+        "RETURN_MEMBER",
+        "EXISTING_JAMB_STUD",
+        "CURRENT_PRIMARY_SYSTEM"
+      ],
+      "architectural_clearance_status": "PASS_WITH_EXPLICIT_CONNECTION_REGIONS",
+      "geometry_conflict_status": "ZERO_UNCONTROLLED_CONFLICTS",
+      "fabrication_status": "CUTTING_REQUIRED_NO_SPLICING",
+      "structural_modeling_status": "VALID_RESEARCH_LOAD_PATH_CONNECTION_CAPACITY_UNVERIFIED",
+      "complete_valid_load_path": true,
+      "geometry_valid": true,
+      "added_connection_count": 16,
+      "supply": {
+        "status": "STOCK_FEASIBLE",
+        "stock_feasible": true,
+        "assignments": [
+          {
+            "member_token": "STUD_01",
+            "role": "SECONDARY_BACKING_STUD",
+            "start_mm": [
+              -450.0,
+              -341.36941504209483,
+              -1.4210854715202004e-14
+            ],
+            "end_mm": [
+              -450.0,
+              -341.36941504209483,
+              2100.0
+            ],
+            "required_length_mm": 2100.0,
+            "element_id": "SECONDARY_BACKING__B__STUD_01",
+            "source_stock_instance_id": "118338_001",
+            "listing_id": "118338",
+            "material_section_family_id": "MSF_EXOTIC_HARDWOOD_904D0EDD98__DIMENSION_LUMBER",
+            "source_kind": "UNUSED_REAL_STOCK",
+            "source_interval_mm": [
+              0.0,
+              2100.0
+            ],
+            "kerf_interval_mm": [
+              2100.0,
+              2103.0
+            ],
+            "section": {
+              "width_mm": 22.225,
+              "depth_mm": 146.05,
+              "basis": "RECORDED_EARTHWISE_EXACT_SECTION"
+            },
+            "allocation_status": "REAL_ALLOCATED",
+            "joining": "NONE",
+            "fabrication_status": "CROSS_CUT_REQUIRED",
+            "structural_verification_status": "NOT_YET_RUN_MISSING_CODE_PROPERTY"
+          },
+          {
+            "member_token": "STUD_02",
+            "role": "SECONDARY_BACKING_STUD",
+            "start_mm": [
+              0.0,
+              -341.36941504209483,
+              -1.4210854715202004e-14
+            ],
+            "end_mm": [
+              0.0,
+              -341.36941504209483,
+              2100.0
+            ],
+            "required_length_mm": 2100.0,
+            "element_id": "SECONDARY_BACKING__B__STUD_02",
+            "source_stock_instance_id": "113203_001",
+            "listing_id": "113203",
+            "material_section_family_id": "MSF_FIR_54DBE03855__DIMENSION_LUMBER",
+            "source_kind": "UNUSED_REAL_STOCK",
+            "source_interval_mm": [
+              0.0,
+              2100.0
+            ],
+            "kerf_interval_mm": [
+              2100.0,
+              2103.0
+            ],
+            "section": {
+              "width_mm": 50.8,
+              "depth_mm": 234.95,
+              "basis": "RECORDED_EARTHWISE_EXACT_SECTION"
+            },
+            "allocation_status": "REAL_ALLOCATED",
+            "joining": "NONE",
+            "fabrication_status": "CROSS_CUT_REQUIRED",
+            "structural_verification_status": "NOT_YET_RUN_MISSING_CODE_PROPERTY"
+          },
+          {
+            "member_token": "STUD_03",
+            "role": "SECONDARY_BACKING_STUD",
+            "start_mm": [
+              450.0,
+              -341.36941504209483,
+              -1.4210854715202004e-14
+            ],
+            "end_mm": [
+              450.0,
+              -341.36941504209483,
+              2100.0
+            ],
+            "required_length_mm": 2100.0,
+            "element_id": "SECONDARY_BACKING__B__STUD_03",
+            "source_stock_instance_id": "119070_001",
+            "listing_id": "119070",
+            "material_section_family_id": "MSF_FIR_BCD2629DE5__DIMENSION_LUMBER",
+            "source_kind": "UNUSED_REAL_STOCK",
+            "source_interval_mm": [
+              0.0,
+              2100.0
+            ],
+            "kerf_interval_mm": [
+              2100.0,
+              2103.0
+            ],
+            "section": {
+              "width_mm": 50.8,
+              "depth_mm": 203.2,
+              "basis": "RECORDED_EARTHWISE_EXACT_SECTION"
+            },
+            "allocation_status": "REAL_ALLOCATED",
+            "joining": "NONE",
+            "fabrication_status": "CROSS_CUT_REQUIRED",
+            "structural_verification_status": "NOT_YET_RUN_MISSING_CODE_PROPERTY"
+          },
+          {
+            "member_token": "FRAME_BOTTOM",
+            "role": "SECONDARY_BACKING_RAIL",
+            "start_mm": [
+              -450.0,
+              -341.36941504209483,
+              -1.4210854715202004e-14
+            ],
+            "end_mm": [
+              450.0,
+              -341.36941504209483,
+              -1.4210854715202004e-14
+            ],
+            "required_length_mm": 900.0,
+            "element_id": "SECONDARY_BACKING__B__FRAME_BOTTOM",
+            "source_stock_instance_id": "119600_001",
+            "listing_id": "119600",
+            "material_section_family_id": "MSF_FIR_A56B298152__DIMENSION_LUMBER",
+            "source_kind": "RESIDUAL_OFFCUT",
+            "source_interval_mm": [
+              3168.277660168,
+              4068.277660168
+            ],
+            "kerf_interval_mm": [
+              4068.277660168,
+              4071.277660168
+            ],
+            "section": {
+              "width_mm": 95.25,
+              "depth_mm": 146.05,
+              "basis": "RECORDED_EARTHWISE_EXACT_SECTION"
+            },
+            "allocation_status": "REAL_RESIDUAL_ALLOCATED",
+            "joining": "NONE",
+            "fabrication_status": "CROSS_CUT_REQUIRED",
+            "structural_verification_status": "NOT_YET_RUN_MISSING_CODE_PROPERTY"
+          },
+          {
+            "member_token": "FRAME_TOP",
+            "role": "SECONDARY_BACKING_RAIL",
+            "start_mm": [
+              -450.0,
+              -341.36941504209483,
+              2100.0
+            ],
+            "end_mm": [
+              450.0,
+              -341.36941504209483,
+              2100.0
+            ],
+            "required_length_mm": 900.0,
+            "element_id": "SECONDARY_BACKING__B__FRAME_TOP",
+            "source_stock_instance_id": "120235_001",
+            "listing_id": "120235",
+            "material_section_family_id": "MSF_CEDAR_D9624E0806__DIMENSION_LUMBER",
+            "source_kind": "RESIDUAL_OFFCUT",
+            "source_interval_mm": [
+              687.1388300841895,
+              1587.1388300841895
+            ],
+            "kerf_interval_mm": [
+              1587.1388300841895,
+              1590.1388300841895
+            ],
+            "section": {
+              "width_mm": 38.1,
+              "depth_mm": 139.7,
+              "basis": "RECORDED_EARTHWISE_EXACT_SECTION"
+            },
+            "allocation_status": "REAL_RESIDUAL_ALLOCATED",
+            "joining": "NONE",
+            "fabrication_status": "CROSS_CUT_REQUIRED",
+            "structural_verification_status": "NOT_YET_RUN_MISSING_CODE_PROPERTY"
+          },
+          {
+            "member_token": "FRAME_BOTTOM_R",
+            "role": "SECONDARY_BACKING_RETURN",
+            "start_mm": [
+              450.0,
+              -341.36941504209483,
+              -1.4210854715202004e-14
+            ],
+            "end_mm": [
+              469.04999999999995,
+              -722.3069150420948,
+              -1.4210854715202004e-14
+            ],
+            "required_length_mm": 381.41353070683004,
+            "element_id": "SECONDARY_BACKING__B__FRAME_BOTTOM_R",
+            "source_stock_instance_id": "118162_001",
+            "listing_id": "118162",
+            "material_section_family_id": "MSF_FIR_0FB753EABE__DIMENSION_LUMBER",
+            "source_kind": "RESIDUAL_OFFCUT",
+            "source_interval_mm": [
+              2064.9,
+              2446.31353070683
+            ],
+            "kerf_interval_mm": [
+              2446.31353070683,
+              2449.31353070683
+            ],
+            "section": {
+              "width_mm": 38.1,
+              "depth_mm": 142.875,
+              "basis": "RECORDED_EARTHWISE_EXACT_SECTION"
+            },
+            "allocation_status": "REAL_RESIDUAL_ALLOCATED",
+            "joining": "NONE",
+            "fabrication_status": "CROSS_CUT_REQUIRED",
+            "structural_verification_status": "NOT_YET_RUN_MISSING_CODE_PROPERTY"
+          },
+          {
+            "member_token": "FRAME_TOP_R",
+            "role": "SECONDARY_BACKING_RETURN",
+            "start_mm": [
+              450.0,
+              -341.36941504209483,
+              2100.0
+            ],
+            "end_mm": [
+              469.04999999999995,
+              -722.3069150420948,
+              2100.0
+            ],
+            "required_length_mm": 381.41353070683004,
+            "element_id": "SECONDARY_BACKING__B__FRAME_TOP_R",
+            "source_stock_instance_id": "118507_001",
+            "listing_id": "118507",
+            "material_section_family_id": "MSF_FIR_0626844638__DIMENSION_LUMBER",
+            "source_kind": "RESIDUAL_OFFCUT",
+            "source_interval_mm": [
+              3168.277660168379,
+              3549.691190875209
+            ],
+            "kerf_interval_mm": [
+              3549.691190875209,
+              3552.691190875209
+            ],
+            "section": {
+              "width_mm": 31.75,
+              "depth_mm": 149.225,
+              "basis": "RECORDED_EARTHWISE_EXACT_SECTION"
+            },
+            "allocation_status": "REAL_RESIDUAL_ALLOCATED",
+            "joining": "NONE",
+            "fabrication_status": "CROSS_CUT_REQUIRED",
+            "structural_verification_status": "NOT_YET_RUN_MISSING_CODE_PROPERTY"
+          },
+          {
+            "member_token": "FRAME_BOTTOM_L",
+            "role": "SECONDARY_BACKING_RETURN",
+            "start_mm": [
+              -450.0,
+              -341.36941504209483,
+              -1.4210854715202004e-14
+            ],
+            "end_mm": [
+              -469.05,
+              -720.7194150420949,
+              -1.4210854715202004e-14
+            ],
+            "required_length_mm": 379.8280202933954,
+            "element_id": "SECONDARY_BACKING__B__FRAME_BOTTOM_L",
+            "source_stock_instance_id": "118159_001",
+            "listing_id": "118159",
+            "material_section_family_id": "MSF_FIR_2F4626736E__DIMENSION_LUMBER",
+            "source_kind": "RESIDUAL_OFFCUT",
+            "source_interval_mm": [
+              1584.13883,
+              1963.9668502933955
+            ],
+            "kerf_interval_mm": [
+              1963.9668502933955,
+              1966.9668502933955
+            ],
+            "section": {
+              "width_mm": 38.1,
+              "depth_mm": 171.45,
+              "basis": "RECORDED_EARTHWISE_EXACT_SECTION"
+            },
+            "allocation_status": "REAL_RESIDUAL_ALLOCATED",
+            "joining": "NONE",
+            "fabrication_status": "CROSS_CUT_REQUIRED",
+            "structural_verification_status": "NOT_YET_RUN_MISSING_CODE_PROPERTY"
+          },
+          {
+            "member_token": "FRAME_TOP_L",
+            "role": "SECONDARY_BACKING_RETURN",
+            "start_mm": [
+              -450.0,
+              -341.36941504209483,
+              2100.0
+            ],
+            "end_mm": [
+              -469.05,
+              -720.7194150420949,
+              2100.0
+            ],
+            "required_length_mm": 379.8280202933954,
+            "element_id": "SECONDARY_BACKING__B__FRAME_TOP_L",
+            "source_stock_instance_id": "118509_001",
+            "listing_id": "118509",
+            "material_section_family_id": "MSF_FIR_0626844638__DIMENSION_LUMBER",
+            "source_kind": "RESIDUAL_OFFCUT",
+            "source_interval_mm": [
+              3168.277660168379,
+              3548.1056804617747
+            ],
+            "kerf_interval_mm": [
+              3548.1056804617747,
+              3551.1056804617747
+            ],
+            "section": {
+              "width_mm": 31.75,
+              "depth_mm": 149.225,
+              "basis": "RECORDED_EARTHWISE_EXACT_SECTION"
+            },
+            "allocation_status": "REAL_RESIDUAL_ALLOCATED",
+            "joining": "NONE",
+            "fabrication_status": "CROSS_CUT_REQUIRED",
+            "structural_verification_status": "NOT_YET_RUN_MISSING_CODE_PROPERTY"
+          }
+        ],
+        "ledger": [
+          {
+            "stock_instance_id": "118507_001",
+            "listing_id": "118507",
+            "material_section_family_id": "MSF_FIR_0626844638__DIMENSION_LUMBER",
+            "source_kind": "RESIDUAL_OFFCUT",
+            "available_interval_before_mm": [
+              3168.277660168379,
+              3657.6
+            ],
+            "cut_intervals_mm": [
+              [
+                3168.277660168379,
+                3549.691190875209
+              ]
+            ],
+            "kerf_intervals_mm": [
+              [
+                3549.691190875209,
+                3552.691190875209
+              ]
+            ],
+            "residual_interval_after_mm": [
+              3552.691190875209,
+              3657.6
+            ],
+            "residual_length_after_mm": 104.90880912479088,
+            "member_ids": [
+              "SECONDARY_BACKING__B__FRAME_TOP_R"
+            ]
+          },
+          {
+            "stock_instance_id": "118509_001",
+            "listing_id": "118509",
+            "material_section_family_id": "MSF_FIR_0626844638__DIMENSION_LUMBER",
+            "source_kind": "RESIDUAL_OFFCUT",
+            "available_interval_before_mm": [
+              3168.277660168379,
+              4013.2
+            ],
+            "cut_intervals_mm": [
+              [
+                3168.277660168379,
+                3548.1056804617747
+              ]
+            ],
+            "kerf_intervals_mm": [
+              [
+                3548.1056804617747,
+                3551.1056804617747
+              ]
+            ],
+            "residual_interval_after_mm": [
+              3551.1056804617747,
+              4013.2
+            ],
+            "residual_length_after_mm": 462.09431953822514,
+            "member_ids": [
+              "SECONDARY_BACKING__B__FRAME_TOP_L"
+            ]
+          },
+          {
+            "stock_instance_id": "120235_001",
+            "listing_id": "120235",
+            "material_section_family_id": "MSF_CEDAR_D9624E0806__DIMENSION_LUMBER",
+            "source_kind": "RESIDUAL_OFFCUT",
+            "available_interval_before_mm": [
+              687.1388300841895,
+              1828.8
+            ],
+            "cut_intervals_mm": [
+              [
+                687.1388300841895,
+                1587.1388300841895
+              ]
+            ],
+            "kerf_intervals_mm": [
+              [
+                1587.1388300841895,
+                1590.1388300841895
+              ]
+            ],
+            "residual_interval_after_mm": [
+              1590.1388300841895,
+              1828.8
+            ],
+            "residual_length_after_mm": 238.66116991581043,
+            "member_ids": [
+              "SECONDARY_BACKING__B__FRAME_TOP"
+            ]
+          },
+          {
+            "stock_instance_id": "118162_001",
+            "listing_id": "118162",
+            "material_section_family_id": "MSF_FIR_0FB753EABE__DIMENSION_LUMBER",
+            "source_kind": "RESIDUAL_OFFCUT",
+            "available_interval_before_mm": [
+              2064.9,
+              2473.325
+            ],
+            "cut_intervals_mm": [
+              [
+                2064.9,
+                2446.31353070683
+              ]
+            ],
+            "kerf_intervals_mm": [
+              [
+                2446.31353070683,
+                2449.31353070683
+              ]
+            ],
+            "residual_interval_after_mm": [
+              2449.31353070683,
+              2473.325
+            ],
+            "residual_length_after_mm": 24.01146929316974,
+            "member_ids": [
+              "SECONDARY_BACKING__B__FRAME_BOTTOM_R"
+            ]
+          },
+          {
+            "stock_instance_id": "118159_001",
+            "listing_id": "118159",
+            "material_section_family_id": "MSF_FIR_2F4626736E__DIMENSION_LUMBER",
+            "source_kind": "RESIDUAL_OFFCUT",
+            "available_interval_before_mm": [
+              1584.13883,
+              2197.1
+            ],
+            "cut_intervals_mm": [
+              [
+                1584.13883,
+                1963.9668502933955
+              ]
+            ],
+            "kerf_intervals_mm": [
+              [
+                1963.9668502933955,
+                1966.9668502933955
+              ]
+            ],
+            "residual_interval_after_mm": [
+              1966.9668502933955,
+              2197.1
+            ],
+            "residual_length_after_mm": 230.1331497066044,
+            "member_ids": [
+              "SECONDARY_BACKING__B__FRAME_BOTTOM_L"
+            ]
+          },
+          {
+            "stock_instance_id": "119600_001",
+            "listing_id": "119600",
+            "material_section_family_id": "MSF_FIR_A56B298152__DIMENSION_LUMBER",
+            "source_kind": "RESIDUAL_OFFCUT",
+            "available_interval_before_mm": [
+              3168.277660168,
+              4267.2
+            ],
+            "cut_intervals_mm": [
+              [
+                3168.277660168,
+                4068.277660168
+              ]
+            ],
+            "kerf_intervals_mm": [
+              [
+                4068.277660168,
+                4071.277660168
+              ]
+            ],
+            "residual_interval_after_mm": [
+              4071.277660168,
+              4267.2
+            ],
+            "residual_length_after_mm": 195.92233983200003,
+            "member_ids": [
+              "SECONDARY_BACKING__B__FRAME_BOTTOM"
+            ]
+          },
+          {
+            "stock_instance_id": "118338_001",
+            "listing_id": "118338",
+            "material_section_family_id": "MSF_EXOTIC_HARDWOOD_904D0EDD98__DIMENSION_LUMBER",
+            "source_kind": "UNUSED_REAL_STOCK",
+            "available_interval_before_mm": [
+              0.0,
+              2108.2
+            ],
+            "cut_intervals_mm": [
+              [
+                0.0,
+                2100.0
+              ]
+            ],
+            "kerf_intervals_mm": [
+              [
+                2100.0,
+                2103.0
+              ]
+            ],
+            "residual_interval_after_mm": [
+              2103.0,
+              2108.2
+            ],
+            "residual_length_after_mm": 5.199999999999818,
+            "member_ids": [
+              "SECONDARY_BACKING__B__STUD_01"
+            ]
+          },
+          {
+            "stock_instance_id": "119070_001",
+            "listing_id": "119070",
+            "material_section_family_id": "MSF_FIR_BCD2629DE5__DIMENSION_LUMBER",
+            "source_kind": "UNUSED_REAL_STOCK",
+            "available_interval_before_mm": [
+              0.0,
+              2133.6
+            ],
+            "cut_intervals_mm": [
+              [
+                0.0,
+                2100.0
+              ]
+            ],
+            "kerf_intervals_mm": [
+              [
+                2100.0,
+                2103.0
+              ]
+            ],
+            "residual_interval_after_mm": [
+              2103.0,
+              2133.6
+            ],
+            "residual_length_after_mm": 30.59999999999991,
+            "member_ids": [
+              "SECONDARY_BACKING__B__STUD_03"
+            ]
+          },
+          {
+            "stock_instance_id": "113203_001",
+            "listing_id": "113203",
+            "material_section_family_id": "MSF_FIR_54DBE03855__DIMENSION_LUMBER",
+            "source_kind": "UNUSED_REAL_STOCK",
+            "available_interval_before_mm": [
+              0.0,
+              2133.6
+            ],
+            "cut_intervals_mm": [
+              [
+                0.0,
+                2100.0
+              ]
+            ],
+            "kerf_intervals_mm": [
+              [
+                2100.0,
+                2103.0
+              ]
+            ],
+            "residual_interval_after_mm": [
+              2103.0,
+              2133.6
+            ],
+            "residual_length_after_mm": 30.59999999999991,
+            "member_ids": [
+              "SECONDARY_BACKING__B__STUD_02"
+            ]
+          }
+        ],
+        "residual_reuse_length_mm": 3322.483102000451,
+        "new_stock_consumed_length_mm": 6300.0,
+        "cut_count": 9,
+        "source_count": 9
+      },
+      "stock_feasible": true
+    },
+    {
+      "option_id": "BACKING_OPTION_C_PERIMETER_ONLY",
+      "topology_archetype": "PERIMETER_BACKING_FRAME",
+      "new_member_geometry": [
+        {
+          "member_token": "STUD_01",
+          "role": "SECONDARY_BACKING_STUD",
+          "start_mm": [
+            -450.0,
+            -341.36941504209483,
+            -1.4210854715202004e-14
+          ],
+          "end_mm": [
+            -450.0,
+            -341.36941504209483,
+            2100.0
+          ],
+          "required_length_mm": 2100.0
+        },
+        {
+          "member_token": "STUD_03",
+          "role": "SECONDARY_BACKING_STUD",
+          "start_mm": [
+            450.0,
+            -341.36941504209483,
+            -1.4210854715202004e-14
+          ],
+          "end_mm": [
+            450.0,
+            -341.36941504209483,
+            2100.0
+          ],
+          "required_length_mm": 2100.0
+        },
+        {
+          "member_token": "FRAME_BOTTOM",
+          "role": "SECONDARY_BACKING_RAIL",
+          "start_mm": [
+            -450.0,
+            -341.36941504209483,
+            -1.4210854715202004e-14
+          ],
+          "end_mm": [
+            450.0,
+            -341.36941504209483,
+            -1.4210854715202004e-14
+          ],
+          "required_length_mm": 900.0
+        },
+        {
+          "member_token": "FRAME_BOTTOM_L",
+          "role": "SECONDARY_BACKING_RETURN",
+          "start_mm": [
+            -450.0,
+            -341.36941504209483,
+            -1.4210854715202004e-14
+          ],
+          "end_mm": [
+            -469.05,
+            -720.7194150420949,
+            -1.4210854715202004e-14
+          ],
+          "required_length_mm": 379.8280202933954
+        },
+        {
+          "member_token": "FRAME_BOTTOM_R",
+          "role": "SECONDARY_BACKING_RETURN",
+          "start_mm": [
+            450.0,
+            -341.36941504209483,
+            -1.4210854715202004e-14
+          ],
+          "end_mm": [
+            469.04999999999995,
+            -722.3069150420948,
+            -1.4210854715202004e-14
+          ],
+          "required_length_mm": 381.41353070683004
+        },
+        {
+          "member_token": "FRAME_TOP",
+          "role": "SECONDARY_BACKING_RAIL",
+          "start_mm": [
+            -450.0,
+            -341.36941504209483,
+            2100.0
+          ],
+          "end_mm": [
+            450.0,
+            -341.36941504209483,
+            2100.0
+          ],
+          "required_length_mm": 900.0
+        },
+        {
+          "member_token": "FRAME_TOP_L",
+          "role": "SECONDARY_BACKING_RETURN",
+          "start_mm": [
+            -450.0,
+            -341.36941504209483,
+            2100.0
+          ],
+          "end_mm": [
+            -469.05,
+            -720.7194150420949,
+            2100.0
+          ],
+          "required_length_mm": 379.8280202933954
+        },
+        {
+          "member_token": "FRAME_TOP_R",
+          "role": "SECONDARY_BACKING_RETURN",
+          "start_mm": [
+            450.0,
+            -341.36941504209483,
+            2100.0
+          ],
+          "end_mm": [
+            469.04999999999995,
+            -722.3069150420948,
+            2100.0
+          ],
+          "required_length_mm": 381.41353070683004
+        }
+      ],
+      "required_member_lengths_mm": [
+        2100.0,
+        2100.0,
+        900.0,
+        379.8280202933954,
+        381.41353070683004,
+        900.0,
+        379.8280202933954,
+        381.41353070683004
+      ],
+      "candidate_downstream_hosts": [
+        "JAMB_STUD_LIVE_FACE_000_0_LEFT",
+        "JAMB_STUD_LIVE_FACE_000_0_RIGHT"
+      ],
+      "panel_attachment_map": [],
+      "backing_to_structure_connection_map": [],
+      "load_path": [
+        "INCOMPLETE_PANEL_ATTACHMENT_EVIDENCE"
+      ],
+      "architectural_clearance_status": "PASS",
+      "geometry_conflict_status": "ZERO_UNCONTROLLED_CONFLICTS",
+      "fabrication_status": "NOT_EVALUATED",
+      "structural_modeling_status": "REJECTED_INCOMPLETE_ATTACHMENT_TOPOLOGY",
+      "complete_valid_load_path": false,
+      "geometry_valid": true,
+      "stock_feasible": false,
+      "rejection_reason": "NO_VERIFIED_MAXIMUM_UNSUPPORTED_PANEL_SPAN_AND_NO_INTERMEDIATE_HOST",
+      "added_connection_count": 12,
+      "supply": {
+        "status": "OPTION_REJECTED_HARD_CONSTRAINT",
+        "assignments": [],
+        "ledger": [],
+        "stock_feasible": false
+      }
+    }
+  ]
+}

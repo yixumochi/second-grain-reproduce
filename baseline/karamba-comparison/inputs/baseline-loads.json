@@ -1,0 +1,316 @@
+{
+  "schema": "AI_TIMBER_KARAMBA_PANEL_LOADS_V1",
+  "geometry_revision": "LG_efd980e713f58b08e567fc72c2acf8dcc0ecf128f1e92c1c91c1fdffc1acb6d7",
+  "demand_revision": "TF_fc8831188814921b4d6a99373824676c32ceef168def7b5ad6e9be0fb46da24c",
+  "load_objects": [
+    {
+      "load_id": "PANEL_DL::LIVE_FACE_005_ZONE_00_B17_STRIP_001_SEG_01",
+      "panel_id": "LIVE_FACE_005_ZONE_00_B17_STRIP_001_SEG_01",
+      "physical_member_id": "JAMB_STUD_LIVE_FACE_000_0_RIGHT",
+      "force_kN": [
+        0.0,
+        0.0,
+        -0.07645146000000007
+      ],
+      "contact_coordinates_mm": [
+        450.0,
+        -720.7194150420949,
+        269.87499999999994
+      ],
+      "load_case": "DL_STRUCTURAL_TIMBER",
+      "distribution_method": "PANEL_SELF_WEIGHT_TO_CONTACTING_HOST_AT_CONTACT_CENTROID",
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED"
+    },
+    {
+      "load_id": "PANEL_DL::LIVE_FACE_005_ZONE_00_B17_STRIP_002_SEG_01",
+      "panel_id": "LIVE_FACE_005_ZONE_00_B17_STRIP_002_SEG_01",
+      "physical_member_id": "JAMB_STUD_LIVE_FACE_000_0_RIGHT",
+      "force_kN": [
+        0.0,
+        0.0,
+        -0.029758004999999962
+      ],
+      "contact_coordinates_mm": [
+        450.0,
+        -720.7194150420949,
+        765.0
+      ],
+      "load_case": "DL_STRUCTURAL_TIMBER",
+      "distribution_method": "PANEL_SELF_WEIGHT_TO_CONTACTING_HOST_AT_CONTACT_CENTROID",
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED"
+    },
+    {
+      "load_id": "PANEL_DL::LIVE_FACE_005_ZONE_00_B17_STRIP_003_SEG_01",
+      "panel_id": "LIVE_FACE_005_ZONE_00_B17_STRIP_003_SEG_01",
+      "physical_member_id": "JAMB_STUD_LIVE_FACE_000_0_RIGHT",
+      "force_kN": [
+        0.0,
+        0.0,
+        -0.02975800499999988
+      ],
+      "contact_coordinates_mm": [
+        450.0,
+        -720.7194150420949,
+        1288.6999999999998
+      ],
+      "load_case": "DL_STRUCTURAL_TIMBER",
+      "distribution_method": "PANEL_SELF_WEIGHT_TO_CONTACTING_HOST_AT_CONTACT_CENTROID",
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED"
+    },
+    {
+      "load_id": "PANEL_DL::LIVE_FACE_005_ZONE_00_B17_STRIP_004_SEG_01",
+      "panel_id": "LIVE_FACE_005_ZONE_00_B17_STRIP_004_SEG_01",
+      "physical_member_id": "JAMB_STUD_LIVE_FACE_000_0_RIGHT",
+      "force_kN": [
+        0.0,
+        0.0,
+        -0.06169342499999989
+      ],
+      "contact_coordinates_mm": [
+        450.0,
+        -720.7194150420949,
+        1821.9250000000002
+      ],
+      "load_case": "DL_STRUCTURAL_TIMBER",
+      "distribution_method": "PANEL_SELF_WEIGHT_TO_CONTACTING_HOST_AT_CONTACT_CENTROID",
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED"
+    },
+    {
+      "load_id": "PANEL_DL::LIVE_FACE_007_ZONE_00_B19_STRIP_001_SEG_01",
+      "panel_id": "LIVE_FACE_007_ZONE_00_B19_STRIP_001_SEG_01",
+      "physical_member_id": "JAMB_STUD_LIVE_FACE_000_0_LEFT",
+      "force_kN": [
+        0.0,
+        0.0,
+        -0.05110876874999999
+      ],
+      "contact_coordinates_mm": [
+        -450.0,
+        -719.1319150420949,
+        287.3375
+      ],
+      "load_case": "DL_STRUCTURAL_TIMBER",
+      "distribution_method": "PANEL_SELF_WEIGHT_TO_CONTACTING_HOST_AT_CONTACT_CENTROID",
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED"
+    },
+    {
+      "load_id": "PANEL_DL::LIVE_FACE_007_ZONE_00_B19_STRIP_002_SEG_01",
+      "panel_id": "LIVE_FACE_007_ZONE_00_B19_STRIP_002_SEG_01",
+      "physical_member_id": "JAMB_STUD_LIVE_FACE_000_0_LEFT",
+      "force_kN": [
+        0.0,
+        0.0,
+        -0.06139100624999996
+      ],
+      "contact_coordinates_mm": [
+        -450.0,
+        -719.1319150420949,
+        769.7625
+      ],
+      "load_case": "DL_STRUCTURAL_TIMBER",
+      "distribution_method": "PANEL_SELF_WEIGHT_TO_CONTACTING_HOST_AT_CONTACT_CENTROID",
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED"
+    },
+    {
+      "load_id": "PANEL_DL::LIVE_FACE_007_ZONE_00_B19_STRIP_003_SEG_01",
+      "panel_id": "LIVE_FACE_007_ZONE_00_B19_STRIP_003_SEG_01",
+      "physical_member_id": "JAMB_STUD_LIVE_FACE_000_0_LEFT",
+      "force_kN": [
+        0.0,
+        0.0,
+        -0.08322564000000011
+      ],
+      "contact_coordinates_mm": [
+        -450.0,
+        -719.1319150420949,
+        1276.0
+      ],
+      "load_case": "DL_STRUCTURAL_TIMBER",
+      "distribution_method": "PANEL_SELF_WEIGHT_TO_CONTACTING_HOST_AT_CONTACT_CENTROID",
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED"
+    },
+    {
+      "load_id": "PANEL_DL::LIVE_FACE_007_ZONE_00_B19_STRIP_004_SEG_01",
+      "panel_id": "LIVE_FACE_007_ZONE_00_B19_STRIP_004_SEG_01",
+      "physical_member_id": "JAMB_STUD_LIVE_FACE_000_0_LEFT",
+      "force_kN": [
+        0.0,
+        0.0,
+        -0.08322564000000013
+      ],
+      "contact_coordinates_mm": [
+        -450.0,
+        -719.1319150420949,
+        1825.1000000000001
+      ],
+      "load_case": "DL_STRUCTURAL_TIMBER",
+      "distribution_method": "PANEL_SELF_WEIGHT_TO_CONTACTING_HOST_AT_CONTACT_CENTROID",
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED"
+    },
+    {
+      "load_id": "PANEL_DL::LIVE_FACE_008_ZONE_00_B20_STRIP_001_SEG_01",
+      "panel_id": "LIVE_FACE_008_ZONE_00_B20_STRIP_001_SEG_01",
+      "physical_member_id": "LINTEL_LIVE_FACE_000_000",
+      "force_kN": [
+        0.0,
+        0.0,
+        -0.03955637249999923
+      ],
+      "contact_coordinates_mm": [
+        276.96250000000003,
+        -773.1069150420949,
+        2100.0
+      ],
+      "load_case": "DL_STRUCTURAL_TIMBER",
+      "distribution_method": "PANEL_SELF_WEIGHT_TO_CONTACTING_HOST_AT_CONTACT_CENTROID",
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED"
+    },
+    {
+      "load_id": "PANEL_DL::LIVE_FACE_008_ZONE_00_B20_STRIP_002_SEG_01",
+      "panel_id": "LIVE_FACE_008_ZONE_00_B20_STRIP_002_SEG_01",
+      "physical_member_id": "LINTEL_LIVE_FACE_000_000",
+      "force_kN": [
+        0.0,
+        0.0,
+        -0.10923365249999924
+      ],
+      "contact_coordinates_mm": [
+        -172.125,
+        -773.1069150420949,
+        2100.0
+      ],
+      "load_case": "DL_STRUCTURAL_TIMBER",
+      "distribution_method": "PANEL_SELF_WEIGHT_TO_CONTACTING_HOST_AT_CONTACT_CENTROID",
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED"
+    },
+    {
+      "load_id": "PANEL_DL::LIVE_FACE_005_ZONE_00_B17_EDGE_STRIP_001_SEG_01",
+      "panel_id": "LIVE_FACE_005_ZONE_00_B17_EDGE_STRIP_001_SEG_01",
+      "physical_member_id": "JAMB_STUD_LIVE_FACE_000_0_RIGHT",
+      "force_kN": [
+        0.0,
+        0.0,
+        -0.00019811999999996312
+      ],
+      "contact_coordinates_mm": [
+        450.0,
+        -720.7194150420949,
+        2097.4
+      ],
+      "load_case": "DL_STRUCTURAL_TIMBER",
+      "distribution_method": "PANEL_SELF_WEIGHT_TO_CONTACTING_HOST_AT_CONTACT_CENTROID",
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED"
+    },
+    {
+      "load_id": "PANEL_DL::LIVE_FACE_008_ZONE_00_B20_EDGE_STRIP_001_SEG_01",
+      "panel_id": "LIVE_FACE_008_ZONE_00_B20_EDGE_STRIP_001_SEG_01",
+      "physical_member_id": "LINTEL_LIVE_FACE_000_000",
+      "force_kN": [
+        0.0,
+        0.0,
+        -6.953250000000011e-05
+      ],
+      "contact_coordinates_mm": [
+        -449.0875,
+        -773.1069150420948,
+        2100.0
+      ],
+      "load_case": "DL_STRUCTURAL_TIMBER",
+      "distribution_method": "PANEL_SELF_WEIGHT_TO_CONTACTING_HOST_AT_CONTACT_CENTROID",
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED"
+    },
+    {
+      "load_id": "PANEL_DL::LIVE_FACE_006_ZONE_00_B18_STRIP_001_SEG_01",
+      "panel_id": "LIVE_FACE_006_ZONE_00_B18_STRIP_001_SEG_01",
+      "physical_member_id": "SECONDARY_BACKING__A__RAIL_01",
+      "force_kN": [
+        0.0,
+        0.0,
+        -0.13238683200000012
+      ],
+      "contact_coordinates_mm": [
+        0.0,
+        -341.36941504209483,
+        241.3
+      ],
+      "load_case": "DL_STRUCTURAL_TIMBER",
+      "distribution_method": "PANEL_SELF_WEIGHT_TO_BACKING_RAIL_AT_PANEL_CENTROID",
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED"
+    },
+    {
+      "load_id": "PANEL_DL::LIVE_FACE_006_ZONE_00_B18_STRIP_002_SEG_01",
+      "panel_id": "LIVE_FACE_006_ZONE_00_B18_STRIP_002_SEG_01",
+      "physical_member_id": "SECONDARY_BACKING__A__RAIL_02",
+      "force_kN": [
+        0.0,
+        0.0,
+        -0.14370939
+      ],
+      "contact_coordinates_mm": [
+        0.0,
+        -341.36941504209483,
+        747.5375
+      ],
+      "load_case": "DL_STRUCTURAL_TIMBER",
+      "distribution_method": "PANEL_SELF_WEIGHT_TO_BACKING_RAIL_AT_PANEL_CENTROID",
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED"
+    },
+    {
+      "load_id": "PANEL_DL::LIVE_FACE_006_ZONE_00_B18_STRIP_003_SEG_01",
+      "panel_id": "LIVE_FACE_006_ZONE_00_B18_STRIP_003_SEG_01",
+      "physical_member_id": "SECONDARY_BACKING__A__RAIL_03",
+      "force_kN": [
+        0.0,
+        0.0,
+        -0.04969949737500005
+      ],
+      "contact_coordinates_mm": [
+        0.0,
+        -341.36941504209483,
+        1276.0
+      ],
+      "load_case": "DL_STRUCTURAL_TIMBER",
+      "distribution_method": "PANEL_SELF_WEIGHT_TO_BACKING_RAIL_AT_PANEL_CENTROID",
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED"
+    },
+    {
+      "load_id": "PANEL_DL::LIVE_FACE_006_ZONE_00_B18_STRIP_004_SEG_01",
+      "panel_id": "LIVE_FACE_006_ZONE_00_B18_STRIP_004_SEG_01",
+      "physical_member_id": "SECONDARY_BACKING__A__RAIL_04",
+      "force_kN": [
+        0.0,
+        0.0,
+        -0.14207632875
+      ],
+      "contact_coordinates_mm": [
+        0.0,
+        -341.36941504209483,
+        1818.7500000000005
+      ],
+      "load_case": "DL_STRUCTURAL_TIMBER",
+      "distribution_method": "PANEL_SELF_WEIGHT_TO_BACKING_RAIL_AT_PANEL_CENTROID",
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED"
+    },
+    {
+      "load_id": "PANEL_DL::LIVE_FACE_006_ZONE_00_B18_EDGE_STRIP_001_SEG_01",
+      "panel_id": "LIVE_FACE_006_ZONE_00_B18_EDGE_STRIP_001_SEG_01",
+      "physical_member_id": "SECONDARY_BACKING__A__RAIL_05",
+      "force_kN": [
+        0.0,
+        0.0,
+        -0.00017359312499994176
+      ],
+      "contact_coordinates_mm": [
+        0.0,
+        -341.36941504209483,
+        2098.9875
+      ],
+      "load_case": "DL_STRUCTURAL_TIMBER",
+      "distribution_method": "PANEL_SELF_WEIGHT_TO_BACKING_RAIL_AT_PANEL_CENTROID",
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED"
+    }
+  ],
+  "resolved_weight_kN": 1.0937152687499985,
+  "unresolved_weight_kN": 0,
+  "agent_action_transaction_id": "AGENT_LOOP_20260914_144931"
+}

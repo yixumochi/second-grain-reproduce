@@ -1,0 +1,92 @@
+{
+  "schema": "AI_TIMBER_SECONDARY_BACKING_REQUIREMENT_V1",
+  "issue_id": "HOST_DEFICIT_3055C2BC288C",
+  "face_id": "LIVE_FACE_006",
+  "affected_panel_ids": [
+    "LIVE_FACE_006_ZONE_00_B18_STRIP_001_SEG_01",
+    "LIVE_FACE_006_ZONE_00_B18_STRIP_002_SEG_01",
+    "LIVE_FACE_006_ZONE_00_B18_STRIP_003_SEG_01",
+    "LIVE_FACE_006_ZONE_00_B18_STRIP_004_SEG_01",
+    "LIVE_FACE_006_ZONE_00_B18_EDGE_STRIP_001_SEG_01"
+  ],
+  "panel_assembly_plane": {
+    "normal": [
+      0.0,
+      1.0,
+      -0.0
+    ],
+    "visible_face_coordinate_mm": -290.5694150420949,
+    "back_face_coordinate_mm": -341.36941504209483,
+    "basis": "CURRENT_RECORDED_PANEL_BREP_ENVELOPES"
+  },
+  "combined_coverage_boundary_mm": {
+    "min": [
+      -450.0,
+      -341.36941504209483,
+      -1.4210854715202004e-14
+    ],
+    "max": [
+      450.0,
+      -290.5694150420949,
+      2100.0
+    ]
+  },
+  "panel_strip_orientation": "HORIZONTAL_STACKED_STRIPS",
+  "required_host_support_locations": [
+    241.3,
+    747.5375,
+    1276.0,
+    1818.7500000000005,
+    2098.9875
+  ],
+  "valid_attachment_zones": [
+    {
+      "z_mm": 241.3,
+      "panel_id": "LIVE_FACE_006_ZONE_00_B18_STRIP_001_SEG_01"
+    },
+    {
+      "z_mm": 747.5375,
+      "panel_id": "LIVE_FACE_006_ZONE_00_B18_STRIP_002_SEG_01"
+    },
+    {
+      "z_mm": 1276.0,
+      "panel_id": "LIVE_FACE_006_ZONE_00_B18_STRIP_003_SEG_01"
+    },
+    {
+      "z_mm": 1818.7500000000005,
+      "panel_id": "LIVE_FACE_006_ZONE_00_B18_STRIP_004_SEG_01"
+    },
+    {
+      "z_mm": 2098.9875,
+      "panel_id": "LIVE_FACE_006_ZONE_00_B18_EDGE_STRIP_001_SEG_01"
+    }
+  ],
+  "valid_downstream_structural_systems": [
+    "JAMB_STUD_LIVE_FACE_000_0_LEFT",
+    "JAMB_STUD_LIVE_FACE_000_0_RIGHT"
+  ],
+  "downstream_host_axes": {
+    "left": {
+      "member_id": "JAMB_STUD_LIVE_FACE_000_0_LEFT",
+      "x_mm": -469.05,
+      "y_mm": -720.7194150420949,
+      "z_min_mm": 38.09999999999991,
+      "z_max_mm": 2100.0
+    },
+    "right": {
+      "member_id": "JAMB_STUD_LIVE_FACE_000_0_RIGHT",
+      "x_mm": 469.04999999999995,
+      "y_mm": -722.3069150420948,
+      "z_min_mm": 38.09999999999991,
+      "z_max_mm": 2100.0
+    }
+  },
+  "architectural_clearance": {
+    "status": "VALID_BEHIND_CLADDING_PLANE_WITH_EXPLICIT_RETURN_CONNECTIONS",
+    "panel_back_plane_y_mm": -341.36941504209483
+  },
+  "obstruction_zones": [],
+  "connection_access_zones": "EXPLICIT_END_TO_JAMB_RETURN_CONNECTIONS",
+  "architectural_host_function": "PROVIDE_CONTINUOUS_ATTACHMENT_AT_EACH_CURRENT_PANEL_STRIP",
+  "structural_member_capacity": "NOT_VERIFIED_REQUIRES_MATERIAL_AND_CONNECTION_EVIDENCE"
+}

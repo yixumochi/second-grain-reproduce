@@ -1,0 +1,16 @@
+{
+  "schema": "ConditionalUsedLumberBasis/1",
+  "source": "https://app.leg.wa.gov/wac/default.aspx?cite=51-50-2303",
+  "clause": "WAC 51-50-2303, 2303.1.1.3 Used solid-sawn dimensional lumber",
+  "effective_date": "2024-03-15",
+  "scope_source": "https://www.nist.gov/standardsgov/voluntary-product-standards-program",
+  "scope_note": "Dimension lumber: nominal thickness >=2 and <5 inches, nominal width >=2 inches. Nominal size and product classification must be confirmed. A title or actual dressed measurement does not prove nominal size.",
+  "required": ["jurisdiction_and_code_applicability", "used_material", "solid_sawn_product", "dimension_lumber_scope", "nominal_size_confirmed", "usual_2303_1_1_to_2303_1_1_2_path_not_met", "good_condition", "devoid_of_decay"],
+  "branches": [
+    {"nominal_thickness_in": 2, "nominal_width_max_in": 6, "species_design_assumption": "spruce-pine-fir", "grade_design_assumption": "Stud"},
+    {"other_dimension_lumber": true, "species_design_assumption": "hem-fir", "grade_design_assumption": "No. 2"}
+  ],
+  "not_a_visual_grade_classifier": true,
+  "automatic_application": false,
+  "material_strength_assignment": false
+}

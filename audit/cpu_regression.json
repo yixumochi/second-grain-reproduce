@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "listing_id": "117692",
+      "input_views": 4,
+      "patches": 4,
+      "supported": 3278,
+      "unassigned": 2578,
+      "raw_unchanged": true,
+      "texture_pixels": 860037,
+      "line_method": "OpenCV LSD fallback",
+      "status": "PASS_CPU_ONLY"
+    },
+    {
+      "listing_id": "120235",
+      "input_views": 3,
+      "patches": 3,
+      "supported": 2661,
+      "unassigned": 1732,
+      "raw_unchanged": true,
+      "texture_pixels": 657399,
+      "line_method": "OpenCV LSD fallback",
+      "status": "PASS_CPU_ONLY"
+    },
+    {
+      "listing_id": "111575",
+      "input_views": 3,
+      "patches": 2,
+      "supported": 2781,
+      "unassigned": 1452,
+      "raw_unchanged": true,
+      "texture_pixels": 255634,
+      "line_method": "OpenCV LSD fallback",
+      "status": "PASS_CPU_ONLY"
+    }
+  ],
+  "new_gpu_inference": false,
+  "browser_visual_qa": "NOT_RUN"
+}

@@ -1,0 +1,10 @@
+{
+  "builder_sha256": "9562c72f546b8db29b56b8939fb73fa54656627383fba87c19981aa33f1890f0", 
+  "runner_sha256": "a8a518e3413592ff647369d1768e186211b2bb78fa95237cf609cd23f797a55d", 
+  "karamba_version": "3.1.51222.0", 
+  "rhino_units": "Millimeters", 
+  "karamba_assembly_path": "C:\\Program Files\\Rhino 8\\Plug-ins\\Karamba\\karambaCommon.dll", 
+  "python_version": "2.7.12 (2.7.12.1000)\n[.NETCoreApp,Version=v3.1 on .NET 8.0.14 (64-bit)]", 
+  "run_id": "20260919T085624913000Z", 
+  "rhino_version": "8.35.26251.13001"
+}

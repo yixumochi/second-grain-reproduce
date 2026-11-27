@@ -1,0 +1,93 @@
+{
+  "all_original_files_unchanged": true,
+  "files": [
+    {
+      "file": "inputs/inventory.json",
+      "original_unchanged": true
+    },
+    {
+      "file": "inputs/design_supply.json",
+      "original_unchanged": true
+    },
+    {
+      "file": "inputs/allocation_before.json",
+      "original_unchanged": true
+    },
+    {
+      "file": "inputs/elements.json",
+      "original_unchanged": true
+    },
+    {
+      "file": "inputs/action.json",
+      "original_unchanged": true
+    },
+    {
+      "file": "inputs/graph_before.json",
+      "original_unchanged": true
+    },
+    {
+      "file": "inputs/panels_before.json",
+      "original_unchanged": true
+    },
+    {
+      "file": "inputs/framework_before.json",
+      "original_unchanged": true
+    },
+    {
+      "file": "inputs/loads_before.json",
+      "original_unchanged": true
+    },
+    {
+      "file": "historical/requirement.json",
+      "original_unchanged": true
+    },
+    {
+      "file": "historical/options.json",
+      "original_unchanged": true
+    },
+    {
+      "file": "historical/decision.json",
+      "original_unchanged": true
+    },
+    {
+      "file": "historical/ledger.json",
+      "original_unchanged": true
+    },
+    {
+      "file": "historical/graph_after.json",
+      "original_unchanged": true
+    },
+    {
+      "file": "historical/transfer_after.json",
+      "original_unchanged": true
+    },
+    {
+      "file": "historical/framework_after.json",
+      "original_unchanged": true
+    },
+    {
+      "file": "historical/loads_after.json",
+      "original_unchanged": true
+    },
+    {
+      "file": "historical/structural_result.json",
+      "original_unchanged": true
+    },
+    {
+      "file": "historical/transaction_manifest.json",
+      "original_unchanged": true
+    },
+    {
+      "file": "../original-code/secondary_backing_agent.py",
+      "original_unchanged": true
+    },
+    {
+      "file": "../original-code/allocation_revision_binding.py",
+      "original_unchanged": true
+    },
+    {
+      "file": "../original-code/finalize_agent_correction_loop.py",
+      "original_unchanged": true
+    }
+  ]
+}

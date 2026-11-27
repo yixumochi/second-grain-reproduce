@@ -1,0 +1,18 @@
+{
+  "status": "BOTH_CASES_SOLVED", 
+  "gh_canvas_modified": false, 
+  "original_active_pointers_modified": false, 
+  "run_id": "20260919T085654405000Z", 
+  "cases": {
+    "candidate": {
+      "status": "SOLVED_RESEARCH_MODEL", 
+      "binding_digest": "a7590a21b776386c6f91d9d8c2fcfa78f8de85bc206d37c838511972f6a10e4d"
+    }, 
+    "baseline": {
+      "status": "SOLVED_RESEARCH_MODEL", 
+      "binding_digest": "04ac85b776aacc8706dda3da350bd5a278223a1219eafc4b34e2a58dae4d39bc"
+    }
+  }, 
+  "approved_for_construction": false, 
+  "engineering_approval": "UNKNOWN"
+}

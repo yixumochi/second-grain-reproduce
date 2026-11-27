@@ -1,0 +1,139 @@
+{
+  "schema": "AI_TIMBER_DESIGN_ACTION_STATE_V1",
+  "project_id": "PAVILION",
+  "current_design_state": "HOST_DEFICIT_IDENTIFIED_NO_GEOMETRY_ACTION_EXECUTED",
+  "detected_issues": [
+    {
+      "issue_id": "HOST_DEFICIT_3055C2BC288C",
+      "issue_type": "MISSING_HOST_CLADDING",
+      "affected_elements": [
+        "LIVE_FACE_006_ZONE_00_B18_EDGE_STRIP_001_SEG_01",
+        "LIVE_FACE_006_ZONE_00_B18_STRIP_001_SEG_01",
+        "LIVE_FACE_006_ZONE_00_B18_STRIP_002_SEG_01",
+        "LIVE_FACE_006_ZONE_00_B18_STRIP_003_SEG_01",
+        "LIVE_FACE_006_ZONE_00_B18_STRIP_004_SEG_01"
+      ],
+      "severity": "DESIGN_ACTION_REQUIRED",
+      "root_cause": {
+        "assembly_group_id": "WALL",
+        "face_id": "LIVE_FACE_006",
+        "missing_requirement": "SECONDARY_BACKING_OR_VALID_HOST"
+      },
+      "evidence": [
+        [
+          {
+            "type": "ASSEMBLY_LAYER_REQUIRES_HOST",
+            "assembly_layer": "L3_ENVELOPE_CLADDING"
+          },
+          {
+            "type": "SANITIZED_GRAPH_RELATION_AUDIT",
+            "outgoing_relation_types": [
+              "DESIGN_DEPENDENCY",
+              "GEOMETRIC_CONTACT"
+            ]
+          }
+        ],
+        [
+          {
+            "type": "ASSEMBLY_LAYER_REQUIRES_HOST",
+            "assembly_layer": "L3_ENVELOPE_CLADDING"
+          },
+          {
+            "type": "SANITIZED_GRAPH_RELATION_AUDIT",
+            "outgoing_relation_types": [
+              "DESIGN_DEPENDENCY",
+              "GEOMETRIC_CONTACT"
+            ]
+          }
+        ],
+        [
+          {
+            "type": "ASSEMBLY_LAYER_REQUIRES_HOST",
+            "assembly_layer": "L3_ENVELOPE_CLADDING"
+          },
+          {
+            "type": "SANITIZED_GRAPH_RELATION_AUDIT",
+            "outgoing_relation_types": [
+              "DESIGN_DEPENDENCY",
+              "GEOMETRIC_CONTACT"
+            ]
+          }
+        ],
+        [
+          {
+            "type": "ASSEMBLY_LAYER_REQUIRES_HOST",
+            "assembly_layer": "L3_ENVELOPE_CLADDING"
+          },
+          {
+            "type": "SANITIZED_GRAPH_RELATION_AUDIT",
+            "outgoing_relation_types": [
+              "DESIGN_DEPENDENCY",
+              "GEOMETRIC_CONTACT"
+            ]
+          }
+        ],
+        [
+          {
+            "type": "ASSEMBLY_LAYER_REQUIRES_HOST",
+            "assembly_layer": "L3_ENVELOPE_CLADDING"
+          },
+          {
+            "type": "SANITIZED_GRAPH_RELATION_AUDIT",
+            "outgoing_relation_types": [
+              "DESIGN_DEPENDENCY",
+              "GEOMETRIC_CONTACT"
+            ]
+          }
+        ]
+      ],
+      "engineering_effect": "SELF_WEIGHT_REMAINS_UNAPPLIED_AND_PANEL_HAS_NO_VALID_HOST",
+      "available_actions": [
+        {
+          "action": "REASSIGN_TO_VALID_EXISTING_HOST",
+          "allowed": false,
+          "expected_effect": "Use an existing host only after semantic and geometric compatibility are both proven.",
+          "requires_tools": [
+            "validate_existing_host_reassignment"
+          ]
+        },
+        {
+          "action": "ADD_SECONDARY_BACKING",
+          "allowed": true,
+          "expected_effect": "Introduce a secondary host that transfers cladding gravity load into an existing structural system.",
+          "requires_tools": [
+            "propose_secondary_backing",
+            "verify_design_action"
+          ]
+        },
+        {
+          "action": "REMOVE_OR_REDESIGN_PANEL",
+          "allowed": true,
+          "expected_effect": "Remove unnecessary unsupported coverage or redesign the panel boundary and host relation.",
+          "requires_tools": [
+            "remove_or_redesign_panel",
+            "verify_design_action"
+          ]
+        },
+        {
+          "action": "MANUAL_ENGINEERING_REVIEW",
+          "allowed": true,
+          "expected_effect": "Resolve assembly intent when no generic host action is defensible.",
+          "requires_tools": []
+        }
+      ]
+    }
+  ],
+  "recommended_next_action": "ADD_SECONDARY_BACKING",
+  "decision_status": "AWAITING_AGENT_OR_USER_DECISION",
+  "routing_policy": [
+    "EVALUATE_REASSIGN_TO_VALID_EXISTING_HOST_FIRST",
+    "IF_NO_VALID_HOST_PROPOSE_ADD_SECONDARY_BACKING",
+    "IF_BACKING_CONFLICTS_PROPOSE_REMOVE_OR_REDESIGN_PANEL",
+    "OTHERWISE_MANUAL_ENGINEERING_REVIEW"
+  ],
+  "geometry_modified": false,
+  "karamba_rerun": false,
+  "karamba_result_digest_before": "68316fbf8162e31cbf78c820cb9a2c0969ca5c6db7b274347e06b533ca13db84",
+  "unapplied_panel_weight_kN": 0.4680456412500001,
+  "timestamp": "2026-09-14T05:46:01.235808+00:00"
+}

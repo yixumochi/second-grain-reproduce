@@ -1,0 +1,140 @@
+{
+  "schema": "TIMBER_BASELINE_VERIFICATION_V1",
+  "offline_replay_status": "PASS",
+  "accepted_for_offline_replay": true,
+  "engineering_approval": "UNKNOWN",
+  "approved_for_construction": false,
+  "checks": [
+    {
+      "check": "input_binding",
+      "status": "PASS",
+      "evidence": {
+        "input_count": 9,
+        "input_digest": "19533c237486fa8532f01eda048a39f063fbab119e9066f4472d6d30f6972bbd"
+      }
+    },
+    {
+      "check": "revision_consistency",
+      "status": "PASS",
+      "evidence": {
+        "snapshot_revision": "EW_20260911T074059599568Z_a68d5a26c1"
+      }
+    },
+    {
+      "check": "centerline_geometry",
+      "status": "PASS",
+      "evidence": {
+        "members": 15,
+        "scope": "Recorded centerlines only; no solid collision or capacity check."
+      }
+    },
+    {
+      "check": "stock_identity_dimensions",
+      "status": "PASS",
+      "evidence": {
+        "source_count": 10,
+        "evidence": "Snapshot identities and seller dimensions; no physical grading inferred."
+      }
+    },
+    {
+      "check": "cutting_ledger",
+      "status": "PASS",
+      "evidence": {
+        "ledger_entries": 10,
+        "cuts": 15,
+        "kerf_mm": 3.0
+      }
+    },
+    {
+      "check": "declared_load_paths",
+      "status": "PASS",
+      "evidence": {
+        "affected_panels_with_declared_paths": 5,
+        "connection_capacity": "UNKNOWN"
+      }
+    },
+    {
+      "check": "analysis_input_consistency",
+      "status": "PASS",
+      "evidence": {
+        "added_members": 15,
+        "nodes": 275,
+        "supports": 34,
+        "solver_executed": false
+      }
+    },
+    {
+      "check": "panel_load_conservation",
+      "status": "PASS",
+      "evidence": {
+        "panels": 17,
+        "applied_weight_kN": 1.0937152687499985,
+        "unapplied_weight_kN": 0.0
+      }
+    },
+    {
+      "check": "existing_allocations",
+      "status": "PASS",
+      "evidence": {
+        "existing_allocation_content_preserved": true
+      }
+    },
+    {
+      "check": "historical_association",
+      "status": "PASS",
+      "evidence": {
+        "association": "RECORDED_FIXTURE_ONLY",
+        "solver_run_binding": "UNKNOWN",
+        "solver_executed_now": false
+      }
+    },
+    {
+      "check": "live_structural_analysis",
+      "status": "UNKNOWN",
+      "reason": "Historical outputs only; no Rhino/Karamba execution in this replay."
+    },
+    {
+      "check": "material_capacity",
+      "status": "UNKNOWN",
+      "reason": "Physical condition, grade and design strength not verified."
+    },
+    {
+      "check": "connection_capacity",
+      "status": "UNKNOWN",
+      "reason": "Declared graph paths do not establish connection resistance."
+    },
+    {
+      "check": "foundation_design",
+      "status": "UNKNOWN",
+      "reason": "No foundation verification performed."
+    },
+    {
+      "check": "solid_geometry_clearance",
+      "status": "UNKNOWN",
+      "reason": "Centerline consistency does not verify fabrication clearances."
+    }
+  ],
+  "metrics": {
+    "added_members": 15,
+    "stock_sources": 10,
+    "added_length_mm": 8306.207755001127
+  },
+  "historical_replay_comparison": {
+    "requirement": true,
+    "selected_option_id": true,
+    "cutting_ledger": true,
+    "analysis_plan": true,
+    "panel_loads": true
+  },
+  "historical_structure_summary": {
+    "evidence_kind": "HISTORICAL_NOT_RECOMPUTED",
+    "historical_reported_source": "KARAMBA_COMPUTED_NO_ESTIMATED_FALLBACK",
+    "reported_max_displacement_mm": 4.247179887499398,
+    "case_displacements_mm": {
+      "DL_STRUCTURAL_TIMBER": 4.247179887499398,
+      "LL_FLOOR_ASSEMBLY_100PSF": 1.2298611189540676
+    },
+    "solver_input_binding": "UNKNOWN_IN_ORIGINAL_RESULT",
+    "not_a_code_combination_or_capacity_approval": true
+  }
+}

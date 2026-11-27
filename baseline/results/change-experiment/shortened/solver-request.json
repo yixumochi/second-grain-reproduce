@@ -1,0 +1,16 @@
+{
+  "input_digests": {
+    "inventory": "e257a26b1382cc3c34491a2fd5c159c8b2f46990a11928c2ecb98a49ee405de8",
+    "design_supply": "e808c62e5e77cb8808605c7c71498542a8de67ec67af1e0e910f8fc926643c62",
+    "allocation_before": "62297f6edbb4785c9286c1c76203e69f493f3d8210c61aa28183ba3334f7d0dc",
+    "elements": "7c400efbba317bfe1b9f43432b10a7ed1a0c675e9f123ae674772c4e64daedb4",
+    "action": "a58d71315cb9bd3440714e728666ca18f7771b2fd3e1064d9c79edc8c62ad2c3",
+    "graph_before": "458bb209a14d262da87e645ffd0dc31808326e1f30e7bf691fc929c640675fab",
+    "panels_before": "75972165af8507e3999618ca56bf07138e16e7479b30f35a6ee31e939e29bace",
+    "framework_before": "a0563f5612ee2db24eac59bbddbc0b508ee93f5a25ee6a9973b62f5d95c3b8c4",
+    "loads_before": "3dac7007ae2825a6be28b134c420420a9c0d96fda63e420d4642611d6281516f"
+  },
+  "framework_digest": "8bff24393f87a71bed7763c7dacea85fc4cbe369750a3995e4351cedef792d8d",
+  "loads_digest": "7c5a1088cb00296278b1bb74439463b790e89df10c3961336ef67e7b16b2d0ca",
+  "transaction_id": "CONTROLLED_CHANGE_b9bd628b0504"
+}

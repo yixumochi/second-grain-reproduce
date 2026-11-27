@@ -1,0 +1,222 @@
+[
+  {
+    "scenario": "unaltered_baseline",
+    "expected_failed_check": null,
+    "accepted": true,
+    "failures": []
+  },
+  {
+    "scenario": "existing_allocation_changed",
+    "expected_failed_check": "existing_allocations",
+    "accepted": false,
+    "failures": [
+      {
+        "check": "existing_allocations",
+        "status": "FAIL",
+        "reason": "EXISTING_ALLOCATION_CHANGED"
+      }
+    ]
+  },
+  {
+    "scenario": "duplicate_consumption_of_same_interval",
+    "expected_failed_check": "cutting_ledger",
+    "accepted": false,
+    "failures": [
+      {
+        "check": "cutting_ledger",
+        "status": "FAIL",
+        "reason": "MEMBERS_NOT_ACCOUNTED_EXACTLY_ONCE"
+      },
+      {
+        "check": "existing_allocations",
+        "status": "FAIL",
+        "reason": "STALE_ALLOCATION_ACTION_DIGEST"
+      }
+    ]
+  },
+  {
+    "scenario": "changed_length_even_if_cut_still_fits",
+    "expected_failed_check": "input_binding",
+    "accepted": false,
+    "failures": [
+      {
+        "check": "input_binding",
+        "status": "FAIL",
+        "reason": "STALE_STAGE_INPUT_BINDING"
+      },
+      {
+        "check": "stock_identity_dimensions",
+        "status": "FAIL",
+        "reason": "STOCK_LENGTH_CHANGED_REQUIRES_REALLOCATION:119600_001"
+      },
+      {
+        "check": "historical_association",
+        "status": "FAIL",
+        "reason": "HISTORICAL_RESULT_NOT_APPLICABLE_TO_CHANGED_INPUT:inventory"
+      }
+    ]
+  },
+  {
+    "scenario": "missing_analysis_member",
+    "expected_failed_check": "analysis_input_consistency",
+    "accepted": false,
+    "failures": [
+      {
+        "check": "analysis_input_consistency",
+        "status": "FAIL",
+        "reason": "ANALYSIS_MEMBER_SET_MISMATCH"
+      },
+      {
+        "check": "panel_load_conservation",
+        "status": "FAIL",
+        "reason": "LOAD_RECEIVER_NOT_IN_ANALYSIS"
+      }
+    ]
+  },
+  {
+    "scenario": "missing_panel_self_weight",
+    "expected_failed_check": "panel_load_conservation",
+    "accepted": false,
+    "failures": [
+      {
+        "check": "panel_load_conservation",
+        "status": "FAIL",
+        "reason": "PANEL_LOAD_MISSING_OR_MISDIRECTED:LIVE_FACE_006_ZONE_00_B18_EDGE_STRIP_001_SEG_01"
+      },
+      {
+        "check": "historical_association",
+        "status": "FAIL",
+        "reason": "REPLAY_LOADS_DIFFER_FROM_ARCHIVE"
+      }
+    ]
+  },
+  {
+    "scenario": "missing_panel_receiver",
+    "expected_failed_check": "declared_load_paths",
+    "accepted": false,
+    "failures": [
+      {
+        "check": "declared_load_paths",
+        "status": "FAIL",
+        "reason": "MISSING_PANEL_RECEIVER:LIVE_FACE_006_ZONE_00_B18_STRIP_001_SEG_01"
+      }
+    ]
+  },
+  {
+    "scenario": "changed_analysis_input_with_old_result",
+    "expected_failed_check": "historical_association",
+    "accepted": false,
+    "failures": [
+      {
+        "check": "historical_association",
+        "status": "FAIL",
+        "reason": "REPLAY_PLAN_DIFFERS_FROM_ARCHIVE"
+      }
+    ]
+  },
+  {
+    "scenario": "overlapping_cuts",
+    "expected_failed_check": "cutting_ledger",
+    "accepted": false,
+    "failures": [
+      {
+        "check": "cutting_ledger",
+        "status": "FAIL",
+        "reason": "OVERLAPPING_CUTS_OR_KERFS:119270_001"
+      },
+      {
+        "check": "existing_allocations",
+        "status": "FAIL",
+        "reason": "STALE_ALLOCATION_ACTION_DIGEST"
+      }
+    ]
+  },
+  {
+    "scenario": "stock_shorter_than_committed_cut",
+    "expected_failed_check": "stock_identity_dimensions",
+    "accepted": false,
+    "failures": [
+      {
+        "check": "input_binding",
+        "status": "FAIL",
+        "reason": "STALE_STAGE_INPUT_BINDING"
+      },
+      {
+        "check": "stock_identity_dimensions",
+        "status": "FAIL",
+        "reason": "CUT_OUTSIDE_CURRENT_STOCK:119600_001"
+      },
+      {
+        "check": "cutting_ledger",
+        "status": "FAIL",
+        "reason": "LEDGER_OUTSIDE_STOCK:119600_001"
+      },
+      {
+        "check": "historical_association",
+        "status": "FAIL",
+        "reason": "HISTORICAL_RESULT_NOT_APPLICABLE_TO_CHANGED_INPUT:inventory"
+      }
+    ]
+  },
+  {
+    "scenario": "old_transaction_result",
+    "expected_failed_check": "historical_association",
+    "accepted": false,
+    "failures": [
+      {
+        "check": "historical_association",
+        "status": "FAIL",
+        "reason": "HISTORICAL_RESULT_CONTENT_CHANGED"
+      }
+    ]
+  },
+  {
+    "scenario": "unknown_stock_id",
+    "expected_failed_check": "stock_identity_dimensions",
+    "accepted": false,
+    "failures": [
+      {
+        "check": "stock_identity_dimensions",
+        "status": "FAIL",
+        "reason": "UNKNOWN_STOCK_ID:NONEXISTENT_STOCK"
+      },
+      {
+        "check": "cutting_ledger",
+        "status": "FAIL",
+        "reason": "LEDGER_ASSIGNMENT_MISMATCH:SECONDARY_BACKING__A__RAIL_01"
+      },
+      {
+        "check": "analysis_input_consistency",
+        "status": "FAIL",
+        "reason": "ANALYSIS_STOCK_REFERENCE_MISMATCH"
+      },
+      {
+        "check": "existing_allocations",
+        "status": "FAIL",
+        "reason": "STALE_ALLOCATION_ACTION_DIGEST"
+      }
+    ]
+  },
+  {
+    "scenario": "wrong_member_section",
+    "expected_failed_check": "stock_identity_dimensions",
+    "accepted": false,
+    "failures": [
+      {
+        "check": "stock_identity_dimensions",
+        "status": "FAIL",
+        "reason": "SECTION_MISMATCH:119600_001"
+      },
+      {
+        "check": "existing_allocations",
+        "status": "FAIL",
+        "reason": "STALE_ALLOCATION_ACTION_DIGEST"
+      },
+      {
+        "check": "historical_association",
+        "status": "FAIL",
+        "reason": "REPLAY_PLAN_DIFFERS_FROM_ARCHIVE"
+      }
+    ]
+  }
+]

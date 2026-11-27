@@ -1,0 +1,80 @@
+{
+  "transaction_id": "AGENT_LOOP_20260914_144931",
+  "timestamp": "2026-09-14T06:49:31.451513+00:00",
+  "inputs": {
+    "active_json": {
+      "path": "H:\\新项目\\agent\\data\\earthwise\\active.json",
+      "sha256": "70f29d0b0fb9897f0ab9db9459d0e89fdca59e5fd1e285511efddc9ea03ce6f5",
+      "size_bytes": 709,
+      "checkpoint_copy": "H:\\新项目\\agent\\runtime\\agent_loop_01\\AGENT_LOOP_20260914_144931\\pre_action_checkpoint\\active_json.json"
+    },
+    "allocation_json": {
+      "path": "H:\\新项目\\agent\\runtime\\archsim_integration\\allocation.json",
+      "sha256": "c82db38793bfcc77b9e8f5fa296892a6274129882bec5b2ccca2c4fb65bf390e",
+      "size_bytes": 11272095,
+      "checkpoint_copy": "H:\\新项目\\agent\\runtime\\agent_loop_01\\AGENT_LOOP_20260914_144931\\pre_action_checkpoint\\allocation_json.json"
+    },
+    "design_action_state_json": {
+      "path": "H:\\新项目\\agent\\runtime\\design_action_state\\design_action_state.json",
+      "sha256": "d581f98b45b502d16b08a115cce015d7e4c3100a46a960468184ae4647754509",
+      "size_bytes": 4699,
+      "checkpoint_copy": "H:\\新项目\\agent\\runtime\\agent_loop_01\\AGENT_LOOP_20260914_144931\\pre_action_checkpoint\\design_action_state_json.json"
+    },
+    "sanitized_graph_json": {
+      "path": "H:\\新项目\\agent\\runtime\\design_action_state\\building_assembly_graph_sanitized.json",
+      "sha256": "566b582b5f522dc8a4918b14ab9e3ad7235fee787f5b02e48b5b8c7b380c5991",
+      "size_bytes": 1030056,
+      "checkpoint_copy": "H:\\新项目\\agent\\runtime\\agent_loop_01\\AGENT_LOOP_20260914_144931\\pre_action_checkpoint\\sanitized_graph_json.json"
+    },
+    "structural_result_json": {
+      "path": "H:\\新项目\\agent\\runtime\\archsim_integration\\structural_result.json",
+      "sha256": "68316fbf8162e31cbf78c820cb9a2c0969ca5c6db7b274347e06b533ca13db84",
+      "size_bytes": 267065,
+      "checkpoint_copy": "H:\\新项目\\agent\\runtime\\agent_loop_01\\AGENT_LOOP_20260914_144931\\pre_action_checkpoint\\structural_result_json.json"
+    },
+    "current_gh": {
+      "path": "H:\\新项目\\rhino model\\pavilion_seattle_design_action_state_20260914_134650.gh",
+      "sha256": "f11aa8c23c918c3794491b8965d39f0a6411741fe8db475fe086acd3fbf3b35c",
+      "size_bytes": 165850,
+      "checkpoint_copy": "H:\\新项目\\agent\\runtime\\agent_loop_01\\AGENT_LOOP_20260914_144931\\pre_action_checkpoint\\current_gh.gh"
+    },
+    "element_semantics_json": {
+      "path": "H:\\新项目\\agent\\runtime\\building_assembly\\element_semantics.json",
+      "sha256": "afa6a23b7db70aa85c2b7ecad4f6c13f322f7416beea5b801adc6068035251e5",
+      "size_bytes": 370474,
+      "checkpoint_copy": "H:\\新项目\\agent\\runtime\\agent_loop_01\\AGENT_LOOP_20260914_144931\\pre_action_checkpoint\\element_semantics_json.json"
+    },
+    "panel_load_transfer_json": {
+      "path": "H:\\新项目\\agent\\runtime\\building_assembly\\wall_panel_load_transfer_semantic.json",
+      "sha256": "7edf8bb684d821bd3e0a98258996db3a1c55d916d44c7ab8875181d4afc592c5",
+      "size_bytes": 27228,
+      "checkpoint_copy": "H:\\新项目\\agent\\runtime\\agent_loop_01\\AGENT_LOOP_20260914_144931\\pre_action_checkpoint\\panel_load_transfer_json.json"
+    },
+    "structural_verification_json": {
+      "path": "H:\\新项目\\agent\\runtime\\structural_verification\\structural_verification_state.json",
+      "sha256": "a1e3f079dbdcee7639df1b57f14d2d51f8ccd3c7561f6b4679cbc858a90d1dd0",
+      "size_bytes": 2388,
+      "checkpoint_copy": "H:\\新项目\\agent\\runtime\\agent_loop_01\\AGENT_LOOP_20260914_144931\\pre_action_checkpoint\\structural_verification_json.json"
+    }
+  },
+  "pre_action_checkpoint": "H:\\新项目\\agent\\runtime\\agent_loop_01\\AGENT_LOOP_20260914_144931\\pre_action_checkpoint",
+  "status": "COMMITTED",
+  "staged_files": {
+    "secondary_backing_requirement": "H:\\新项目\\agent\\runtime\\agent_loop_01\\AGENT_LOOP_20260914_144931\\secondary_backing_requirement.json",
+    "secondary_backing_options": "H:\\新项目\\agent\\runtime\\agent_loop_01\\AGENT_LOOP_20260914_144931\\secondary_backing_options.json",
+    "secondary_backing_ranking": "H:\\新项目\\agent\\runtime\\agent_loop_01\\AGENT_LOOP_20260914_144931\\secondary_backing_ranking.json",
+    "agent_decision": "H:\\新项目\\agent\\runtime\\agent_loop_01\\AGENT_LOOP_20260914_144931\\agent_decision.json",
+    "allocation_after_agent_action": "H:\\新项目\\agent\\runtime\\agent_loop_01\\AGENT_LOOP_20260914_144931\\allocation_after_agent_action.json",
+    "agent_backing_stock_ledger": "H:\\新项目\\agent\\runtime\\agent_loop_01\\AGENT_LOOP_20260914_144931\\agent_backing_stock_ledger.json",
+    "building_assembly_graph_after_agent_action": "H:\\新项目\\agent\\runtime\\agent_loop_01\\AGENT_LOOP_20260914_144931\\building_assembly_graph_after_agent_action.json",
+    "wall_panel_load_transfer_after_agent_action": "H:\\新项目\\agent\\runtime\\agent_loop_01\\AGENT_LOOP_20260914_144931\\wall_panel_load_transfer_after_agent_action.json",
+    "karamba_panel_loads_after_agent_action": "H:\\新项目\\agent\\runtime\\agent_loop_01\\AGENT_LOOP_20260914_144931\\karamba_panel_loads_after_agent_action.json",
+    "analysis_framework_after_agent_action": "H:\\新项目\\agent\\runtime\\agent_loop_01\\AGENT_LOOP_20260914_144931\\analysis_framework_after_agent_action.json",
+    "project_state_registry": "H:\\新项目\\agent\\runtime\\agent_loop_01\\AGENT_LOOP_20260914_144931\\project_state_registry.json",
+    "project_state_sync_report": "H:\\新项目\\agent\\runtime\\agent_loop_01\\AGENT_LOOP_20260914_144931\\project_state_sync_report.json"
+  },
+  "selected_option_id": "BACKING_OPTION_A_HORIZONTAL_RAILS_WITH_JAMB_RETURNS",
+  "updated_at": "2026-09-14T07:19:12.948425+00:00",
+  "commit_path": "H:\\新项目\\agent\\runtime\\agent_loop_01\\AGENT_LOOP_20260914_144931\\transaction_commit.json",
+  "completed_at": "2026-09-14T08:58:09.871734+00:00"
+}

@@ -1,0 +1,3 @@
+# Install a CUDA build of torch and torchvision for your machine first.
+# The CPU baseline in baseline/ does not use this file.
+-r requirements/vision_gpu.txt

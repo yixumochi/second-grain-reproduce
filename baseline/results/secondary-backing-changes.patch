@@ -1,0 +1,118 @@
+--- original/secondary_backing_agent.py
++++ working/secondary_backing_agent.py
+@@ -195,10 +195,9 @@
+     return [option_a, option_b, option_c][: int(constraints.get("max_options", 3))]
+ 
+ 
+-def _recorded_supply(project_root: Path, allocation: dict) -> tuple[list[dict], list[dict]]:
+-    active = json.loads((project_root / "data/earthwise/active.json").read_text(encoding="utf-8"))
+-    inventory = json.loads(Path(active["canonical_path"]).read_text(encoding="utf-8"))
+-    design = json.loads(Path(active["design_supply_path"]).read_text(encoding="utf-8"))
++def _recorded_supply(project_root: Path | None, allocation: dict, *, inventory=None, design=None) -> tuple[list[dict], list[dict]]:
++    if inventory is None or design is None:
++        raise ValueError("EXPLICIT_INVENTORY_AND_DESIGN_REQUIRED_NO_EXTERNAL_PATH_LOOKUP")
+     instances = {row["stock_instance_id"]: row for row in inventory["stock_instances"]}
+     sections = {row["stock_section_id"]: row for row in inventory["stock_sections"]}
+     links = {row["stock_instance_id"]: row for row in design["stock_instance_links"]}
+@@ -259,10 +258,10 @@
+     return residuals, unused
+ 
+ 
+-def allocate_option(option: dict, project_root: Path, allocation: dict) -> dict:
++def allocate_option(option: dict, project_root: Path | None, allocation: dict, *, inventory=None, design=None) -> dict:
+     if not option["complete_valid_load_path"] or not option["geometry_valid"]:
+         return {"status": "OPTION_REJECTED_HARD_CONSTRAINT", "assignments": [], "ledger": [], "stock_feasible": False}
+-    residuals, unused = _recorded_supply(project_root, allocation)
++    residuals, unused = _recorded_supply(project_root, allocation, inventory=inventory, design=design)
+     pools = [("RESIDUAL_OFFCUT", residuals), ("UNUSED_REAL_STOCK", unused)]
+     state = []
+     for kind, rows in pools:
+@@ -340,19 +339,45 @@
+     }
+ 
+ 
++def execution_blockers(option: dict) -> list[str]:
++    """Limit execution to the implemented rail/return adapter, not mere stock fit."""
++    errors = []
++    if option.get("topology_archetype") != "HORIZONTAL_BACKING_RAILS_WITH_JAMB_RETURNS":
++        errors.append("UNSUPPORTED_EXECUTION_TOPOLOGY")
++    roles = {row.get("role") for row in option.get("new_member_geometry", [])}
++    if roles - {"SECONDARY_BACKING_RAIL", "SECONDARY_BACKING_RETURN"}:
++        errors.append("UNSUPPORTED_MEMBER_ROLE")
++    tokens = [row.get("member_token") for row in option.get("new_member_geometry", [])]
++    if not tokens or len(tokens) != len(set(tokens)):
++        errors.append("EMPTY_OR_DUPLICATE_MEMBER_TOKENS")
++    for row in option.get("panel_attachment_map", []):
++        if row.get("host_member_token") not in tokens:
++            errors.append("UNSUPPORTED_PANEL_ATTACHMENT_MAP")
++    return sorted(set(errors))
++
++
++def require_executable(option: dict) -> None:
++    errors = execution_blockers(option)
++    if errors:
++        raise ValueError("OPTION_NOT_EXECUTABLE: " + ",".join(errors))
++
++
+ def rank_options(options: list[dict]) -> list[dict]:
+     rows = []
+     for option in options:
+         supply = option.get("supply", {})
+-        hard = bool(option.get("complete_valid_load_path") and option.get("geometry_valid") and supply.get("stock_feasible"))
++        blockers = execution_blockers(option)
++        hard = bool(option.get("complete_valid_load_path") and option.get("geometry_valid") and supply.get("stock_feasible") and not blockers)
+         residual = float(supply.get("residual_reuse_length_mm", 0.0))
+         new = float(supply.get("new_stock_consumed_length_mm", math.inf))
+         total = sum(option.get("required_member_lengths_mm", []))
+         cuts = int(supply.get("cut_count", 10**9))
+         key = (0 if hard else 1, 0 if option.get("geometry_conflict_status") == "ZERO_UNCONTROLLED_CONFLICTS" else 1, -residual, new, total, option.get("added_connection_count", 10**9), cuts, option["option_id"])
+-        rows.append({"option_id": option["option_id"], "eligible": hard, "deterministic_rank_key": list(key), "metrics": {"complete_valid_load_path": option.get("complete_valid_load_path"), "zero_geometric_conflict": option.get("geometry_conflict_status") == "ZERO_UNCONTROLLED_CONFLICTS", "residual_reuse_length_mm": residual, "new_stock_consumed_length_mm": None if math.isinf(new) else new, "total_added_timber_length_mm": total, "new_connection_count": option.get("added_connection_count"), "cut_count": None if cuts == 10**9 else cuts}})
++        rows.append({"option_id": option["option_id"], "eligible": hard, "execution_blockers": blockers, "deterministic_rank_key": list(key), "metrics": {"complete_valid_load_path": option.get("complete_valid_load_path"), "zero_geometric_conflict": option.get("geometry_conflict_status") == "ZERO_UNCONTROLLED_CONFLICTS", "residual_reuse_length_mm": residual, "new_stock_consumed_length_mm": None if math.isinf(new) else new, "total_added_timber_length_mm": total, "new_connection_count": option.get("added_connection_count"), "cut_count": None if cuts == 10**9 else cuts}})
+     rows.sort(key=lambda row: tuple(row["deterministic_rank_key"]))
+-    for i, row in enumerate(rows, 1): row["rank"] = i
++    for i, row in enumerate(rows, 1):
++        row["rank"] = i
++        row["deterministic_rank_key"] = [None if isinstance(v, float) and not math.isfinite(v) else v for v in row["deterministic_rank_key"]]
+     return rows
+ 
+ 
+@@ -362,17 +387,21 @@
+         raise ValueError("NO_VALID_STOCK_FEASIBLE_BACKING_OPTION")
+     selected = valid[0]
+     option = next(row for row in options if row["option_id"] == selected["option_id"])
++    require_executable(option)
++    if not option.get("supply", {}).get("stock_feasible"):
++        raise ValueError("COORDINATOR_SELECTED_INFEASIBLE_OPTION")
+     return {
+         "issue_id": issue["issue_id"],
+         "selected_action": "ADD_SECONDARY_BACKING",
+         "selected_option_id": option["option_id"],
+         "reason": ["complete modeled load path", "zero uncontrolled geometry conflict", "highest deterministic residual-stock reuse", "minimum new-stock consumption under higher-priority constraints"],
+-        "rejected_options": [{"option_id": row["option_id"], "reason": "LOWER_DETERMINISTIC_RANK" if row["eligible"] else "HARD_CONSTRAINT_FAILED"} for row in ranking[1:]],
++        "rejected_options": [{"option_id": row["option_id"], "reason": "LOWER_DETERMINISTIC_RANK" if row["eligible"] else "HARD_CONSTRAINT_OR_EXECUTION_FAILED", "execution_blockers": row.get("execution_blockers", [])} for row in ranking if row["option_id"] != option["option_id"]],
+         "numeric_results_overridden": False,
+     }
+ 
+ 
+ def apply_to_analysis_framework(framework: dict, selected_option: dict) -> dict:
++    require_executable(selected_option)
+     result = deepcopy(framework)
+     plan, model = result["plan"], result["model"]
+     assignments = selected_option["supply"]["assignments"]
+@@ -432,6 +461,7 @@
+ 
+ 
+ def update_graph(graph: dict, selected: dict, requirement: dict) -> dict:
++    require_executable(selected)
+     out=deepcopy(graph); assignments=selected["supply"]["assignments"]
+     for row in assignments:
+         out["nodes"].append({"node_id":row["element_id"],"node_type":"PHYSICAL_ELEMENT","role":"SECONDARY_BACKING","assembly_layer":"L1_SECONDARY_STRUCTURE","is_structural":True,"stock_instance_id":row["source_stock_instance_id"]})
+@@ -442,7 +472,7 @@
+         token=mapping.get("host_member_token"); targets=[token] if token else mapping.get("host_member_tokens",[])
+         for target in targets:
+             host=rails.get(target) or ties.get(target)
+-            if not host: continue
++            if not host: raise ValueError("PANEL_RECEIVER_TOKEN_NOT_IN_ALLOCATED_MEMBERS: " + str(target))
+             for relation in ("SEMANTIC_HOST","ACTUAL_ATTACHMENT","LOAD_RECEIVER"):
+                 edge(mapping["panel_id"],host["element_id"],relation,{"type":"EXECUTED_SECONDARY_BACKING_ATTACHMENT","capacity":"ENGINEERING_CHECK_REQUIRED"})
+     for row in selected["backing_to_structure_connection_map"]:

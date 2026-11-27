@@ -1,0 +1,884 @@
+{
+  "schema": "AI_TIMBER_SEMANTIC_PANEL_LOAD_TRANSFER_V2",
+  "status": "ALL_REVIEWED_PANEL_LOAD_PATHS_RESOLVED",
+  "counts": {
+    "total_panels_reviewed": 17,
+    "resolved": 17,
+    "partially_resolved": 0,
+    "unresolved": 0
+  },
+  "panels": [
+    {
+      "panel_id": "LIVE_FACE_005_ZONE_00_B17_STRIP_001_SEG_01",
+      "role": "OPENING_RETURN_CLADDING",
+      "source_role": "WALL_SURFACE",
+      "assembly_layer": "L3_ENVELOPE_CLADDING",
+      "is_structural": false,
+      "self_weight_kN": 0.07645146000000007,
+      "host_system_id": "WALL_OPENING_FRAME::LIVE_FACE_000",
+      "receiving_member_ids": [
+        "JAMB_STUD_LIVE_FACE_000_0_RIGHT"
+      ],
+      "transfer_archetype": "FASTENER_SUPPORTED_OPENING_RETURN_TO_FRAME",
+      "load_distribution_method": "PANEL_SELF_WEIGHT_TO_CONTACTING_HOST_AT_CONTACT_CENTROID",
+      "geometry_evidence": [
+        {
+          "type": "PHYSICAL_CONTACT_WITH_HOST",
+          "overlap_mm": [
+            5.684341886080802e-14,
+            139.70000000000016,
+            463.55000000000007
+          ],
+          "contact_centroid_mm": [
+            450.0,
+            -720.7194150420949,
+            269.87499999999994
+          ]
+        }
+      ],
+      "semantic_evidence": [
+        {
+          "type": "SEMANTIC_HOST_ROLE_COMPATIBILITY",
+          "panel_role": "WALL_SURFACE",
+          "host_role": "JAMB_STUD"
+        }
+      ],
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED",
+      "load_path_status": "LOAD_PATH_RESOLVED",
+      "evidence_gaps": []
+    },
+    {
+      "panel_id": "LIVE_FACE_005_ZONE_00_B17_STRIP_002_SEG_01",
+      "role": "OPENING_RETURN_CLADDING",
+      "source_role": "WALL_SURFACE",
+      "assembly_layer": "L3_ENVELOPE_CLADDING",
+      "is_structural": false,
+      "self_weight_kN": 0.029758004999999962,
+      "host_system_id": "WALL_OPENING_FRAME::LIVE_FACE_000",
+      "receiving_member_ids": [
+        "JAMB_STUD_LIVE_FACE_000_0_RIGHT"
+      ],
+      "transfer_archetype": "FASTENER_SUPPORTED_OPENING_RETURN_TO_FRAME",
+      "load_distribution_method": "PANEL_SELF_WEIGHT_TO_CONTACTING_HOST_AT_CONTACT_CENTROID",
+      "geometry_evidence": [
+        {
+          "type": "PHYSICAL_CONTACT_WITH_HOST",
+          "overlap_mm": [
+            5.684341886080802e-14,
+            139.70000000000016,
+            520.7000000000002
+          ],
+          "contact_centroid_mm": [
+            450.0,
+            -720.7194150420949,
+            765.0
+          ]
+        }
+      ],
+      "semantic_evidence": [
+        {
+          "type": "SEMANTIC_HOST_ROLE_COMPATIBILITY",
+          "panel_role": "WALL_SURFACE",
+          "host_role": "JAMB_STUD"
+        }
+      ],
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED",
+      "load_path_status": "LOAD_PATH_RESOLVED",
+      "evidence_gaps": []
+    },
+    {
+      "panel_id": "LIVE_FACE_005_ZONE_00_B17_STRIP_003_SEG_01",
+      "role": "OPENING_RETURN_CLADDING",
+      "source_role": "WALL_SURFACE",
+      "assembly_layer": "L3_ENVELOPE_CLADDING",
+      "is_structural": false,
+      "self_weight_kN": 0.02975800499999988,
+      "host_system_id": "WALL_OPENING_FRAME::LIVE_FACE_000",
+      "receiving_member_ids": [
+        "JAMB_STUD_LIVE_FACE_000_0_RIGHT"
+      ],
+      "transfer_archetype": "FASTENER_SUPPORTED_OPENING_RETURN_TO_FRAME",
+      "load_distribution_method": "PANEL_SELF_WEIGHT_TO_CONTACTING_HOST_AT_CONTACT_CENTROID",
+      "geometry_evidence": [
+        {
+          "type": "PHYSICAL_CONTACT_WITH_HOST",
+          "overlap_mm": [
+            5.684341886080802e-14,
+            139.70000000000016,
+            520.6999999999998
+          ],
+          "contact_centroid_mm": [
+            450.0,
+            -720.7194150420949,
+            1288.6999999999998
+          ]
+        }
+      ],
+      "semantic_evidence": [
+        {
+          "type": "SEMANTIC_HOST_ROLE_COMPATIBILITY",
+          "panel_role": "WALL_SURFACE",
+          "host_role": "JAMB_STUD"
+        }
+      ],
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED",
+      "load_path_status": "LOAD_PATH_RESOLVED",
+      "evidence_gaps": []
+    },
+    {
+      "panel_id": "LIVE_FACE_005_ZONE_00_B17_STRIP_004_SEG_01",
+      "role": "OPENING_RETURN_CLADDING",
+      "source_role": "WALL_SURFACE",
+      "assembly_layer": "L3_ENVELOPE_CLADDING",
+      "is_structural": false,
+      "self_weight_kN": 0.06169342499999989,
+      "host_system_id": "WALL_OPENING_FRAME::LIVE_FACE_000",
+      "receiving_member_ids": [
+        "JAMB_STUD_LIVE_FACE_000_0_RIGHT"
+      ],
+      "transfer_archetype": "FASTENER_SUPPORTED_OPENING_RETURN_TO_FRAME",
+      "load_distribution_method": "PANEL_SELF_WEIGHT_TO_CONTACTING_HOST_AT_CONTACT_CENTROID",
+      "geometry_evidence": [
+        {
+          "type": "PHYSICAL_CONTACT_WITH_HOST",
+          "overlap_mm": [
+            5.684341886080802e-14,
+            139.70000000000016,
+            539.7500000000002
+          ],
+          "contact_centroid_mm": [
+            450.0,
+            -720.7194150420949,
+            1821.9250000000002
+          ]
+        }
+      ],
+      "semantic_evidence": [
+        {
+          "type": "SEMANTIC_HOST_ROLE_COMPATIBILITY",
+          "panel_role": "WALL_SURFACE",
+          "host_role": "JAMB_STUD"
+        }
+      ],
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED",
+      "load_path_status": "LOAD_PATH_RESOLVED",
+      "evidence_gaps": []
+    },
+    {
+      "panel_id": "LIVE_FACE_006_ZONE_00_B18_STRIP_001_SEG_01",
+      "role": "OPENING_RETURN_CLADDING",
+      "source_role": "WALL_SURFACE",
+      "assembly_layer": "L3_ENVELOPE_CLADDING",
+      "is_structural": false,
+      "self_weight_kN": 0.13238683200000012,
+      "host_system_id": "SECONDARY_BACKING_SYSTEM::LIVE_FACE_006",
+      "receiving_member_ids": [
+        "SECONDARY_BACKING__A__RAIL_01"
+      ],
+      "transfer_archetype": "DECLARED_PANEL_TO_SECONDARY_BACKING_TO_JAMB_LOAD_PATH",
+      "load_distribution_method": "PANEL_SELF_WEIGHT_TO_BACKING_RAIL_AT_PANEL_CENTROID",
+      "geometry_evidence": [
+        {
+          "type": "EXECUTED_BACKING_RAIL_BEHIND_PANEL",
+          "backing_member_id": "SECONDARY_BACKING__A__RAIL_01",
+          "contact_coordinates_mm": [
+            0.0,
+            -341.36941504209483,
+            241.3
+          ]
+        }
+      ],
+      "semantic_evidence": [
+        {
+          "type": "EXPLICIT_AGENT_DESIGN_ACTION",
+          "issue_id": "HOST_DEFICIT_3055C2BC288C"
+        }
+      ],
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED",
+      "load_path_status": "LOAD_PATH_RESOLVED",
+      "evidence_gaps": [
+        "CONNECTION_CAPACITY_NOT_VERIFIED"
+      ]
+    },
+    {
+      "panel_id": "LIVE_FACE_006_ZONE_00_B18_STRIP_002_SEG_01",
+      "role": "OPENING_RETURN_CLADDING",
+      "source_role": "WALL_SURFACE",
+      "assembly_layer": "L3_ENVELOPE_CLADDING",
+      "is_structural": false,
+      "self_weight_kN": 0.14370939,
+      "host_system_id": "SECONDARY_BACKING_SYSTEM::LIVE_FACE_006",
+      "receiving_member_ids": [
+        "SECONDARY_BACKING__A__RAIL_02"
+      ],
+      "transfer_archetype": "DECLARED_PANEL_TO_SECONDARY_BACKING_TO_JAMB_LOAD_PATH",
+      "load_distribution_method": "PANEL_SELF_WEIGHT_TO_BACKING_RAIL_AT_PANEL_CENTROID",
+      "geometry_evidence": [
+        {
+          "type": "EXECUTED_BACKING_RAIL_BEHIND_PANEL",
+          "backing_member_id": "SECONDARY_BACKING__A__RAIL_02",
+          "contact_coordinates_mm": [
+            0.0,
+            -341.36941504209483,
+            747.5375
+          ]
+        }
+      ],
+      "semantic_evidence": [
+        {
+          "type": "EXPLICIT_AGENT_DESIGN_ACTION",
+          "issue_id": "HOST_DEFICIT_3055C2BC288C"
+        }
+      ],
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED",
+      "load_path_status": "LOAD_PATH_RESOLVED",
+      "evidence_gaps": [
+        "CONNECTION_CAPACITY_NOT_VERIFIED"
+      ]
+    },
+    {
+      "panel_id": "LIVE_FACE_006_ZONE_00_B18_STRIP_003_SEG_01",
+      "role": "OPENING_RETURN_CLADDING",
+      "source_role": "WALL_SURFACE",
+      "assembly_layer": "L3_ENVELOPE_CLADDING",
+      "is_structural": false,
+      "self_weight_kN": 0.04969949737500005,
+      "host_system_id": "SECONDARY_BACKING_SYSTEM::LIVE_FACE_006",
+      "receiving_member_ids": [
+        "SECONDARY_BACKING__A__RAIL_03"
+      ],
+      "transfer_archetype": "DECLARED_PANEL_TO_SECONDARY_BACKING_TO_JAMB_LOAD_PATH",
+      "load_distribution_method": "PANEL_SELF_WEIGHT_TO_BACKING_RAIL_AT_PANEL_CENTROID",
+      "geometry_evidence": [
+        {
+          "type": "EXECUTED_BACKING_RAIL_BEHIND_PANEL",
+          "backing_member_id": "SECONDARY_BACKING__A__RAIL_03",
+          "contact_coordinates_mm": [
+            0.0,
+            -341.36941504209483,
+            1276.0
+          ]
+        }
+      ],
+      "semantic_evidence": [
+        {
+          "type": "EXPLICIT_AGENT_DESIGN_ACTION",
+          "issue_id": "HOST_DEFICIT_3055C2BC288C"
+        }
+      ],
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED",
+      "load_path_status": "LOAD_PATH_RESOLVED",
+      "evidence_gaps": [
+        "CONNECTION_CAPACITY_NOT_VERIFIED"
+      ]
+    },
+    {
+      "panel_id": "LIVE_FACE_006_ZONE_00_B18_STRIP_004_SEG_01",
+      "role": "OPENING_RETURN_CLADDING",
+      "source_role": "WALL_SURFACE",
+      "assembly_layer": "L3_ENVELOPE_CLADDING",
+      "is_structural": false,
+      "self_weight_kN": 0.14207632875,
+      "host_system_id": "SECONDARY_BACKING_SYSTEM::LIVE_FACE_006",
+      "receiving_member_ids": [
+        "SECONDARY_BACKING__A__RAIL_04"
+      ],
+      "transfer_archetype": "DECLARED_PANEL_TO_SECONDARY_BACKING_TO_JAMB_LOAD_PATH",
+      "load_distribution_method": "PANEL_SELF_WEIGHT_TO_BACKING_RAIL_AT_PANEL_CENTROID",
+      "geometry_evidence": [
+        {
+          "type": "EXECUTED_BACKING_RAIL_BEHIND_PANEL",
+          "backing_member_id": "SECONDARY_BACKING__A__RAIL_04",
+          "contact_coordinates_mm": [
+            0.0,
+            -341.36941504209483,
+            1818.7500000000005
+          ]
+        }
+      ],
+      "semantic_evidence": [
+        {
+          "type": "EXPLICIT_AGENT_DESIGN_ACTION",
+          "issue_id": "HOST_DEFICIT_3055C2BC288C"
+        }
+      ],
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED",
+      "load_path_status": "LOAD_PATH_RESOLVED",
+      "evidence_gaps": [
+        "CONNECTION_CAPACITY_NOT_VERIFIED"
+      ]
+    },
+    {
+      "panel_id": "LIVE_FACE_007_ZONE_00_B19_STRIP_001_SEG_01",
+      "role": "OPENING_RETURN_CLADDING",
+      "source_role": "WALL_SURFACE",
+      "assembly_layer": "L3_ENVELOPE_CLADDING",
+      "is_structural": false,
+      "self_weight_kN": 0.05110876874999999,
+      "host_system_id": "WALL_OPENING_FRAME::LIVE_FACE_000",
+      "receiving_member_ids": [
+        "JAMB_STUD_LIVE_FACE_000_0_LEFT"
+      ],
+      "transfer_archetype": "FASTENER_SUPPORTED_OPENING_RETURN_TO_FRAME",
+      "load_distribution_method": "PANEL_SELF_WEIGHT_TO_CONTACTING_HOST_AT_CONTACT_CENTROID",
+      "geometry_evidence": [
+        {
+          "type": "PHYSICAL_CONTACT_WITH_HOST",
+          "overlap_mm": [
+            0.0,
+            142.875,
+            498.47500000000014
+          ],
+          "contact_centroid_mm": [
+            -450.0,
+            -719.1319150420949,
+            287.3375
+          ]
+        }
+      ],
+      "semantic_evidence": [
+        {
+          "type": "SEMANTIC_HOST_ROLE_COMPATIBILITY",
+          "panel_role": "WALL_SURFACE",
+          "host_role": "JAMB_STUD"
+        }
+      ],
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED",
+      "load_path_status": "LOAD_PATH_RESOLVED",
+      "evidence_gaps": []
+    },
+    {
+      "panel_id": "LIVE_FACE_007_ZONE_00_B19_STRIP_002_SEG_01",
+      "role": "OPENING_RETURN_CLADDING",
+      "source_role": "WALL_SURFACE",
+      "assembly_layer": "L3_ENVELOPE_CLADDING",
+      "is_structural": false,
+      "self_weight_kN": 0.06139100624999996,
+      "host_system_id": "WALL_OPENING_FRAME::LIVE_FACE_000",
+      "receiving_member_ids": [
+        "JAMB_STUD_LIVE_FACE_000_0_LEFT"
+      ],
+      "transfer_archetype": "FASTENER_SUPPORTED_OPENING_RETURN_TO_FRAME",
+      "load_distribution_method": "PANEL_SELF_WEIGHT_TO_CONTACTING_HOST_AT_CONTACT_CENTROID",
+      "geometry_evidence": [
+        {
+          "type": "PHYSICAL_CONTACT_WITH_HOST",
+          "overlap_mm": [
+            0.0,
+            142.875,
+            460.375
+          ],
+          "contact_centroid_mm": [
+            -450.0,
+            -719.1319150420949,
+            769.7625
+          ]
+        }
+      ],
+      "semantic_evidence": [
+        {
+          "type": "SEMANTIC_HOST_ROLE_COMPATIBILITY",
+          "panel_role": "WALL_SURFACE",
+          "host_role": "JAMB_STUD"
+        }
+      ],
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED",
+      "load_path_status": "LOAD_PATH_RESOLVED",
+      "evidence_gaps": []
+    },
+    {
+      "panel_id": "LIVE_FACE_007_ZONE_00_B19_STRIP_003_SEG_01",
+      "role": "OPENING_RETURN_CLADDING",
+      "source_role": "WALL_SURFACE",
+      "assembly_layer": "L3_ENVELOPE_CLADDING",
+      "is_structural": false,
+      "self_weight_kN": 0.08322564000000011,
+      "host_system_id": "WALL_OPENING_FRAME::LIVE_FACE_000",
+      "receiving_member_ids": [
+        "JAMB_STUD_LIVE_FACE_000_0_LEFT"
+      ],
+      "transfer_archetype": "FASTENER_SUPPORTED_OPENING_RETURN_TO_FRAME",
+      "load_distribution_method": "PANEL_SELF_WEIGHT_TO_CONTACTING_HOST_AT_CONTACT_CENTROID",
+      "geometry_evidence": [
+        {
+          "type": "PHYSICAL_CONTACT_WITH_HOST",
+          "overlap_mm": [
+            0.0,
+            142.875,
+            546.0999999999999
+          ],
+          "contact_centroid_mm": [
+            -450.0,
+            -719.1319150420949,
+            1276.0
+          ]
+        }
+      ],
+      "semantic_evidence": [
+        {
+          "type": "SEMANTIC_HOST_ROLE_COMPATIBILITY",
+          "panel_role": "WALL_SURFACE",
+          "host_role": "JAMB_STUD"
+        }
+      ],
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED",
+      "load_path_status": "LOAD_PATH_RESOLVED",
+      "evidence_gaps": []
+    },
+    {
+      "panel_id": "LIVE_FACE_007_ZONE_00_B19_STRIP_004_SEG_01",
+      "role": "OPENING_RETURN_CLADDING",
+      "source_role": "WALL_SURFACE",
+      "assembly_layer": "L3_ENVELOPE_CLADDING",
+      "is_structural": false,
+      "self_weight_kN": 0.08322564000000013,
+      "host_system_id": "WALL_OPENING_FRAME::LIVE_FACE_000",
+      "receiving_member_ids": [
+        "JAMB_STUD_LIVE_FACE_000_0_LEFT"
+      ],
+      "transfer_archetype": "FASTENER_SUPPORTED_OPENING_RETURN_TO_FRAME",
+      "load_distribution_method": "PANEL_SELF_WEIGHT_TO_CONTACTING_HOST_AT_CONTACT_CENTROID",
+      "geometry_evidence": [
+        {
+          "type": "PHYSICAL_CONTACT_WITH_HOST",
+          "overlap_mm": [
+            0.0,
+            142.875,
+            546.0999999999999
+          ],
+          "contact_centroid_mm": [
+            -450.0,
+            -719.1319150420949,
+            1825.1000000000001
+          ]
+        }
+      ],
+      "semantic_evidence": [
+        {
+          "type": "SEMANTIC_HOST_ROLE_COMPATIBILITY",
+          "panel_role": "WALL_SURFACE",
+          "host_role": "JAMB_STUD"
+        }
+      ],
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED",
+      "load_path_status": "LOAD_PATH_RESOLVED",
+      "evidence_gaps": []
+    },
+    {
+      "panel_id": "LIVE_FACE_008_ZONE_00_B20_STRIP_001_SEG_01",
+      "role": "OPENING_RETURN_CLADDING",
+      "source_role": "WALL_SURFACE",
+      "assembly_layer": "L3_ENVELOPE_CLADDING",
+      "is_structural": false,
+      "self_weight_kN": 0.03955637249999923,
+      "host_system_id": "WALL_OPENING_FRAME::LIVE_FACE_000",
+      "receiving_member_ids": [
+        "LINTEL_LIVE_FACE_000_000"
+      ],
+      "transfer_archetype": "FASTENER_SUPPORTED_OPENING_RETURN_TO_FRAME",
+      "load_distribution_method": "PANEL_SELF_WEIGHT_TO_CONTACTING_HOST_AT_CONTACT_CENTROID",
+      "geometry_evidence": [
+        {
+          "type": "PHYSICAL_CONTACT_WITH_HOST",
+          "overlap_mm": [
+            346.07500000000005,
+            34.92500000000007,
+            0.0
+          ],
+          "contact_centroid_mm": [
+            276.96250000000003,
+            -773.1069150420949,
+            2100.0
+          ]
+        }
+      ],
+      "semantic_evidence": [
+        {
+          "type": "SEMANTIC_HOST_ROLE_COMPATIBILITY",
+          "panel_role": "WALL_SURFACE",
+          "host_role": "LINTEL"
+        }
+      ],
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED",
+      "load_path_status": "LOAD_PATH_RESOLVED",
+      "evidence_gaps": []
+    },
+    {
+      "panel_id": "LIVE_FACE_008_ZONE_00_B20_STRIP_002_SEG_01",
+      "role": "OPENING_RETURN_CLADDING",
+      "source_role": "WALL_SURFACE",
+      "assembly_layer": "L3_ENVELOPE_CLADDING",
+      "is_structural": false,
+      "self_weight_kN": 0.10923365249999924,
+      "host_system_id": "WALL_OPENING_FRAME::LIVE_FACE_000",
+      "receiving_member_ids": [
+        "LINTEL_LIVE_FACE_000_000"
+      ],
+      "transfer_archetype": "FASTENER_SUPPORTED_OPENING_RETURN_TO_FRAME",
+      "load_distribution_method": "PANEL_SELF_WEIGHT_TO_CONTACTING_HOST_AT_CONTACT_CENTROID",
+      "geometry_evidence": [
+        {
+          "type": "PHYSICAL_CONTACT_WITH_HOST",
+          "overlap_mm": [
+            546.1000000000001,
+            34.92499999999984,
+            0.0
+          ],
+          "contact_centroid_mm": [
+            -172.125,
+            -773.1069150420949,
+            2100.0
+          ]
+        }
+      ],
+      "semantic_evidence": [
+        {
+          "type": "SEMANTIC_HOST_ROLE_COMPATIBILITY",
+          "panel_role": "WALL_SURFACE",
+          "host_role": "LINTEL"
+        }
+      ],
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED",
+      "load_path_status": "LOAD_PATH_RESOLVED",
+      "evidence_gaps": []
+    },
+    {
+      "panel_id": "LIVE_FACE_005_ZONE_00_B17_EDGE_STRIP_001_SEG_01",
+      "role": "OPENING_RETURN_CLADDING",
+      "source_role": "WALL_SURFACE",
+      "assembly_layer": "L3_ENVELOPE_CLADDING",
+      "is_structural": false,
+      "self_weight_kN": 0.00019811999999996312,
+      "host_system_id": "WALL_OPENING_FRAME::LIVE_FACE_000",
+      "receiving_member_ids": [
+        "JAMB_STUD_LIVE_FACE_000_0_RIGHT"
+      ],
+      "transfer_archetype": "FASTENER_SUPPORTED_OPENING_RETURN_TO_FRAME",
+      "load_distribution_method": "PANEL_SELF_WEIGHT_TO_CONTACTING_HOST_AT_CONTACT_CENTROID",
+      "geometry_evidence": [
+        {
+          "type": "PHYSICAL_CONTACT_WITH_HOST",
+          "overlap_mm": [
+            5.684341886080802e-14,
+            139.70000000000016,
+            5.199999999999818
+          ],
+          "contact_centroid_mm": [
+            450.0,
+            -720.7194150420949,
+            2097.4
+          ]
+        }
+      ],
+      "semantic_evidence": [
+        {
+          "type": "SEMANTIC_HOST_ROLE_COMPATIBILITY",
+          "panel_role": "WALL_SURFACE",
+          "host_role": "JAMB_STUD"
+        }
+      ],
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED",
+      "load_path_status": "LOAD_PATH_RESOLVED",
+      "evidence_gaps": []
+    },
+    {
+      "panel_id": "LIVE_FACE_006_ZONE_00_B18_EDGE_STRIP_001_SEG_01",
+      "role": "OPENING_RETURN_CLADDING",
+      "source_role": "WALL_SURFACE",
+      "assembly_layer": "L3_ENVELOPE_CLADDING",
+      "is_structural": false,
+      "self_weight_kN": 0.00017359312499994176,
+      "host_system_id": "SECONDARY_BACKING_SYSTEM::LIVE_FACE_006",
+      "receiving_member_ids": [
+        "SECONDARY_BACKING__A__RAIL_05"
+      ],
+      "transfer_archetype": "DECLARED_PANEL_TO_SECONDARY_BACKING_TO_JAMB_LOAD_PATH",
+      "load_distribution_method": "PANEL_SELF_WEIGHT_TO_BACKING_RAIL_AT_PANEL_CENTROID",
+      "geometry_evidence": [
+        {
+          "type": "EXECUTED_BACKING_RAIL_BEHIND_PANEL",
+          "backing_member_id": "SECONDARY_BACKING__A__RAIL_05",
+          "contact_coordinates_mm": [
+            0.0,
+            -341.36941504209483,
+            2098.9875
+          ]
+        }
+      ],
+      "semantic_evidence": [
+        {
+          "type": "EXPLICIT_AGENT_DESIGN_ACTION",
+          "issue_id": "HOST_DEFICIT_3055C2BC288C"
+        }
+      ],
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED",
+      "load_path_status": "LOAD_PATH_RESOLVED",
+      "evidence_gaps": [
+        "CONNECTION_CAPACITY_NOT_VERIFIED"
+      ]
+    },
+    {
+      "panel_id": "LIVE_FACE_008_ZONE_00_B20_EDGE_STRIP_001_SEG_01",
+      "role": "OPENING_RETURN_CLADDING",
+      "source_role": "WALL_SURFACE",
+      "assembly_layer": "L3_ENVELOPE_CLADDING",
+      "is_structural": false,
+      "self_weight_kN": 6.953250000000011e-05,
+      "host_system_id": "WALL_OPENING_FRAME::LIVE_FACE_000",
+      "receiving_member_ids": [
+        "LINTEL_LIVE_FACE_000_000"
+      ],
+      "transfer_archetype": "FASTENER_SUPPORTED_OPENING_RETURN_TO_FRAME",
+      "load_distribution_method": "PANEL_SELF_WEIGHT_TO_CONTACTING_HOST_AT_CONTACT_CENTROID",
+      "geometry_evidence": [
+        {
+          "type": "PHYSICAL_CONTACT_WITH_HOST",
+          "overlap_mm": [
+            1.8250000000000455,
+            34.92499999999973,
+            0.0
+          ],
+          "contact_centroid_mm": [
+            -449.0875,
+            -773.1069150420948,
+            2100.0
+          ]
+        }
+      ],
+      "semantic_evidence": [
+        {
+          "type": "SEMANTIC_HOST_ROLE_COMPATIBILITY",
+          "panel_role": "WALL_SURFACE",
+          "host_role": "LINTEL"
+        }
+      ],
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED",
+      "load_path_status": "LOAD_PATH_RESOLVED",
+      "evidence_gaps": []
+    }
+  ],
+  "karamba_load_objects": [
+    {
+      "load_id": "PANEL_DL::LIVE_FACE_005_ZONE_00_B17_STRIP_001_SEG_01",
+      "panel_id": "LIVE_FACE_005_ZONE_00_B17_STRIP_001_SEG_01",
+      "physical_member_id": "JAMB_STUD_LIVE_FACE_000_0_RIGHT",
+      "force_kN": [
+        0.0,
+        0.0,
+        -0.07645146000000007
+      ],
+      "contact_coordinates_mm": [
+        450.0,
+        -720.7194150420949,
+        269.87499999999994
+      ],
+      "load_case": "DL_STRUCTURAL_TIMBER",
+      "distribution_method": "PANEL_SELF_WEIGHT_TO_CONTACTING_HOST_AT_CONTACT_CENTROID",
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED"
+    },
+    {
+      "load_id": "PANEL_DL::LIVE_FACE_005_ZONE_00_B17_STRIP_002_SEG_01",
+      "panel_id": "LIVE_FACE_005_ZONE_00_B17_STRIP_002_SEG_01",
+      "physical_member_id": "JAMB_STUD_LIVE_FACE_000_0_RIGHT",
+      "force_kN": [
+        0.0,
+        0.0,
+        -0.029758004999999962
+      ],
+      "contact_coordinates_mm": [
+        450.0,
+        -720.7194150420949,
+        765.0
+      ],
+      "load_case": "DL_STRUCTURAL_TIMBER",
+      "distribution_method": "PANEL_SELF_WEIGHT_TO_CONTACTING_HOST_AT_CONTACT_CENTROID",
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED"
+    },
+    {
+      "load_id": "PANEL_DL::LIVE_FACE_005_ZONE_00_B17_STRIP_003_SEG_01",
+      "panel_id": "LIVE_FACE_005_ZONE_00_B17_STRIP_003_SEG_01",
+      "physical_member_id": "JAMB_STUD_LIVE_FACE_000_0_RIGHT",
+      "force_kN": [
+        0.0,
+        0.0,
+        -0.02975800499999988
+      ],
+      "contact_coordinates_mm": [
+        450.0,
+        -720.7194150420949,
+        1288.6999999999998
+      ],
+      "load_case": "DL_STRUCTURAL_TIMBER",
+      "distribution_method": "PANEL_SELF_WEIGHT_TO_CONTACTING_HOST_AT_CONTACT_CENTROID",
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED"
+    },
+    {
+      "load_id": "PANEL_DL::LIVE_FACE_005_ZONE_00_B17_STRIP_004_SEG_01",
+      "panel_id": "LIVE_FACE_005_ZONE_00_B17_STRIP_004_SEG_01",
+      "physical_member_id": "JAMB_STUD_LIVE_FACE_000_0_RIGHT",
+      "force_kN": [
+        0.0,
+        0.0,
+        -0.06169342499999989
+      ],
+      "contact_coordinates_mm": [
+        450.0,
+        -720.7194150420949,
+        1821.9250000000002
+      ],
+      "load_case": "DL_STRUCTURAL_TIMBER",
+      "distribution_method": "PANEL_SELF_WEIGHT_TO_CONTACTING_HOST_AT_CONTACT_CENTROID",
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED"
+    },
+    {
+      "load_id": "PANEL_DL::LIVE_FACE_007_ZONE_00_B19_STRIP_001_SEG_01",
+      "panel_id": "LIVE_FACE_007_ZONE_00_B19_STRIP_001_SEG_01",
+      "physical_member_id": "JAMB_STUD_LIVE_FACE_000_0_LEFT",
+      "force_kN": [
+        0.0,
+        0.0,
+        -0.05110876874999999
+      ],
+      "contact_coordinates_mm": [
+        -450.0,
+        -719.1319150420949,
+        287.3375
+      ],
+      "load_case": "DL_STRUCTURAL_TIMBER",
+      "distribution_method": "PANEL_SELF_WEIGHT_TO_CONTACTING_HOST_AT_CONTACT_CENTROID",
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED"
+    },
+    {
+      "load_id": "PANEL_DL::LIVE_FACE_007_ZONE_00_B19_STRIP_002_SEG_01",
+      "panel_id": "LIVE_FACE_007_ZONE_00_B19_STRIP_002_SEG_01",
+      "physical_member_id": "JAMB_STUD_LIVE_FACE_000_0_LEFT",
+      "force_kN": [
+        0.0,
+        0.0,
+        -0.06139100624999996
+      ],
+      "contact_coordinates_mm": [
+        -450.0,
+        -719.1319150420949,
+        769.7625
+      ],
+      "load_case": "DL_STRUCTURAL_TIMBER",
+      "distribution_method": "PANEL_SELF_WEIGHT_TO_CONTACTING_HOST_AT_CONTACT_CENTROID",
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED"
+    },
+    {
+      "load_id": "PANEL_DL::LIVE_FACE_007_ZONE_00_B19_STRIP_003_SEG_01",
+      "panel_id": "LIVE_FACE_007_ZONE_00_B19_STRIP_003_SEG_01",
+      "physical_member_id": "JAMB_STUD_LIVE_FACE_000_0_LEFT",
+      "force_kN": [
+        0.0,
+        0.0,
+        -0.08322564000000011
+      ],
+      "contact_coordinates_mm": [
+        -450.0,
+        -719.1319150420949,
+        1276.0
+      ],
+      "load_case": "DL_STRUCTURAL_TIMBER",
+      "distribution_method": "PANEL_SELF_WEIGHT_TO_CONTACTING_HOST_AT_CONTACT_CENTROID",
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED"
+    },
+    {
+      "load_id": "PANEL_DL::LIVE_FACE_007_ZONE_00_B19_STRIP_004_SEG_01",
+      "panel_id": "LIVE_FACE_007_ZONE_00_B19_STRIP_004_SEG_01",
+      "physical_member_id": "JAMB_STUD_LIVE_FACE_000_0_LEFT",
+      "force_kN": [
+        0.0,
+        0.0,
+        -0.08322564000000013
+      ],
+      "contact_coordinates_mm": [
+        -450.0,
+        -719.1319150420949,
+        1825.1000000000001
+      ],
+      "load_case": "DL_STRUCTURAL_TIMBER",
+      "distribution_method": "PANEL_SELF_WEIGHT_TO_CONTACTING_HOST_AT_CONTACT_CENTROID",
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED"
+    },
+    {
+      "load_id": "PANEL_DL::LIVE_FACE_008_ZONE_00_B20_STRIP_001_SEG_01",
+      "panel_id": "LIVE_FACE_008_ZONE_00_B20_STRIP_001_SEG_01",
+      "physical_member_id": "LINTEL_LIVE_FACE_000_000",
+      "force_kN": [
+        0.0,
+        0.0,
+        -0.03955637249999923
+      ],
+      "contact_coordinates_mm": [
+        276.96250000000003,
+        -773.1069150420949,
+        2100.0
+      ],
+      "load_case": "DL_STRUCTURAL_TIMBER",
+      "distribution_method": "PANEL_SELF_WEIGHT_TO_CONTACTING_HOST_AT_CONTACT_CENTROID",
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED"
+    },
+    {
+      "load_id": "PANEL_DL::LIVE_FACE_008_ZONE_00_B20_STRIP_002_SEG_01",
+      "panel_id": "LIVE_FACE_008_ZONE_00_B20_STRIP_002_SEG_01",
+      "physical_member_id": "LINTEL_LIVE_FACE_000_000",
+      "force_kN": [
+        0.0,
+        0.0,
+        -0.10923365249999924
+      ],
+      "contact_coordinates_mm": [
+        -172.125,
+        -773.1069150420949,
+        2100.0
+      ],
+      "load_case": "DL_STRUCTURAL_TIMBER",
+      "distribution_method": "PANEL_SELF_WEIGHT_TO_CONTACTING_HOST_AT_CONTACT_CENTROID",
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED"
+    },
+    {
+      "load_id": "PANEL_DL::LIVE_FACE_005_ZONE_00_B17_EDGE_STRIP_001_SEG_01",
+      "panel_id": "LIVE_FACE_005_ZONE_00_B17_EDGE_STRIP_001_SEG_01",
+      "physical_member_id": "JAMB_STUD_LIVE_FACE_000_0_RIGHT",
+      "force_kN": [
+        0.0,
+        0.0,
+        -0.00019811999999996312
+      ],
+      "contact_coordinates_mm": [
+        450.0,
+        -720.7194150420949,
+        2097.4
+      ],
+      "load_case": "DL_STRUCTURAL_TIMBER",
+      "distribution_method": "PANEL_SELF_WEIGHT_TO_CONTACTING_HOST_AT_CONTACT_CENTROID",
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED"
+    },
+    {
+      "load_id": "PANEL_DL::LIVE_FACE_008_ZONE_00_B20_EDGE_STRIP_001_SEG_01",
+      "panel_id": "LIVE_FACE_008_ZONE_00_B20_EDGE_STRIP_001_SEG_01",
+      "physical_member_id": "LINTEL_LIVE_FACE_000_000",
+      "force_kN": [
+        0.0,
+        0.0,
+        -6.953250000000011e-05
+      ],
+      "contact_coordinates_mm": [
+        -449.0875,
+        -773.1069150420948,
+        2100.0
+      ],
+      "load_case": "DL_STRUCTURAL_TIMBER",
+      "distribution_method": "PANEL_SELF_WEIGHT_TO_CONTACTING_HOST_AT_CONTACT_CENTROID",
+      "attachment_capacity_status": "ENGINEERING_CHECK_REQUIRED"
+    }
+  ],
+  "resolved_weight_kN": 1.0937152687499985,
+  "partially_resolved_weight_kN": 0,
+  "unresolved_weight_kN": 0,
+  "previous_geometry_only_report": "SUPERSEDED_BY_ASSEMBLY_SEMANTICS_REVIEW",
+  "surface_stiffness": "OFF",
+  "connection_capacity": "NOT_VERIFIED"
+}

@@ -1,0 +1,23 @@
+{
+  "test_command": "uv run --no-project --python 3.12 python -X utf8 -m unittest discover -s timber-baseline/tests -v",
+  "tests_run": 36,
+  "failures": 0,
+  "errors": 0,
+  "recorded_duration_seconds": 23.875,
+  "baseline_tests": 19,
+  "change_tests": 17,
+  "test_result_source": "Observed unittest process output in this development session; not a second test execution.",
+  "html_local_links_checked": 7,
+  "svg_xml_parse": "PASS",
+  "frozen_fixture_hashes": "PASS",
+  "browser_visual_preview": "NOT_COMPLETED_LOCAL_FILE_URL_BLOCKED",
+  "source_sha256": {
+    "src/timber_baseline/__init__.py": "cde61df54bda2426875fdc07f251c7b007f5c35ed693c685eeba31b9835abcd8",
+    "src/timber_baseline/allocation_revision_binding.py": "f7a79f50ac460753cf79c5edd0321848d23f766544903609681a3d3cf037ba0b",
+    "src/timber_baseline/change_experiment.py": "8eb6230b20e514440fdf45ab2831c24d2dfa0900dfe83360e1e4f174dc44ae29",
+    "src/timber_baseline/change_report.py": "5f59fdae22bc0456a98e21d6881121e7ffdf0bc060484e0c3ff5f5673f2210b6",
+    "src/timber_baseline/replay.py": "ae0ad0e24e04699754509ed78614a2e92c35e38561518f43c7f2f9bd7cbd0184",
+    "src/timber_baseline/secondary_backing_agent.py": "737509b773efbada70c9003733673b145a5b580014949af676eaef5a8224b943",
+    "src/timber_baseline/verification.py": "9e28fe1df46196188a13ce5882b661db6bbfffd1ac7715e81d82b97085e5433c"
+  }
+}

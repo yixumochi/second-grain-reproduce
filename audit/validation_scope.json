@@ -1,0 +1,16 @@
+{
+  "input_hashes": "2161/2161 passed",
+  "grade_tests": 8,
+  "batch_control_tests": 1,
+  "shell_syntax": "6 files passed",
+  "cpu_cases": [
+    "117692",
+    "120235",
+    "111575"
+  ],
+  "cpu_source": "Historical 392 outputs, regression ONLY",
+  "new_cloud_gpu_inference": "NOT_RUN",
+  "browser_visual_qa": "NOT_RUN",
+  "scientific_render_inspected": true,
+  "protected_original_experiment_files": 31
+}

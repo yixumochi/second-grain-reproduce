@@ -1,0 +1,23 @@
+{
+  "stock_id": "119600_001",
+  "prior_inventory_digest": "79b92d095877375a4576995f1536215629e20bbc147f101c2f76b737febc7f2a",
+  "units": "mm",
+  "change_scope": "STOCK_LENGTH_FROM_FIXED_ORIGIN",
+  "evidence_kind": "CONTROLLED_SYNTHETIC_OBSERVATION",
+  "both_endpoints_observed": true,
+  "uncertainty_mm": 0.0,
+  "length_mm": 4267.2,
+  "observed_endpoints_mm": [
+    [
+      100,
+      200,
+      300
+    ],
+    [
+      100,
+      4467.2,
+      300
+    ]
+  ],
+  "construction": "Known 90-degree rotation and translation of two synthetic endpoints; not estimated."
+}

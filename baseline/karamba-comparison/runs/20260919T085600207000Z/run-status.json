@@ -1,0 +1,14 @@
+{
+  "status": "FAILED", 
+  "gh_canvas_modified": false, 
+  "original_active_pointers_modified": false, 
+  "run_id": "20260919T085600207000Z", 
+  "cases": {
+    "baseline": {
+      "status": "FAILED", 
+      "error": "Traceback (most recent call last):\n  File \"C:\\Users\\cjhao\\Documents\\Codex\\2026-09-12\\h-paper-wip-connector-demo\\timber-baseline\\karamba-comparison\\run_in_rhino.py\", line 214, in main\n    result=execute_case(folder,output,name,environment,native)\n  File \"C:\\Users\\cjhao\\Documents\\Codex\\2026-09-12\\h-paper-wip-connector-demo\\timber-baseline\\karamba-comparison\\run_in_rhino.py\", line 66, in execute_case\n    require(digest(framework)==request['framework_digest'],'FRAMEWORK_DIGEST_MISMATCH')\n  File \"C:\\Users\\cjhao\\Documents\\Codex\\2026-09-12\\h-paper-wip-connector-demo\\timber-baseline\\karamba-comparison\\run_in_rhino.py\", line 42, in require\n    raise ValueError(message)\nValueError: FRAMEWORK_DIGEST_MISMATCH\n"
+    }
+  }, 
+  "approved_for_construction": false, 
+  "engineering_approval": "UNKNOWN"
+}

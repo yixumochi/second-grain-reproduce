@@ -1,0 +1,159 @@
+{
+  "schema": "TIMBER_BASELINE_FIXTURE_V1",
+  "case_id": "secondary-backing-a",
+  "transaction_id": "AGENT_LOOP_20260914_144931",
+  "files": {
+    "inputs/inventory.json": {
+      "source": "H:\\新项目\\AI_TIMBER_FINAL_PACKAGE_20260919\\05_MATERIAL_STOCK\\earthwise_inventory_normalized.json",
+      "sha256": "d1e268121eb0e2a641e4b75ed736caebf74f2843d273ce033aea6c504ca173e2",
+      "bytes": 6613332,
+      "origin": "FINAL_PACKAGE",
+      "semantic_sha256": "79b92d095877375a4576995f1536215629e20bbc147f101c2f76b737febc7f2a"
+    },
+    "inputs/design_supply.json": {
+      "source": "H:\\新项目\\AI_TIMBER_FINAL_PACKAGE_20260919\\05_MATERIAL_STOCK\\design_supply_families.json",
+      "sha256": "6a73c9de279d71a44e55ae3f80b0418e27f229260d998e167aa4b8f8a963dc5e",
+      "bytes": 4590395,
+      "origin": "FINAL_PACKAGE",
+      "semantic_sha256": "c4d9da829a99297ea6cd6e7b52f7271cdcd88e2a395780acf5d1aa4083c9803e"
+    },
+    "inputs/allocation_before.json": {
+      "source": "H:\\新项目\\agent\\runtime\\agent_loop_01\\AGENT_LOOP_20260914_144931\\pre_action_checkpoint\\allocation_json.json",
+      "sha256": "c82db38793bfcc77b9e8f5fa296892a6274129882bec5b2ccca2c4fb65bf390e",
+      "bytes": 11272095,
+      "origin": "RECOVERED_RUNTIME",
+      "matches_original_transaction_checkpoint_hash": true,
+      "semantic_sha256": "0b0f957a685dae652273217bae2cdacc6b01998600e015a4666b5d3278e8c3be"
+    },
+    "inputs/elements.json": {
+      "source": "H:\\新项目\\agent\\runtime\\agent_loop_01\\AGENT_LOOP_20260914_144931\\pre_action_checkpoint\\element_semantics_json.json",
+      "sha256": "afa6a23b7db70aa85c2b7ecad4f6c13f322f7416beea5b801adc6068035251e5",
+      "bytes": 370474,
+      "origin": "RECOVERED_RUNTIME",
+      "matches_original_transaction_checkpoint_hash": true,
+      "semantic_sha256": "7c400efbba317bfe1b9f43432b10a7ed1a0c675e9f123ae674772c4e64daedb4"
+    },
+    "inputs/action.json": {
+      "source": "H:\\新项目\\agent\\runtime\\agent_loop_01\\AGENT_LOOP_20260914_144931\\pre_action_checkpoint\\design_action_state_json.json",
+      "sha256": "d581f98b45b502d16b08a115cce015d7e4c3100a46a960468184ae4647754509",
+      "bytes": 4699,
+      "origin": "RECOVERED_RUNTIME",
+      "matches_original_transaction_checkpoint_hash": true,
+      "semantic_sha256": "a58d71315cb9bd3440714e728666ca18f7771b2fd3e1064d9c79edc8c62ad2c3"
+    },
+    "inputs/graph_before.json": {
+      "source": "H:\\新项目\\AI_TIMBER_FINAL_PACKAGE_20260919\\04_ASSEMBLY_SEMANTICS\\building_assembly_graph_sanitized.json",
+      "sha256": "566b582b5f522dc8a4918b14ab9e3ad7235fee787f5b02e48b5b8c7b380c5991",
+      "bytes": 1030056,
+      "origin": "FINAL_PACKAGE",
+      "semantic_sha256": "458bb209a14d262da87e645ffd0dc31808326e1f30e7bf691fc929c640675fab"
+    },
+    "inputs/panels_before.json": {
+      "source": "H:\\新项目\\AI_TIMBER_FINAL_PACKAGE_20260919\\04_ASSEMBLY_SEMANTICS\\wall_panel_load_transfer_before_agent_action.json",
+      "sha256": "7edf8bb684d821bd3e0a98258996db3a1c55d916d44c7ab8875181d4afc592c5",
+      "bytes": 27228,
+      "origin": "FINAL_PACKAGE",
+      "semantic_sha256": "75972165af8507e3999618ca56bf07138e16e7479b30f35a6ee31e939e29bace"
+    },
+    "inputs/framework_before.json": {
+      "source": "H:\\新项目\\agent\\runtime\\archsim_integration\\reference_framework.json",
+      "sha256": "a06f99e12f7fe96c4d30e1276a15944a3608fae8c9b7a27f7c66aac1d8a78b8d",
+      "bytes": 1459683,
+      "origin": "RECOVERED_RUNTIME",
+      "semantic_sha256": "a0563f5612ee2db24eac59bbddbc0b508ee93f5a25ee6a9973b62f5d95c3b8c4"
+    },
+    "inputs/loads_before.json": {
+      "source": "H:\\新项目\\agent\\runtime\\building_assembly\\karamba_panel_loads.json",
+      "sha256": "cc0cb78ac90c004da20e1483ad820a87aac5d07353427ce7423c725c70902bf3",
+      "bytes": 7790,
+      "origin": "RECOVERED_RUNTIME",
+      "semantic_sha256": "3dac7007ae2825a6be28b134c420420a9c0d96fda63e420d4642611d6281516f"
+    },
+    "historical/requirement.json": {
+      "source": "H:\\新项目\\AI_TIMBER_FINAL_PACKAGE_20260919\\03_AGENT_LOOP\\secondary_backing_requirement.json",
+      "sha256": "c08ec98b30f3150d3d61fdf809da27dc1dfc8ff1d9337a2a3e4ab8b365a477fb",
+      "bytes": 2684,
+      "origin": "FINAL_PACKAGE",
+      "semantic_sha256": "d5c0c75ff0aca557ba033077363a0a69b349600bebb62a85e19b39798f7bf414"
+    },
+    "historical/options.json": {
+      "source": "H:\\新项目\\AI_TIMBER_FINAL_PACKAGE_20260919\\03_AGENT_LOOP\\secondary_backing_options.json",
+      "sha256": "91c99352796fc21ec97c0e8ede4f9efbf0379d0ad202cccfcbb8e96240dcc713",
+      "bytes": 74368,
+      "origin": "FINAL_PACKAGE",
+      "semantic_sha256": "6d4e8bb2fe7490fb01f27770d37153b030915ae0a9f7b9c1bd66ac6a45700684"
+    },
+    "historical/decision.json": {
+      "source": "H:\\新项目\\AI_TIMBER_FINAL_PACKAGE_20260919\\03_AGENT_LOOP\\agent_decision.json",
+      "sha256": "7532a41e2ec944b370689646d2b6c4923844390f1d88d768d98ca1eaa746a507",
+      "bytes": 710,
+      "origin": "FINAL_PACKAGE",
+      "semantic_sha256": "cf928a4c1487ced1c3a34396bdadf4a0a237dee77f9b06a73b5f7205a1fa7588"
+    },
+    "historical/ledger.json": {
+      "source": "H:\\新项目\\AI_TIMBER_FINAL_PACKAGE_20260919\\03_AGENT_LOOP\\agent_backing_stock_ledger.json",
+      "sha256": "d5fa483f8a212a50ff5141efa8d98bb4ef3ffda8f49208fb7ba658592e5275d9",
+      "bytes": 8739,
+      "origin": "FINAL_PACKAGE",
+      "semantic_sha256": "97d7d89aaa5e588df637bd9edbe88cb69e25a4cf227910dd7be138f430e93e83"
+    },
+    "historical/graph_after.json": {
+      "source": "H:\\新项目\\AI_TIMBER_FINAL_PACKAGE_20260919\\04_ASSEMBLY_SEMANTICS\\building_assembly_graph_after_agent_action.json",
+      "sha256": "69106056319b23527b9c0cb9f051969dd4297d277e5813696d0e8f4d4f5eddfe",
+      "bytes": 1065206,
+      "origin": "FINAL_PACKAGE",
+      "semantic_sha256": "9069b440aff84b8f938dfb891049d51dc07adf4684b3251bbe48a7bc1b46d3f5"
+    },
+    "historical/transfer_after.json": {
+      "source": "H:\\新项目\\AI_TIMBER_FINAL_PACKAGE_20260919\\04_ASSEMBLY_SEMANTICS\\wall_panel_load_transfer_after_agent_action.json",
+      "sha256": "b1665e3a830e12e1fe3e7e68e9ff7e021e877e6dba30cf9a5d3b5ea905fb2f97",
+      "bytes": 30066,
+      "origin": "FINAL_PACKAGE",
+      "semantic_sha256": "52c6905a1d98e908ded4a8e3172c62b3a73b10e15bc144219973eab9c7edadf9"
+    },
+    "historical/framework_after.json": {
+      "source": "H:\\新项目\\agent\\runtime\\agent_loop_01\\AGENT_LOOP_20260914_144931\\analysis_framework_after_agent_action.json",
+      "sha256": "cdd4555b5ac186080404850ccbdd5a5bc2edbbf14a7cc80a13c28c46997054de",
+      "bytes": 1504645,
+      "origin": "RECOVERED_RUNTIME",
+      "semantic_sha256": "705b75c504f11c309d0558251127381ba4b688909ed01d13918cded7950faaaa"
+    },
+    "historical/loads_after.json": {
+      "source": "H:\\新项目\\agent\\runtime\\agent_loop_01\\AGENT_LOOP_20260914_144931\\karamba_panel_loads_after_agent_action.json",
+      "sha256": "00e7635dbaef99e9bc32f5fe8fe567697937ce52e9851e4a21f5caa0d5143e62",
+      "bytes": 10876,
+      "origin": "RECOVERED_RUNTIME",
+      "semantic_sha256": "aa026057f63944a395248d7f6d6d586fc8eafccf3d33119708ca0827e3da5ac6"
+    },
+    "historical/structural_result.json": {
+      "source": "H:\\新项目\\AI_TIMBER_FINAL_PACKAGE_20260919\\06_STRUCTURE\\structural_result_after_agent_action.json",
+      "sha256": "71a92c099d151c55a9f101158eaa9791a11ddc92f76afdb9504432d9e62419fc",
+      "bytes": 215266,
+      "origin": "FINAL_PACKAGE",
+      "semantic_sha256": "5dfd2fbc8ec0bbe85e950b9d93caf2919ce9f3bcdac9068e78331322db37da88"
+    },
+    "historical/transaction_manifest.json": {
+      "source": "H:\\新项目\\AI_TIMBER_FINAL_PACKAGE_20260919\\03_AGENT_LOOP\\transaction_manifest.json",
+      "sha256": "f89a7d1373a160f40fddff064ca1dbd52a771e3da273620998373d07bbf1533f",
+      "bytes": 6008,
+      "origin": "FINAL_PACKAGE",
+      "semantic_sha256": "e9c4c52a3600304e9c1e1bb2cf5ff2a1f3c1cc41f87e7539dc194658a002768f"
+    },
+    "../original-code/secondary_backing_agent.py": {
+      "source": "H:\\新项目\\AI_TIMBER_FINAL_PACKAGE_20260919\\08_CODE\\agent\\timber_agent\\materials\\secondary_backing_agent.py",
+      "sha256": "655520de782109f95e138d915164fb70dca6bc807644c132e3ae43e541228b6b",
+      "origin": "UNMODIFIED_CODE_REFERENCE"
+    },
+    "../original-code/allocation_revision_binding.py": {
+      "source": "H:\\新项目\\AI_TIMBER_FINAL_PACKAGE_20260919\\08_CODE\\agent\\timber_agent\\materials\\allocation_revision_binding.py",
+      "sha256": "f7a79f50ac460753cf79c5edd0321848d23f766544903609681a3d3cf037ba0b",
+      "origin": "UNMODIFIED_CODE_REFERENCE"
+    },
+    "../original-code/finalize_agent_correction_loop.py": {
+      "source": "H:\\新项目\\AI_TIMBER_FINAL_PACKAGE_20260919\\08_CODE\\agent\\scripts\\finalize_agent_correction_loop.py",
+      "sha256": "33746ad0001f0d6a2799efb195a06341766dc5812cba739aac55f47f45785f60",
+      "origin": "UNMODIFIED_CODE_REFERENCE"
+    }
+  },
+  "structural_evidence_scope": "Historical file association only. No solver input signature was recorded in the original result. Import hashes do not certify a new or historically bound solve."
+}

@@ -1,0 +1,31 @@
+{
+  "schema": "TIMBER_LENGTH_CHANGE_V1",
+  "event": {
+    "stock_id": "119600_001",
+    "prior_inventory_digest": "79b92d095877375a4576995f1536215629e20bbc147f101c2f76b737febc7f2a",
+    "units": "mm",
+    "change_scope": "STOCK_LENGTH_FROM_FIXED_ORIGIN",
+    "evidence_kind": "CONTROLLED_SYNTHETIC_OBSERVATION",
+    "both_endpoints_observed": false,
+    "uncertainty_mm": 0.0,
+    "length_mm": null
+  },
+  "classification": "INSUFFICIENT_EVIDENCE",
+  "status": "NEEDS_EVIDENCE",
+  "prior_input_digest": "19533c237486fa8532f01eda048a39f063fbab119e9066f4472d6d30f6972bbd",
+  "prior_stage_digest": "da36882ef44e05bedb2ffef8537c30e9f15389c5aeaf1c58fe1f31b7e32e3972",
+  "baseline_fixture_modified": false,
+  "solver_executed": false,
+  "diffcheck_executed": false,
+  "engineering_approval": "UNKNOWN",
+  "approved_for_construction": false,
+  "historical_solver_values_reused": false,
+  "affected_member_ids": [],
+  "changed_member_ids": [],
+  "analysis_status": "NO_NEW_SOLVER_EVIDENCE",
+  "scope": "Unfabricated secondary allocation A; exact controlled stock-length evidence only.",
+  "proposed_inventory_revision": null,
+  "reason": "Endpoint coverage or exact dimensional evidence is insufficient; no inventory update.",
+  "allocation_retained_digest": "b23112f5416581a904bcca2dca923bbdf68449c5b42a99cf5fcf01d0a61c847a",
+  "scenario": "missing_endpoint"
+}

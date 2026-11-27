@@ -1,0 +1,276 @@
+{
+  "schema": "TIMBER_LENGTH_CHANGE_V1",
+  "event": {
+    "stock_id": "119600_001",
+    "prior_inventory_digest": "79b92d095877375a4576995f1536215629e20bbc147f101c2f76b737febc7f2a",
+    "units": "mm",
+    "change_scope": "STOCK_LENGTH_FROM_FIXED_ORIGIN",
+    "evidence_kind": "CONTROLLED_SYNTHETIC_OBSERVATION",
+    "both_endpoints_observed": true,
+    "uncertainty_mm": 0.0,
+    "length_mm": 4058.277660168
+  },
+  "classification": "LENGTH_CHANGED",
+  "status": "REALLOCATED",
+  "prior_input_digest": "19533c237486fa8532f01eda048a39f063fbab119e9066f4472d6d30f6972bbd",
+  "prior_stage_digest": "da36882ef44e05bedb2ffef8537c30e9f15389c5aeaf1c58fe1f31b7e32e3972",
+  "baseline_fixture_modified": false,
+  "solver_executed": false,
+  "diffcheck_executed": false,
+  "engineering_approval": "UNKNOWN",
+  "approved_for_construction": false,
+  "historical_solver_values_reused": false,
+  "affected_member_ids": [
+    "SECONDARY_BACKING__A__RAIL_01"
+  ],
+  "changed_member_ids": [
+    "SECONDARY_BACKING__A__RAIL_01"
+  ],
+  "analysis_status": "REQUIRES_NEW_SOLVE",
+  "scope": "Unfabricated secondary allocation A; exact controlled stock-length evidence only.",
+  "length_change_mm": {
+    "before": 4267.2,
+    "after": 4058.277660168,
+    "delta": -208.92233983200003
+  },
+  "stock_dependent_member_ids": [
+    "SECONDARY_BACKING__A__RAIL_01"
+  ],
+  "proposed_inventory_revision": "EW_20260911T074059599568Z_a68d5a26c1::EXPERIMENT::b9bd628b0504",
+  "member_changes": [
+    {
+      "member_id": "SECONDARY_BACKING__A__RAIL_01",
+      "before": {
+        "member_token": "RAIL_01",
+        "role": "SECONDARY_BACKING_RAIL",
+        "start_mm": [
+          -450.0,
+          -341.36941504209483,
+          241.3
+        ],
+        "end_mm": [
+          450.0,
+          -341.36941504209483,
+          241.3
+        ],
+        "required_length_mm": 900.0,
+        "element_id": "SECONDARY_BACKING__A__RAIL_01",
+        "source_stock_instance_id": "119600_001",
+        "listing_id": "119600",
+        "material_section_family_id": "MSF_FIR_A56B298152__DIMENSION_LUMBER",
+        "source_kind": "RESIDUAL_OFFCUT",
+        "source_interval_mm": [
+          3168.277660168,
+          4068.277660168
+        ],
+        "kerf_interval_mm": [
+          4068.277660168,
+          4071.277660168
+        ],
+        "section": {
+          "width_mm": 95.25,
+          "depth_mm": 146.05,
+          "basis": "RECORDED_EARTHWISE_EXACT_SECTION"
+        },
+        "allocation_status": "REAL_RESIDUAL_ALLOCATED",
+        "joining": "NONE",
+        "fabrication_status": "CROSS_CUT_REQUIRED",
+        "structural_verification_status": "NOT_YET_RUN_MISSING_CODE_PROPERTY"
+      },
+      "after": {
+        "member_token": "RAIL_01",
+        "role": "SECONDARY_BACKING_RAIL",
+        "start_mm": [
+          -450.0,
+          -341.36941504209483,
+          241.3
+        ],
+        "end_mm": [
+          450.0,
+          -341.36941504209483,
+          241.3
+        ],
+        "required_length_mm": 900.0,
+        "element_id": "SECONDARY_BACKING__A__RAIL_01",
+        "source_stock_instance_id": "119270_009",
+        "listing_id": "119270",
+        "material_section_family_id": "MSF_HEMLOCK_4E20D6BE43__DIMENSION_LUMBER",
+        "source_kind": "RESIDUAL_OFFCUT",
+        "source_interval_mm": [
+          0.0,
+          900.0
+        ],
+        "kerf_interval_mm": [
+          900.0,
+          903.0
+        ],
+        "section": {
+          "width_mm": 19.05,
+          "depth_mm": 88.9,
+          "basis": "RECORDED_EARTHWISE_EXACT_SECTION"
+        },
+        "allocation_status": "REAL_RESIDUAL_ALLOCATED",
+        "joining": "NONE",
+        "fabrication_status": "CROSS_CUT_REQUIRED",
+        "structural_verification_status": "NOT_YET_RUN_MISSING_CODE_PROPERTY"
+      }
+    }
+  ],
+  "unchanged_member_count": 14,
+  "locked_assignments_preserved": true,
+  "existing_physical_cuts_preserved": true,
+  "analysis_input_changed": true,
+  "section_or_material_family_changed": true,
+  "panel_load_values_changed": false,
+  "recomputation_scope": {
+    "allocation": "AFFECTED_MEMBERS_ONLY",
+    "validation": "FULL_NEW_STAGE",
+    "analysis_export": "FULL_MODEL_REBUILT",
+    "solver": "NOT_EXECUTED"
+  },
+  "new_solver_request_binding": {
+    "input_digests": {
+      "inventory": "e257a26b1382cc3c34491a2fd5c159c8b2f46990a11928c2ecb98a49ee405de8",
+      "design_supply": "e808c62e5e77cb8808605c7c71498542a8de67ec67af1e0e910f8fc926643c62",
+      "allocation_before": "62297f6edbb4785c9286c1c76203e69f493f3d8210c61aa28183ba3334f7d0dc",
+      "elements": "7c400efbba317bfe1b9f43432b10a7ed1a0c675e9f123ae674772c4e64daedb4",
+      "action": "a58d71315cb9bd3440714e728666ca18f7771b2fd3e1064d9c79edc8c62ad2c3",
+      "graph_before": "458bb209a14d262da87e645ffd0dc31808326e1f30e7bf691fc929c640675fab",
+      "panels_before": "75972165af8507e3999618ca56bf07138e16e7479b30f35a6ee31e939e29bace",
+      "framework_before": "a0563f5612ee2db24eac59bbddbc0b508ee93f5a25ee6a9973b62f5d95c3b8c4",
+      "loads_before": "3dac7007ae2825a6be28b134c420420a9c0d96fda63e420d4642611d6281516f"
+    },
+    "framework_digest": "8bff24393f87a71bed7763c7dacea85fc4cbe369750a3995e4351cedef792d8d",
+    "loads_digest": "7c5a1088cb00296278b1bb74439463b790e89df10c3961336ef67e7b16b2d0ca",
+    "transaction_id": "CONTROLLED_CHANGE_b9bd628b0504"
+  },
+  "new_solver_request_digest": "2ad65d8421c6ba070d4becc854d354ff1faa86d0ac4890f86b735e4a33b35b0d",
+  "verification": {
+    "schema": "TIMBER_BASELINE_VERIFICATION_V1",
+    "offline_replay_status": "PASS",
+    "accepted_for_offline_replay": true,
+    "engineering_approval": "UNKNOWN",
+    "approved_for_construction": false,
+    "checks": [
+      {
+        "check": "input_binding",
+        "status": "PASS",
+        "evidence": {
+          "input_count": 9,
+          "input_digest": "bb19c524cb34f8b0f7b16f01349386a874d313e7d8a781bef4e473fed3cee69b"
+        }
+      },
+      {
+        "check": "revision_consistency",
+        "status": "PASS",
+        "evidence": {
+          "snapshot_revision": "EW_20260911T074059599568Z_a68d5a26c1::EXPERIMENT::b9bd628b0504"
+        }
+      },
+      {
+        "check": "centerline_geometry",
+        "status": "PASS",
+        "evidence": {
+          "members": 15,
+          "scope": "Recorded centerlines only; no solid collision or capacity check."
+        }
+      },
+      {
+        "check": "stock_identity_dimensions",
+        "status": "PASS",
+        "evidence": {
+          "source_count": 10,
+          "evidence": "Snapshot identities and seller dimensions; no physical grading inferred."
+        }
+      },
+      {
+        "check": "cutting_ledger",
+        "status": "PASS",
+        "evidence": {
+          "ledger_entries": 10,
+          "cuts": 15,
+          "kerf_mm": 3.0
+        }
+      },
+      {
+        "check": "declared_load_paths",
+        "status": "PASS",
+        "evidence": {
+          "affected_panels_with_declared_paths": 5,
+          "connection_capacity": "UNKNOWN"
+        }
+      },
+      {
+        "check": "analysis_input_consistency",
+        "status": "PASS",
+        "evidence": {
+          "added_members": 15,
+          "nodes": 275,
+          "supports": 34,
+          "solver_executed": false
+        }
+      },
+      {
+        "check": "panel_load_conservation",
+        "status": "PASS",
+        "evidence": {
+          "panels": 17,
+          "applied_weight_kN": 1.0937152687499985,
+          "unapplied_weight_kN": 0.0
+        }
+      },
+      {
+        "check": "existing_allocations",
+        "status": "PASS",
+        "evidence": {
+          "existing_allocation_content_preserved": true
+        }
+      },
+      {
+        "check": "historical_association",
+        "status": "NOT_APPLICABLE",
+        "reason": "New scenario revision; archived solver values are not carried forward."
+      },
+      {
+        "check": "live_structural_analysis",
+        "status": "UNKNOWN",
+        "reason": "Historical outputs only; no Rhino/Karamba execution in this replay."
+      },
+      {
+        "check": "material_capacity",
+        "status": "UNKNOWN",
+        "reason": "Physical condition, grade and design strength not verified."
+      },
+      {
+        "check": "connection_capacity",
+        "status": "UNKNOWN",
+        "reason": "Declared graph paths do not establish connection resistance."
+      },
+      {
+        "check": "foundation_design",
+        "status": "UNKNOWN",
+        "reason": "No foundation verification performed."
+      },
+      {
+        "check": "solid_geometry_clearance",
+        "status": "UNKNOWN",
+        "reason": "Centerline consistency does not verify fabrication clearances."
+      }
+    ],
+    "metrics": {
+      "added_members": 15,
+      "stock_sources": 10,
+      "added_length_mm": 8306.207755001127
+    }
+  },
+  "metrics": {
+    "member_count": 15,
+    "required_length_before_mm": 8306.207755001127,
+    "required_length_after_mm": 8306.207755001127,
+    "kerf_before_mm": 45,
+    "kerf_after_mm": 45,
+    "residual_reuse_after_mm": 8306.207755001127,
+    "unused_stock_use_after_mm": 0,
+    "discarded_tail_mm": 208.92233983200003
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "schema": "TIMBER_KARAMBA_COMPARISON_V1",
+  "run_id": "20260919T085918292000Z",
+  "status": "VERIFIED_RESEARCH_COMPARISON",
+  "solver_executed": true,
+  "karamba_version": "3.1.51222.0",
+  "checks": [
+    {
+      "variant": "baseline",
+      "case": "DL_STRUCTURAL_TIMBER",
+      "check": "independent_force_balance",
+      "status": "PASS",
+      "expected_downward_kN": 4.657752032655383,
+      "reaction_kN": [
+        6.955418879739383e-11,
+        -2.7785486259902792e-11,
+        4.657752032392204
+      ],
+      "residual_kN": [
+        6.955418879739383e-11,
+        -2.7785486259902792e-11,
+        -2.631788120766032e-10
+      ]
+    },
+    {
+      "variant": "baseline",
+      "case": "LL_FLOOR_ASSEMBLY_100PSF",
+      "check": "independent_force_balance",
+      "status": "PASS",
+      "expected_downward_kN": 11.970064744998565,
+      "reaction_kN": [
+        0.0,
+        0.0,
+        11.970064744998563
+      ],
+      "residual_kN": [
+        0.0,
+        0.0,
+        -1.7763568394002505e-15
+      ]
+    },
+    {
+      "variant": "candidate",
+      "case": "DL_STRUCTURAL_TIMBER",
+      "check": "independent_force_balance",
+      "status": "PASS",
+      "expected_downward_kN": 4.591776358155383,
+      "reaction_kN": [
+        -1.8238341392695645e-10,
+        1.3540072430775173e-09,
+        4.59177635752962
+      ],
+      "residual_kN": [
+        -1.8238341392695645e-10,
+        1.3540072430775173e-09,
+        -6.257625528860444e-10
+      ]
+    },
+    {
+      "variant": "candidate",
+      "case": "LL_FLOOR_ASSEMBLY_100PSF",
+      "check": "independent_force_balance",
+      "status": "PASS",
+      "expected_downward_kN": 11.970064744998565,
+      "reaction_kN": [
+        0.0,
+        0.0,
+        11.970064744998563
+      ],
+      "residual_kN": [
+        0.0,
+        0.0,
+        -1.7763568394002505e-15
+      ]
+    }
+  ],
+  "fresh_baseline_agrees_with_archive": {
+    "DL_STRUCTURAL_TIMBER": true,
+    "LL_FLOOR_ASSEMBLY_100PSF": true
+  },
+  "metrics": [
+    {
+      "case": "DL_STRUCTURAL_TIMBER",
+      "metric": "global_sampled_displacement_mm",
+      "baseline": 4.247179887499398,
+      "candidate": 4.225068101149138,
+      "delta": -0.022111786350259344,
+      "ratio": 0.9947937721179787,
+      "change_percent": -0.5206227882021297
+    },
+    {
+      "case": "DL_STRUCTURAL_TIMBER",
+      "metric": "target_sampled_displacement_mm",
+      "baseline": 0.5240844862134244,
+      "candidate": 0.61172572609752,
+      "delta": 0.08764123988409556,
+      "ratio": 1.1672273119880239,
+      "change_percent": 16.722731198802386
+    },
+    {
+      "case": "DL_STRUCTURAL_TIMBER",
+      "metric": "target_chord_relative_displacement_mm",
+      "baseline": 0.014751369234602296,
+      "candidate": 0.19628231268796018,
+      "delta": 0.18153094345335788,
+      "ratio": 13.30604024388059,
+      "change_percent": 1230.604024388059
+    },
+    {
+      "case": "DL_STRUCTURAL_TIMBER",
+      "metric": "target_max_bending_resultant_kNm",
+      "baseline": 0.037770192355169624,
+      "candidate": 0.026683328599571912,
+      "delta": -0.011086863755597712,
+      "ratio": 0.7064652556877898,
+      "change_percent": -29.353474431221017
+    },
+    {
+      "case": "DL_STRUCTURAL_TIMBER",
+      "metric": "target_max_shear_resultant_kN",
+      "baseline": 0.10619255311449523,
+      "candidate": 0.07864734786692673,
+      "delta": -0.027545205247568497,
+      "ratio": 0.740610763752241,
+      "change_percent": -25.9389236247759
+    },
+    {
+      "case": "LL_FLOOR_ASSEMBLY_100PSF",
+      "metric": "global_sampled_displacement_mm",
+      "baseline": 1.2298611189540676,
+      "candidate": 1.2298611189540676,
+      "delta": 0.0,
+      "ratio": 1.0,
+      "change_percent": 0.0
+    },
+    {
+      "case": "LL_FLOOR_ASSEMBLY_100PSF",
+      "metric": "target_sampled_displacement_mm",
+      "baseline": 0.0,
+      "candidate": 0.0,
+      "delta": 0.0,
+      "ratio": null,
+      "change_percent": null
+    },
+    {
+      "case": "LL_FLOOR_ASSEMBLY_100PSF",
+      "metric": "target_chord_relative_displacement_mm",
+      "baseline": 0.0,
+      "candidate": 0.0,
+      "delta": 0.0,
+      "ratio": null,
+      "change_percent": null
+    },
+    {
+      "case": "LL_FLOOR_ASSEMBLY_100PSF",
+      "metric": "target_max_bending_resultant_kNm",
+      "baseline": 0.0,
+      "candidate": 0.0,
+      "delta": 0.0,
+      "ratio": null,
+      "change_percent": null
+    },
+    {
+      "case": "LL_FLOOR_ASSEMBLY_100PSF",
+      "metric": "target_max_shear_resultant_kN",
+      "baseline": 0.0,
+      "candidate": 0.0,
+      "delta": 0.0,
+      "ratio": null,
+      "change_percent": null
+    }
+  ],
+  "changed_beams": [
+    {
+      "before": {
+        "element_id": "AN_SEG__SECONDARY_BACKING__A__RAIL_01",
+        "parent_member_id": "SECONDARY_BACKING__A__RAIL_01",
+        "start": 255,
+        "end": 256,
+        "section": {
+          "width_mm": 95.25,
+          "depth_mm": 146.05,
+          "basis": "RECORDED_EARTHWISE_EXACT_SECTION"
+        },
+        "length_mm": 900.0,
+        "local_z": [
+          0,
+          0,
+          1
+        ],
+        "supply_id": "119600_001",
+        "physical_cut": true,
+        "releases": []
+      },
+      "after": {
+        "element_id": "AN_SEG__SECONDARY_BACKING__A__RAIL_01",
+        "parent_member_id": "SECONDARY_BACKING__A__RAIL_01",
+        "start": 255,
+        "end": 256,
+        "section": {
+          "width_mm": 19.05,
+          "depth_mm": 88.9,
+          "basis": "RECORDED_EARTHWISE_EXACT_SECTION"
+        },
+        "length_mm": 900.0,
+        "local_z": [
+          0,
+          0,
+          1
+        ],
+        "supply_id": "119270_009",
+        "physical_cut": true,
+        "releases": []
+      }
+    }
+  ],
+  "physical_volume_m3": {
+    "baseline": 0.594006127317564,
+    "candidate": 0.583010181567564
+  },
+  "sample_stations_per_element": 21,
+  "engineering_approval": "UNKNOWN",
+  "candidate_design_acceptance": "UNDETERMINED",
+  "reason": "No verified grade, capacity checks, code combinations or serviceability acceptance limits.",
+  "chord_relative_definition": "max ||u(t)-[(1-t)u(0)+t*u(1)]||, sampled at 21 positions; mm.",
+  "run_directory": "C:\\Users\\cjhao\\Documents\\Codex\\2026-09-12\\h-paper-wip-connector-demo\\timber-baseline\\karamba-comparison\\runs\\20260919T085918292000Z",
+  "result_sha256": {
+    "baseline": "2b573c6497f221e4074a159bdcdb429f6807f2e022761cf27ed98736831cfd3f",
+    "candidate": "9b8193ddaab2723cee28208160152835d46b22f9519b3ea9fc4fce18af6d6c16"
+  }
+}

@@ -1,0 +1,1380 @@
+{
+  "load_objects": 22, 
+  "assembly_messages": [
+    "", 
+    ""
+  ], 
+  "binding": {
+    "run_id": "20260919T085654405000Z", 
+    "material": {
+      "name": "(VH)III", 
+      "display_ascii_escaped": "Wood '(VH)III'(EU) E:800[kN/cm\\xb2] G12:270[kN/cm\\xb2] G3:270[kN/cm\\xb2] gamma:6[kN/m\\xb3] alphaT:5.0E-5[1/\\u2103] ft:0.7[kN/cm\\xb2] fc:-0.7[kN/cm\\xb2] flowHypo: Rankine; ", 
+      "family": "Wood", 
+      "policy": "Common research material for every physical member; seller species and timber grade are not verified.", 
+      "scenario": "LOW_STIFFNESS", 
+      "table_sha256": "28337aecbcd66dcff29fd7245632ab3a72d20bca894326b94f4167ed5061f634"
+    }, 
+    "builder_sha256": "9562c72f546b8db29b56b8939fb73fa54656627383fba87c19981aa33f1890f0", 
+    "runner_sha256": "f798582a3111f1c28b9c69824e4678c32cccde512550511fc386cf1347704d61", 
+    "request_digest": "f19bba749bda63b28dd8601992c3739647dc3b6660403483fa7ea188719679c6", 
+    "karamba_version": "3.1.51222.0"
+  }, 
+  "section_and_node_units": "PASS", 
+  "physical_section_checks": [
+    {
+      "element_id": "AN_SEG__BOTTOM_PLATE_LIVE_FACE_000_000__001", 
+      "area_mm2": 5322.5700000000024, 
+      "inertia_mm4": [
+        643857.98647500039, 
+        8656312.9292750098
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__BOTTOM_PLATE_LIVE_FACE_000_000__002", 
+      "area_mm2": 5322.5700000000024, 
+      "inertia_mm4": [
+        643857.98647500039, 
+        8656312.9292750098
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__BOTTOM_PLATE_LIVE_FACE_000_000__003", 
+      "area_mm2": 5322.5700000000024, 
+      "inertia_mm4": [
+        643857.98647500039, 
+        8656312.9292750098
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__BOTTOM_PLATE_LIVE_FACE_000_000__004", 
+      "area_mm2": 5322.5700000000024, 
+      "inertia_mm4": [
+        643857.98647500039, 
+        8656312.9292750098
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__BOTTOM_PLATE_LIVE_FACE_000_001__001", 
+      "area_mm2": 5322.5700000000024, 
+      "inertia_mm4": [
+        643857.98647500039, 
+        8656312.9292750098
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__BOTTOM_PLATE_LIVE_FACE_000_001__002", 
+      "area_mm2": 5322.5700000000024, 
+      "inertia_mm4": [
+        643857.98647500039, 
+        8656312.9292750098
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__BOTTOM_PLATE_LIVE_FACE_000_001__003", 
+      "area_mm2": 5322.5700000000024, 
+      "inertia_mm4": [
+        643857.98647500039, 
+        8656312.9292750098
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__BOTTOM_PLATE_LIVE_FACE_000_001__004", 
+      "area_mm2": 5322.5700000000024, 
+      "inertia_mm4": [
+        643857.98647500039, 
+        8656312.9292750098
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__BOTTOM_PLATE_LIVE_FACE_001_000__001", 
+      "area_mm2": 5322.5700000000024, 
+      "inertia_mm4": [
+        643857.98647500039, 
+        8656312.9292750098
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__BOTTOM_PLATE_LIVE_FACE_001_000__002", 
+      "area_mm2": 5322.5700000000024, 
+      "inertia_mm4": [
+        643857.98647500039, 
+        8656312.9292750098
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__BOTTOM_PLATE_LIVE_FACE_001_000__003", 
+      "area_mm2": 5322.5700000000024, 
+      "inertia_mm4": [
+        643857.98647500039, 
+        8656312.9292750098
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__BOTTOM_PLATE_LIVE_FACE_001_000__004", 
+      "area_mm2": 5322.5700000000024, 
+      "inertia_mm4": [
+        643857.98647500039, 
+        8656312.9292750098
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__BOTTOM_PLATE_LIVE_FACE_001_000__005", 
+      "area_mm2": 5322.5700000000024, 
+      "inertia_mm4": [
+        643857.98647500039, 
+        8656312.9292750098
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__BOTTOM_PLATE_LIVE_FACE_002_000__001", 
+      "area_mm2": 5322.5700000000024, 
+      "inertia_mm4": [
+        643857.98647500039, 
+        8656312.9292750098
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__BOTTOM_PLATE_LIVE_FACE_002_000__002", 
+      "area_mm2": 5322.5700000000024, 
+      "inertia_mm4": [
+        643857.98647500039, 
+        8656312.9292750098
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__BOTTOM_PLATE_LIVE_FACE_002_000__003", 
+      "area_mm2": 5322.5700000000024, 
+      "inertia_mm4": [
+        643857.98647500039, 
+        8656312.9292750098
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__BOTTOM_PLATE_LIVE_FACE_002_000__004", 
+      "area_mm2": 5322.5700000000024, 
+      "inertia_mm4": [
+        643857.98647500039, 
+        8656312.9292750098
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__BOTTOM_PLATE_LIVE_FACE_002_000__005", 
+      "area_mm2": 5322.5700000000024, 
+      "inertia_mm4": [
+        643857.98647500039, 
+        8656312.9292750098
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__BOTTOM_PLATE_LIVE_FACE_003_000__001", 
+      "area_mm2": 5322.5700000000024, 
+      "inertia_mm4": [
+        643857.98647500039, 
+        8656312.9292750098
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__BOTTOM_PLATE_LIVE_FACE_003_000__002", 
+      "area_mm2": 5322.5700000000024, 
+      "inertia_mm4": [
+        643857.98647500039, 
+        8656312.9292750098
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__BOTTOM_PLATE_LIVE_FACE_003_000__003", 
+      "area_mm2": 5322.5700000000024, 
+      "inertia_mm4": [
+        643857.98647500039, 
+        8656312.9292750098
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__FLOOR_JOIST_001__001", 
+      "area_mm2": 11935.459999999990, 
+      "inertia_mm4": [
+        2566760.4578666599, 
+        54904610.419054113
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__FLOOR_JOIST_002__001", 
+      "area_mm2": 13911.262500000003, 
+      "inertia_mm4": [
+        10517566.540429689, 
+        24727967.555054694
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__FLOOR_JOIST_003__001", 
+      "area_mm2": 11935.459999999990, 
+      "inertia_mm4": [
+        2566760.4578666599, 
+        54904610.419054113
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__FLOOR_JOIST_004__001", 
+      "area_mm2": 13911.262500000003, 
+      "inertia_mm4": [
+        10517566.540429689, 
+        24727967.555054694
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__JAMB_STUD_LIVE_FACE_000_0_LEFT__001__AGENTA", 
+      "area_mm2": 5564.5050000000019, 
+      "inertia_mm4": [
+        673124.25858750101, 
+        9891187.0220218729
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__JAMB_STUD_LIVE_FACE_000_0_LEFT__001__AGENTB__AGENTA", 
+      "area_mm2": 5564.5050000000019, 
+      "inertia_mm4": [
+        673124.25858750101, 
+        9891187.0220218729
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__JAMB_STUD_LIVE_FACE_000_0_LEFT__001__AGENTB__AGENTB__AGENTA", 
+      "area_mm2": 5564.5050000000019, 
+      "inertia_mm4": [
+        673124.25858750101, 
+        9891187.0220218729
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__JAMB_STUD_LIVE_FACE_000_0_LEFT__001__AGENTB__AGENTB__AGENTB__AGENTA", 
+      "area_mm2": 5564.5050000000019, 
+      "inertia_mm4": [
+        673124.25858750101, 
+        9891187.0220218729
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__JAMB_STUD_LIVE_FACE_000_0_LEFT__001__AGENTB__AGENTB__AGENTB__AGENTB__AGENTA", 
+      "area_mm2": 5564.5050000000019, 
+      "inertia_mm4": [
+        673124.25858750101, 
+        9891187.0220218729
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__JAMB_STUD_LIVE_FACE_000_0_LEFT__001__AGENTB__AGENTB__AGENTB__AGENTB__AGENTB", 
+      "area_mm2": 5564.5050000000019, 
+      "inertia_mm4": [
+        673124.25858750101, 
+        9891187.0220218729
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__JAMB_STUD_LIVE_FACE_000_0_RIGHT__001__AGENTA", 
+      "area_mm2": 5443.5375000000031, 
+      "inertia_mm4": [
+        658491.12253125128, 
+        9260031.4105957095
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__JAMB_STUD_LIVE_FACE_000_0_RIGHT__001__AGENTB__AGENTA", 
+      "area_mm2": 5443.5375000000031, 
+      "inertia_mm4": [
+        658491.12253125128, 
+        9260031.4105957095
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__JAMB_STUD_LIVE_FACE_000_0_RIGHT__001__AGENTB__AGENTB__AGENTA", 
+      "area_mm2": 5443.5375000000031, 
+      "inertia_mm4": [
+        658491.12253125128, 
+        9260031.4105957095
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__JAMB_STUD_LIVE_FACE_000_0_RIGHT__001__AGENTB__AGENTB__AGENTB__AGENTA", 
+      "area_mm2": 5443.5375000000031, 
+      "inertia_mm4": [
+        658491.12253125128, 
+        9260031.4105957095
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__JAMB_STUD_LIVE_FACE_000_0_RIGHT__001__AGENTB__AGENTB__AGENTB__AGENTB__AGENTA", 
+      "area_mm2": 5443.5375000000031, 
+      "inertia_mm4": [
+        658491.12253125128, 
+        9260031.4105957095
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__JAMB_STUD_LIVE_FACE_000_0_RIGHT__001__AGENTB__AGENTB__AGENTB__AGENTB__AGENTB", 
+      "area_mm2": 5443.5375000000031, 
+      "inertia_mm4": [
+        658491.12253125128, 
+        9260031.4105957095
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__LINTEL_LIVE_FACE_000_000__001", 
+      "area_mm2": 5322.5699999999797, 
+      "inertia_mm4": [
+        643857.98647499434, 
+        8656312.9292749446
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__LINTEL_LIVE_FACE_000_000__002", 
+      "area_mm2": 5322.5699999999797, 
+      "inertia_mm4": [
+        643857.98647499434, 
+        8656312.9292749446
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__LINTEL_LIVE_FACE_000_000__003", 
+      "area_mm2": 5322.5699999999797, 
+      "inertia_mm4": [
+        643857.98647499434, 
+        8656312.9292749446
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__LINTEL_LIVE_FACE_000_000__004", 
+      "area_mm2": 5322.5699999999797, 
+      "inertia_mm4": [
+        643857.98647499434, 
+        8656312.9292749446
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__LINTEL_LIVE_FACE_000_000__005", 
+      "area_mm2": 5322.5699999999797, 
+      "inertia_mm4": [
+        643857.98647499434, 
+        8656312.9292749446
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__RAFTER_LIVE_FACE_004_000__001", 
+      "area_mm2": 4737.8937500000120, 
+      "inertia_mm4": [
+        398007.75152994896, 
+        8791991.2312966138
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__RAFTER_LIVE_FACE_004_000__002", 
+      "area_mm2": 4737.8937500000120, 
+      "inertia_mm4": [
+        398007.75152994896, 
+        8791991.2312966138
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__RAFTER_LIVE_FACE_004_000__003", 
+      "area_mm2": 4737.8937500000120, 
+      "inertia_mm4": [
+        398007.75152994896, 
+        8791991.2312966138
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__RAFTER_LIVE_FACE_004_000__004", 
+      "area_mm2": 4737.8937500000120, 
+      "inertia_mm4": [
+        398007.75152994896, 
+        8791991.2312966138
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__RAFTER_LIVE_FACE_004_001__001", 
+      "area_mm2": 4737.8937500000120, 
+      "inertia_mm4": [
+        398007.75152994896, 
+        8791991.2312966138
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__RAFTER_LIVE_FACE_004_001__002", 
+      "area_mm2": 4737.8937500000120, 
+      "inertia_mm4": [
+        398007.75152994896, 
+        8791991.2312966138
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__RAFTER_LIVE_FACE_004_001__003", 
+      "area_mm2": 4737.8937500000120, 
+      "inertia_mm4": [
+        398007.75152994896, 
+        8791991.2312966138
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__RAFTER_LIVE_FACE_004_001__004", 
+      "area_mm2": 4737.8937500000120, 
+      "inertia_mm4": [
+        398007.75152994896, 
+        8791991.2312966138
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__RAFTER_LIVE_FACE_004_001__005", 
+      "area_mm2": 4737.8937500000120, 
+      "inertia_mm4": [
+        398007.75152994896, 
+        8791991.2312966138
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__RAFTER_LIVE_FACE_004_002__001", 
+      "area_mm2": 4737.8937500000120, 
+      "inertia_mm4": [
+        398007.75152994896, 
+        8791991.2312966138
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__RAFTER_LIVE_FACE_004_002__002", 
+      "area_mm2": 4737.8937500000120, 
+      "inertia_mm4": [
+        398007.75152994896, 
+        8791991.2312966138
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__RAFTER_LIVE_FACE_004_002__003", 
+      "area_mm2": 4737.8937500000120, 
+      "inertia_mm4": [
+        398007.75152994896, 
+        8791991.2312966138
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__RAFTER_LIVE_FACE_004_002__004", 
+      "area_mm2": 4737.8937500000120, 
+      "inertia_mm4": [
+        398007.75152994896, 
+        8791991.2312966138
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__RAFTER_LIVE_FACE_004_002__005", 
+      "area_mm2": 4737.8937500000120, 
+      "inertia_mm4": [
+        398007.75152994896, 
+        8791991.2312966138
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__RAFTER_LIVE_FACE_004_003__001", 
+      "area_mm2": 4737.8937500000120, 
+      "inertia_mm4": [
+        398007.75152994896, 
+        8791991.2312966138
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__RAFTER_LIVE_FACE_004_003__002", 
+      "area_mm2": 4737.8937500000120, 
+      "inertia_mm4": [
+        398007.75152994896, 
+        8791991.2312966138
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__RAFTER_LIVE_FACE_004_003__003", 
+      "area_mm2": 4737.8937500000120, 
+      "inertia_mm4": [
+        398007.75152994896, 
+        8791991.2312966138
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__RAFTER_LIVE_FACE_004_003__004", 
+      "area_mm2": 4737.8937500000120, 
+      "inertia_mm4": [
+        398007.75152994896, 
+        8791991.2312966138
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__RAFTER_LIVE_FACE_004_003__005", 
+      "area_mm2": 4737.8937500000120, 
+      "inertia_mm4": [
+        398007.75152994896, 
+        8791991.2312966138
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__RAFTER_LIVE_FACE_004_004__001", 
+      "area_mm2": 4737.8937500000120, 
+      "inertia_mm4": [
+        398007.75152994896, 
+        8791991.2312966138
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__RAFTER_LIVE_FACE_004_004__002", 
+      "area_mm2": 4737.8937500000120, 
+      "inertia_mm4": [
+        398007.75152994896, 
+        8791991.2312966138
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__RAFTER_LIVE_FACE_004_004__003", 
+      "area_mm2": 4737.8937500000120, 
+      "inertia_mm4": [
+        398007.75152994896, 
+        8791991.2312966138
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__RAFTER_LIVE_FACE_004_004__004", 
+      "area_mm2": 4737.8937500000120, 
+      "inertia_mm4": [
+        398007.75152994896, 
+        8791991.2312966138
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__RAFTER_LIVE_FACE_004_004__005", 
+      "area_mm2": 4737.8937500000120, 
+      "inertia_mm4": [
+        398007.75152994896, 
+        8791991.2312966138
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__ROOF_BATTEN_LIVE_FACE_004_000__001", 
+      "area_mm2": 1572.5775000000142, 
+      "inertia_mm4": [
+        47557.692182813837, 
+        893027.77543281962
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__ROOF_BATTEN_LIVE_FACE_004_000__002", 
+      "area_mm2": 1572.5775000000142, 
+      "inertia_mm4": [
+        47557.692182813837, 
+        893027.77543281962
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__ROOF_BATTEN_LIVE_FACE_004_000__003", 
+      "area_mm2": 1572.5775000000142, 
+      "inertia_mm4": [
+        47557.692182813837, 
+        893027.77543281962
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__ROOF_BATTEN_LIVE_FACE_004_000__004", 
+      "area_mm2": 1572.5775000000142, 
+      "inertia_mm4": [
+        47557.692182813837, 
+        893027.77543281962
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__ROOF_BATTEN_LIVE_FACE_004_001__001", 
+      "area_mm2": 1572.5775000000153, 
+      "inertia_mm4": [
+        47557.692182813866, 
+        893027.77543282148
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__ROOF_BATTEN_LIVE_FACE_004_001__002", 
+      "area_mm2": 1572.5775000000153, 
+      "inertia_mm4": [
+        47557.692182813866, 
+        893027.77543282148
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__ROOF_BATTEN_LIVE_FACE_004_001__003", 
+      "area_mm2": 1572.5775000000153, 
+      "inertia_mm4": [
+        47557.692182813866, 
+        893027.77543282148
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__ROOF_BATTEN_LIVE_FACE_004_001__004", 
+      "area_mm2": 1572.5775000000153, 
+      "inertia_mm4": [
+        47557.692182813866, 
+        893027.77543282148
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__ROOF_BATTEN_LIVE_FACE_004_002__001", 
+      "area_mm2": 1572.5775000000142, 
+      "inertia_mm4": [
+        47557.692182813837, 
+        893027.77543281962
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__ROOF_BATTEN_LIVE_FACE_004_002__002", 
+      "area_mm2": 1572.5775000000142, 
+      "inertia_mm4": [
+        47557.692182813837, 
+        893027.77543281962
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__ROOF_BATTEN_LIVE_FACE_004_002__003", 
+      "area_mm2": 1572.5775000000142, 
+      "inertia_mm4": [
+        47557.692182813837, 
+        893027.77543281962
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__ROOF_BATTEN_LIVE_FACE_004_002__004", 
+      "area_mm2": 1572.5775000000142, 
+      "inertia_mm4": [
+        47557.692182813837, 
+        893027.77543281962
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__ROOF_BATTEN_LIVE_FACE_004_003__001", 
+      "area_mm2": 1572.5775000000142, 
+      "inertia_mm4": [
+        47557.692182813837, 
+        893027.77543281962
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__ROOF_BATTEN_LIVE_FACE_004_003__002", 
+      "area_mm2": 1572.5775000000142, 
+      "inertia_mm4": [
+        47557.692182813837, 
+        893027.77543281962
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__ROOF_BATTEN_LIVE_FACE_004_003__003", 
+      "area_mm2": 1572.5775000000142, 
+      "inertia_mm4": [
+        47557.692182813837, 
+        893027.77543281962
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__ROOF_BATTEN_LIVE_FACE_004_003__004", 
+      "area_mm2": 1572.5775000000142, 
+      "inertia_mm4": [
+        47557.692182813837, 
+        893027.77543281962
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__TOP_PLATE_LIVE_FACE_000_000__001", 
+      "area_mm2": 5322.5700000000525, 
+      "inertia_mm4": [
+        643857.98647501855, 
+        8656312.9292750917
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__TOP_PLATE_LIVE_FACE_000_000__002", 
+      "area_mm2": 5322.5700000000525, 
+      "inertia_mm4": [
+        643857.98647501855, 
+        8656312.9292750917
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__TOP_PLATE_LIVE_FACE_000_000__003", 
+      "area_mm2": 5322.5700000000525, 
+      "inertia_mm4": [
+        643857.98647501855, 
+        8656312.9292750917
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__TOP_PLATE_LIVE_FACE_000_000__004", 
+      "area_mm2": 5322.5700000000525, 
+      "inertia_mm4": [
+        643857.98647501855, 
+        8656312.9292750917
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__TOP_PLATE_LIVE_FACE_000_000__005", 
+      "area_mm2": 5322.5700000000525, 
+      "inertia_mm4": [
+        643857.98647501855, 
+        8656312.9292750917
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__TOP_PLATE_LIVE_FACE_000_000__006", 
+      "area_mm2": 5322.5700000000525, 
+      "inertia_mm4": [
+        643857.98647501855, 
+        8656312.9292750917
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__TOP_PLATE_LIVE_FACE_000_000__007", 
+      "area_mm2": 5322.5700000000525, 
+      "inertia_mm4": [
+        643857.98647501855, 
+        8656312.9292750917
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__TOP_PLATE_LIVE_FACE_000_000__008", 
+      "area_mm2": 5322.5700000000525, 
+      "inertia_mm4": [
+        643857.98647501855, 
+        8656312.9292750917
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__TOP_PLATE_LIVE_FACE_001_000__001", 
+      "area_mm2": 5322.5700000000525, 
+      "inertia_mm4": [
+        643857.98647501855, 
+        8656312.9292750917
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__TOP_PLATE_LIVE_FACE_001_000__002", 
+      "area_mm2": 5322.5700000000525, 
+      "inertia_mm4": [
+        643857.98647501855, 
+        8656312.9292750917
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__TOP_PLATE_LIVE_FACE_001_000__003", 
+      "area_mm2": 5322.5700000000525, 
+      "inertia_mm4": [
+        643857.98647501855, 
+        8656312.9292750917
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__TOP_PLATE_LIVE_FACE_001_000__004", 
+      "area_mm2": 5322.5700000000525, 
+      "inertia_mm4": [
+        643857.98647501855, 
+        8656312.9292750917
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__TOP_PLATE_LIVE_FACE_001_000__005", 
+      "area_mm2": 5322.5700000000525, 
+      "inertia_mm4": [
+        643857.98647501855, 
+        8656312.9292750917
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__TOP_PLATE_LIVE_FACE_001_000__006", 
+      "area_mm2": 5322.5700000000525, 
+      "inertia_mm4": [
+        643857.98647501855, 
+        8656312.9292750917
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__TOP_PLATE_LIVE_FACE_001_000__007", 
+      "area_mm2": 5322.5700000000525, 
+      "inertia_mm4": [
+        643857.98647501855, 
+        8656312.9292750917
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__TOP_PLATE_LIVE_FACE_001_000__008", 
+      "area_mm2": 5322.5700000000525, 
+      "inertia_mm4": [
+        643857.98647501855, 
+        8656312.9292750917
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__TOP_PLATE_LIVE_FACE_001_000__009", 
+      "area_mm2": 5322.5700000000525, 
+      "inertia_mm4": [
+        643857.98647501855, 
+        8656312.9292750917
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__TOP_PLATE_LIVE_FACE_002_000__001", 
+      "area_mm2": 5322.5700000000525, 
+      "inertia_mm4": [
+        643857.98647501855, 
+        8656312.9292750917
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__TOP_PLATE_LIVE_FACE_002_000__002", 
+      "area_mm2": 5322.5700000000525, 
+      "inertia_mm4": [
+        643857.98647501855, 
+        8656312.9292750917
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__TOP_PLATE_LIVE_FACE_002_000__003", 
+      "area_mm2": 5322.5700000000525, 
+      "inertia_mm4": [
+        643857.98647501855, 
+        8656312.9292750917
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__TOP_PLATE_LIVE_FACE_002_000__004", 
+      "area_mm2": 5322.5700000000525, 
+      "inertia_mm4": [
+        643857.98647501855, 
+        8656312.9292750917
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__TOP_PLATE_LIVE_FACE_002_000__005", 
+      "area_mm2": 5322.5700000000525, 
+      "inertia_mm4": [
+        643857.98647501855, 
+        8656312.9292750917
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__TOP_PLATE_LIVE_FACE_002_000__006", 
+      "area_mm2": 5322.5700000000525, 
+      "inertia_mm4": [
+        643857.98647501855, 
+        8656312.9292750917
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__TOP_PLATE_LIVE_FACE_003_000__001", 
+      "area_mm2": 5322.5700000000525, 
+      "inertia_mm4": [
+        643857.98647501855, 
+        8656312.9292750917
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__TOP_PLATE_LIVE_FACE_003_000__002", 
+      "area_mm2": 5322.5700000000525, 
+      "inertia_mm4": [
+        643857.98647501855, 
+        8656312.9292750917
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__TOP_PLATE_LIVE_FACE_003_000__003", 
+      "area_mm2": 5322.5700000000525, 
+      "inertia_mm4": [
+        643857.98647501855, 
+        8656312.9292750917
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__TOP_PLATE_LIVE_FACE_003_000__004", 
+      "area_mm2": 5322.5700000000525, 
+      "inertia_mm4": [
+        643857.98647501855, 
+        8656312.9292750917
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__TOP_PLATE_LIVE_FACE_003_000__005", 
+      "area_mm2": 5322.5700000000525, 
+      "inertia_mm4": [
+        643857.98647501855, 
+        8656312.9292750917
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__TOP_PLATE_LIVE_FACE_003_000__006", 
+      "area_mm2": 5322.5700000000525, 
+      "inertia_mm4": [
+        643857.98647501855, 
+        8656312.9292750917
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__WALL_STUD_LIVE_FACE_000_000__001", 
+      "area_mm2": 3548.3800000000138, 
+      "inertia_mm4": [
+        190772.73673333542, 
+        5770875.2861833591
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__WALL_STUD_LIVE_FACE_000_000__002", 
+      "area_mm2": 3548.3800000000138, 
+      "inertia_mm4": [
+        190772.73673333542, 
+        5770875.2861833591
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__WALL_STUD_LIVE_FACE_000_001__001", 
+      "area_mm2": 5080.6350000000002, 
+      "inertia_mm4": [
+        614591.71436250082, 
+        7528748.5009406144
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__WALL_STUD_LIVE_FACE_000_002__001", 
+      "area_mm2": 5080.6350000000002, 
+      "inertia_mm4": [
+        614591.71436250082, 
+        7528748.5009406144
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__WALL_STUD_LIVE_FACE_000_003__001", 
+      "area_mm2": 3548.3800000000138, 
+      "inertia_mm4": [
+        190772.73673333542, 
+        5770875.2861833591
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__WALL_STUD_LIVE_FACE_000_003__002", 
+      "area_mm2": 3548.3800000000138, 
+      "inertia_mm4": [
+        190772.73673333542, 
+        5770875.2861833591
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__WALL_STUD_LIVE_FACE_001_000__001", 
+      "area_mm2": 3548.3800000000138, 
+      "inertia_mm4": [
+        190772.73673333542, 
+        5770875.2861833591
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__WALL_STUD_LIVE_FACE_001_000__002", 
+      "area_mm2": 3548.3800000000138, 
+      "inertia_mm4": [
+        190772.73673333542, 
+        5770875.2861833591
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__WALL_STUD_LIVE_FACE_001_001__001", 
+      "area_mm2": 3548.3799999999983, 
+      "inertia_mm4": [
+        190772.73673333292, 
+        5770875.2861833349
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__WALL_STUD_LIVE_FACE_001_002__001", 
+      "area_mm2": 3548.3799999999983, 
+      "inertia_mm4": [
+        190772.73673333292, 
+        5770875.2861833349
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__WALL_STUD_LIVE_FACE_001_003__001", 
+      "area_mm2": 3548.3800000000138, 
+      "inertia_mm4": [
+        190772.73673333542, 
+        5770875.2861833591
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__WALL_STUD_LIVE_FACE_002_000__001", 
+      "area_mm2": 3548.3800000000138, 
+      "inertia_mm4": [
+        190772.73673333542, 
+        5770875.2861833591
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__WALL_STUD_LIVE_FACE_002_001__001", 
+      "area_mm2": 3548.3799999999983, 
+      "inertia_mm4": [
+        190772.73673333292, 
+        5770875.2861833349
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__WALL_STUD_LIVE_FACE_002_002__001", 
+      "area_mm2": 3548.3799999999983, 
+      "inertia_mm4": [
+        190772.73673333292, 
+        5770875.2861833349
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__WALL_STUD_LIVE_FACE_002_003__001", 
+      "area_mm2": 3548.3800000000138, 
+      "inertia_mm4": [
+        190772.73673333542, 
+        5770875.2861833591
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__WALL_STUD_LIVE_FACE_003_000__001", 
+      "area_mm2": 3548.3800000000138, 
+      "inertia_mm4": [
+        190772.73673333542, 
+        5770875.2861833591
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__WALL_STUD_LIVE_FACE_003_000__002", 
+      "area_mm2": 3548.3800000000138, 
+      "inertia_mm4": [
+        190772.73673333542, 
+        5770875.2861833591
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__WALL_STUD_LIVE_FACE_003_001__001", 
+      "area_mm2": 3548.3799999999983, 
+      "inertia_mm4": [
+        190772.73673333292, 
+        5770875.2861833349
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__WALL_STUD_LIVE_FACE_003_002__001", 
+      "area_mm2": 3548.3799999999983, 
+      "inertia_mm4": [
+        190772.73673333292, 
+        5770875.2861833349
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__WALL_STUD_LIVE_FACE_003_003__001", 
+      "area_mm2": 3548.3800000000138, 
+      "inertia_mm4": [
+        190772.73673333542, 
+        5770875.2861833591
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__SECONDARY_BACKING__A__RAIL_01", 
+      "area_mm2": 1693.5450000000003, 
+      "inertia_mm4": [
+        51215.976196875010, 
+        1115370.1482875003
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__SECONDARY_BACKING__A__RAIL_02", 
+      "area_mm2": 5322.5699999999997, 
+      "inertia_mm4": [
+        643857.98647500004, 
+        8656312.9292749986
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__SECONDARY_BACKING__A__RAIL_03", 
+      "area_mm2": 11935.460000000001, 
+      "inertia_mm4": [
+        2566760.4578666673, 
+        54904610.419054173
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__SECONDARY_BACKING__A__RAIL_04", 
+      "area_mm2": 5564.5050000000010, 
+      "inertia_mm4": [
+        673124.25858750008, 
+        9891187.0220218785
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__SECONDARY_BACKING__A__RAIL_05", 
+      "area_mm2": 1693.5450000000003, 
+      "inertia_mm4": [
+        51215.976196875010, 
+        1115370.1482875003
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__SECONDARY_BACKING__A__TIE_01_R", 
+      "area_mm2": 5443.5375000000004, 
+      "inertia_mm4": [
+        658491.12253125012, 
+        9260031.4105957039
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__SECONDARY_BACKING__A__TIE_02_R", 
+      "area_mm2": 4737.8937499999993, 
+      "inertia_mm4": [
+        398007.75152994791, 
+        8791991.2312965486
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__SECONDARY_BACKING__A__TIE_03_R", 
+      "area_mm2": 11935.460000000001, 
+      "inertia_mm4": [
+        2566760.4578666673, 
+        54904610.419054173
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__SECONDARY_BACKING__A__TIE_04_R", 
+      "area_mm2": 5564.5050000000010, 
+      "inertia_mm4": [
+        673124.25858750008, 
+        9891187.0220218785
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__SECONDARY_BACKING__A__TIE_05_R", 
+      "area_mm2": 6532.2449999999999, 
+      "inertia_mm4": [
+        790189.34703750000, 
+        16001334.277509375
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__SECONDARY_BACKING__A__TIE_01_L", 
+      "area_mm2": 1693.5450000000003, 
+      "inertia_mm4": [
+        51215.976196875010, 
+        1115370.1482875003
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__SECONDARY_BACKING__A__TIE_02_L", 
+      "area_mm2": 4737.8937499999993, 
+      "inertia_mm4": [
+        398007.75152994791, 
+        8791991.2312965486
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__SECONDARY_BACKING__A__TIE_03_L", 
+      "area_mm2": 4737.8937499999993, 
+      "inertia_mm4": [
+        398007.75152994791, 
+        8791991.2312965486
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__SECONDARY_BACKING__A__TIE_04_L", 
+      "area_mm2": 4737.8937499999993, 
+      "inertia_mm4": [
+        398007.75152994791, 
+        8791991.2312965486
+      ]
+    }, 
+    {
+      "element_id": "AN_SEG__SECONDARY_BACKING__A__TIE_05_L", 
+      "area_mm2": 4737.8937499999993, 
+      "inertia_mm4": [
+        398007.75152994791, 
+        8791991.2312965486
+      ]
+    }, 
+    {
+      "element_id": "BRACE__ROOF_X1_PIECE_1", 
+      "area_mm2": 1572.5775000000001, 
+      "inertia_mm4": [
+        47557.692182812505, 
+        893027.77543281252
+      ]
+    }, 
+    {
+      "element_id": "BRACE__ROOF_X2_PIECE_1", 
+      "area_mm2": 1572.5775000000001, 
+      "inertia_mm4": [
+        47557.692182812505, 
+        893027.77543281252
+      ]
+    }, 
+    {
+      "element_id": "BRACE__LIVE_FACE_001_X1_PIECE_1", 
+      "area_mm2": 4919.3450000000012, 
+      "inertia_mm4": [
+        264480.38501666678, 
+        15377054.885109635
+      ]
+    }, 
+    {
+      "element_id": "BRACE__LIVE_FACE_001_X2_PIECE_1", 
+      "area_mm2": 4677.4100000000008, 
+      "inertia_mm4": [
+        251473.15296666673, 
+        13218057.602810418
+      ]
+    }, 
+    {
+      "element_id": "BRACE__LIVE_FACE_002_X1_PIECE_1", 
+      "area_mm2": 2419.3500000000004, 
+      "inertia_mm4": [
+        130072.32050000003, 
+        1829142.0070312505
+      ]
+    }, 
+    {
+      "element_id": "BRACE__LIVE_FACE_002_X2_PIECE_1", 
+      "area_mm2": 5161.2800000000007, 
+      "inertia_mm4": [
+        1109950.4682666671, 
+        4439801.8730666675
+      ]
+    }, 
+    {
+      "element_id": "BRACE__LIVE_FACE_003_X1_PIECE_1", 
+      "area_mm2": 5161.2800000000007, 
+      "inertia_mm4": [
+        1109950.4682666671, 
+        4439801.8730666675
+      ]
+    }, 
+    {
+      "element_id": "BRACE__LIVE_FACE_003_X2_PIECE_1", 
+      "area_mm2": 5161.2800000000007, 
+      "inertia_mm4": [
+        1109950.4682666671, 
+        4439801.8730666675
+      ]
+    }
+  ], 
+  "model_elements": 320, 
+  "panel_mappings": [
+    {
+      "t": 0.056445838168843528, 
+      "surface_to_axis_offset_mm": 19.116031393832721, 
+      "panel_id": "LIVE_FACE_005_ZONE_00_B17_STRIP_001_SEG_01", 
+      "element_id": "AN_SEG__JAMB_STUD_LIVE_FACE_000_0_RIGHT__001__AGENTB__AGENTA", 
+      "eccentricity_capacity": "NOT_VERIFIED"
+    }, 
+    {
+      "t": 0.033043971899614201, 
+      "surface_to_axis_offset_mm": 19.116031393832721, 
+      "panel_id": "LIVE_FACE_005_ZONE_00_B17_STRIP_002_SEG_01", 
+      "element_id": "AN_SEG__JAMB_STUD_LIVE_FACE_000_0_RIGHT__001__AGENTB__AGENTB__AGENTA", 
+      "eccentricity_capacity": "NOT_VERIFIED"
+    }, 
+    {
+      "t": 0.02339935513588173, 
+      "surface_to_axis_offset_mm": 19.116031393832721, 
+      "panel_id": "LIVE_FACE_005_ZONE_00_B17_STRIP_003_SEG_01", 
+      "element_id": "AN_SEG__JAMB_STUD_LIVE_FACE_000_0_RIGHT__001__AGENTB__AGENTB__AGENTB__AGENTA", 
+      "eccentricity_capacity": "NOT_VERIFIED"
+    }, 
+    {
+      "t": 0.011329675721485277, 
+      "surface_to_axis_offset_mm": 19.116031393832721, 
+      "panel_id": "LIVE_FACE_005_ZONE_00_B17_STRIP_004_SEG_01", 
+      "element_id": "AN_SEG__JAMB_STUD_LIVE_FACE_000_0_RIGHT__001__AGENTB__AGENTB__AGENTB__AGENTB__AGENTA", 
+      "eccentricity_capacity": "NOT_VERIFIED"
+    }, 
+    {
+      "t": 0.090940517049803618, 
+      "surface_to_axis_offset_mm": 19.116031393832777, 
+      "panel_id": "LIVE_FACE_007_ZONE_00_B19_STRIP_001_SEG_01", 
+      "element_id": "AN_SEG__JAMB_STUD_LIVE_FACE_000_0_LEFT__001__AGENTB__AGENTA", 
+      "eccentricity_capacity": "NOT_VERIFIED"
+    }, 
+    {
+      "t": 0.042055964235872767, 
+      "surface_to_axis_offset_mm": 19.116031393832777, 
+      "panel_id": "LIVE_FACE_007_ZONE_00_B19_STRIP_002_SEG_01", 
+      "element_id": "AN_SEG__JAMB_STUD_LIVE_FACE_000_0_LEFT__001__AGENTB__AGENTB__AGENTA", 
+      "eccentricity_capacity": "NOT_VERIFIED"
+    }, 
+    {
+      "t": 1.0, 
+      "surface_to_axis_offset_mm": 19.116031393832777, 
+      "panel_id": "LIVE_FACE_007_ZONE_00_B19_STRIP_003_SEG_01", 
+      "element_id": "AN_SEG__JAMB_STUD_LIVE_FACE_000_0_LEFT__001__AGENTB__AGENTB__AGENTA", 
+      "eccentricity_capacity": "NOT_VERIFIED"
+    }, 
+    {
+      "t": 0.022659351442971366, 
+      "surface_to_axis_offset_mm": 19.116031393832777, 
+      "panel_id": "LIVE_FACE_007_ZONE_00_B19_STRIP_004_SEG_01", 
+      "element_id": "AN_SEG__JAMB_STUD_LIVE_FACE_000_0_LEFT__001__AGENTB__AGENTB__AGENTB__AGENTB__AGENTA", 
+      "eccentricity_capacity": "NOT_VERIFIED"
+    }, 
+    {
+      "t": 0.77921985840349139, 
+      "surface_to_axis_offset_mm": 69.868037443812511, 
+      "panel_id": "LIVE_FACE_008_ZONE_00_B20_STRIP_001_SEG_01", 
+      "element_id": "AN_SEG__LINTEL_LIVE_FACE_000_000__003", 
+      "eccentricity_capacity": "NOT_VERIFIED"
+    }, 
+    {
+      "t": 0.030740691736824699, 
+      "surface_to_axis_offset_mm": 69.868037443812511, 
+      "panel_id": "LIVE_FACE_008_ZONE_00_B20_STRIP_002_SEG_01", 
+      "element_id": "AN_SEG__LINTEL_LIVE_FACE_000_000__003", 
+      "eccentricity_capacity": "NOT_VERIFIED"
+    }, 
+    {
+      "t": 0.99433516213925655, 
+      "surface_to_axis_offset_mm": 19.116031393832721, 
+      "panel_id": "LIVE_FACE_005_ZONE_00_B17_EDGE_STRIP_001_SEG_01", 
+      "element_id": "AN_SEG__JAMB_STUD_LIVE_FACE_000_0_RIGHT__001__AGENTB__AGENTB__AGENTB__AGENTB__AGENTA", 
+      "eccentricity_capacity": "NOT_VERIFIED"
+    }, 
+    {
+      "t": 0.071683632821360047, 
+      "surface_to_axis_offset_mm": 69.868037443812511, 
+      "panel_id": "LIVE_FACE_008_ZONE_00_B20_EDGE_STRIP_001_SEG_01", 
+      "element_id": "AN_SEG__LINTEL_LIVE_FACE_000_000__002", 
+      "eccentricity_capacity": "NOT_VERIFIED"
+    }, 
+    {
+      "t": 0.5, 
+      "surface_to_axis_offset_mm": 0.0, 
+      "panel_id": "LIVE_FACE_006_ZONE_00_B18_STRIP_001_SEG_01", 
+      "element_id": "AN_SEG__SECONDARY_BACKING__A__RAIL_01", 
+      "eccentricity_capacity": "NOT_VERIFIED"
+    }, 
+    {
+      "t": 0.5, 
+      "surface_to_axis_offset_mm": 0.0, 
+      "panel_id": "LIVE_FACE_006_ZONE_00_B18_STRIP_002_SEG_01", 
+      "element_id": "AN_SEG__SECONDARY_BACKING__A__RAIL_02", 
+      "eccentricity_capacity": "NOT_VERIFIED"
+    }, 
+    {
+      "t": 0.5, 
+      "surface_to_axis_offset_mm": 0.0, 
+      "panel_id": "LIVE_FACE_006_ZONE_00_B18_STRIP_003_SEG_01", 
+      "element_id": "AN_SEG__SECONDARY_BACKING__A__RAIL_03", 
+      "eccentricity_capacity": "NOT_VERIFIED"
+    }, 
+    {
+      "t": 0.5, 
+      "surface_to_axis_offset_mm": 0.0, 
+      "panel_id": "LIVE_FACE_006_ZONE_00_B18_STRIP_004_SEG_01", 
+      "element_id": "AN_SEG__SECONDARY_BACKING__A__RAIL_04", 
+      "eccentricity_capacity": "NOT_VERIFIED"
+    }, 
+    {
+      "t": 0.5, 
+      "surface_to_axis_offset_mm": 0.0, 
+      "panel_id": "LIVE_FACE_006_ZONE_00_B18_EDGE_STRIP_001_SEG_01", 
+      "element_id": "AN_SEG__SECONDARY_BACKING__A__RAIL_05", 
+      "eccentricity_capacity": "NOT_VERIFIED"
+    }
+  ], 
+  "nodes": 275
+}

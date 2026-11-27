@@ -1,0 +1,31 @@
+{
+  "issue_id": "HOST_DEFICIT_3055C2BC288C",
+  "selected_action": "ADD_SECONDARY_BACKING",
+  "selected_option_id": "BACKING_OPTION_A_HORIZONTAL_RAILS_WITH_JAMB_RETURNS",
+  "reason": [
+    "complete modeled load path",
+    "zero uncontrolled geometry conflict",
+    "highest deterministic residual-stock reuse",
+    "minimum new-stock consumption under higher-priority constraints"
+  ],
+  "rejected_options": [
+    {
+      "option_id": "BACKING_OPTION_B_VERTICAL_FRAME_WITH_JAMB_RETURNS",
+      "reason": "HARD_CONSTRAINT_OR_EXECUTION_FAILED",
+      "execution_blockers": [
+        "UNSUPPORTED_EXECUTION_TOPOLOGY",
+        "UNSUPPORTED_MEMBER_ROLE",
+        "UNSUPPORTED_PANEL_ATTACHMENT_MAP"
+      ]
+    },
+    {
+      "option_id": "BACKING_OPTION_C_PERIMETER_ONLY",
+      "reason": "HARD_CONSTRAINT_OR_EXECUTION_FAILED",
+      "execution_blockers": [
+        "UNSUPPORTED_EXECUTION_TOPOLOGY",
+        "UNSUPPORTED_MEMBER_ROLE"
+      ]
+    }
+  ],
+  "numeric_results_overridden": false
+}

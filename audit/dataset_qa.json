@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "listings": 762,
+  "images": 2161,
+  "bytes": 8270554923,
+  "distribution": {
+    "3": 579,
+    "2": 133,
+    "5": 4,
+    "4": 29,
+    "6": 1,
+    "1": 16
+  },
+  "grade_counts": {
+    "ENGINEERED_OR_LAMINATED_PRODUCT_REVIEW": 25,
+    "BOARD_OR_NONSTANDARD_SECTION_REVIEW": 431,
+    "CONDITIONAL_NAMED_HYPOTHESIS": 246,
+    "CONDITIONAL_NOMINAL_CLASS_SCENARIO": 18,
+    "DIMENSION_OR_PRODUCT_UNRESOLVED": 31,
+    "SELLER_SIZE_OUTSIDE_DIMENSION_BRANCH": 11
+  },
+  "named_candidates": {
+    "Stud": 43,
+    "No. 2": 221
+  },
+  "missing": [],
+  "hash_mismatches": [],
+  "all_formal_grades_unknown": true,
+  "all_original_files_verified": true
+}

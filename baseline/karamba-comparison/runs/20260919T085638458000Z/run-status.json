@@ -1,0 +1,14 @@
+{
+  "status": "FAILED", 
+  "gh_canvas_modified": false, 
+  "original_active_pointers_modified": false, 
+  "run_id": "20260919T085638458000Z", 
+  "cases": {
+    "baseline": {
+      "status": "FAILED", 
+      "error": "Traceback (most recent call last):\n  File \"C:\\Users\\cjhao\\Documents\\Codex\\2026-09-12\\h-paper-wip-connector-demo\\timber-baseline\\karamba-comparison\\run_in_rhino.py\", line 216, in main\n    result=execute_case(folder,output,name,environment,native)\n  File \"C:\\Users\\cjhao\\Documents\\Codex\\2026-09-12\\h-paper-wip-connector-demo\\timber-baseline\\karamba-comparison\\run_in_rhino.py\", line 131, in execute_case\n    write(os.path.join(output,name+'-preflight.json'),{'binding':binding,'section_and_node_units':'PASS',\n  File \"C:\\Users\\cjhao\\Documents\\Codex\\2026-09-12\\h-paper-wip-connector-demo\\timber-baseline\\karamba-comparison\\run_in_rhino.py\", line 26, in write\n    text=json.dumps(value,ensure_ascii=True,indent=2,allow_nan=False)\n  File \"C:\\Program Files\\Rhino 8\\Plug-ins\\IronPython\\Lib\\json\\__init__.py\", line 247, in dumps\n    return cls(\n  File \"C:\\Program Files\\Rhino 8\\Plug-ins\\IronPython\\Lib\\json\\encoder.py\", line 209, in encode\n    chunks = list(chunks)\n  File \"C:\\Program Files\\Rhino 8\\Plug-ins\\IronPython\\Lib\\json\\encoder.py\", line 434, in _iterencode\n    for chunk in _iterencode_dict(o, _current_indent_level):\n  File \"C:\\Program Files\\Rhino 8\\Plug-ins\\IronPython\\Lib\\json\\encoder.py\", line 408, in _iterencode_dict\n    for chunk in chunks:\n  File \"C:\\Program Files\\Rhino 8\\Plug-ins\\IronPython\\Lib\\json\\encoder.py\", line 408, in _iterencode_dict\n    for chunk in chunks:\n  File \"C:\\Program Files\\Rhino 8\\Plug-ins\\IronPython\\Lib\\json\\encoder.py\", line 390, in _iterencode_dict\n    yield _encoder(value)\n  File \"C:\\Program Files\\Rhino 8\\Plug-ins\\IronPython\\Lib\\json\\encoder.py\", line 47, in py_encode_basestring_ascii\n    s = s.decode('utf-8')\nUnicodeEncodeError: 'ascii' codec can't encode character '\\u2103' in position 95: ordinal not in range(128)\n"
+    }
+  }, 
+  "approved_for_construction": false, 
+  "engineering_approval": "UNKNOWN"
+}

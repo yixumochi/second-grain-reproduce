@@ -1,0 +1,19 @@
+{
+  "schema": "TIMBER_KARAMBA_COMPARISON_INPUTS_V1",
+  "files": {
+    "inputs/baseline-framework.json": "4df10d8d27fd5117bb53bf7bd88af704316a148c7eaccfac3aaeb4cc6789d2c0",
+    "inputs/baseline-loads.json": "00e7635dbaef99e9bc32f5fe8fe567697937ce52e9851e4a21f5caa0d5143e62",
+    "inputs/baseline-request.json": "8d0ea67615150ec41e9f14307c97c42487e58f9320da04e30438555afcbf081d",
+    "inputs/candidate-framework.json": "796d6ddd4bb9497d2ee55800871992a7ab85bdcf3281702791c4ceb2b4f9f338",
+    "inputs/candidate-loads.json": "87b3e1f49edf3ac37857461eefa28cda4916c09e3beee74885b70e3591eac00a",
+    "inputs/candidate-request.json": "7e5ebcc1e74632db57e9575bd9cb74237bd88babe20b76dadd2100f9f45e19f3",
+    "inputs/change-report.json": "0b0e3da2c6e8cfc8e23f7e957ebfdf767e26a1b56396ab758d43318adf9a19da",
+    "inputs/common-load-definition.json": "9ea8279db9b0962b79ab916df14ea620cfe981d1d403049189572984eff5b8a3",
+    "vendor/karamba_connected_builder.py": "9562c72f546b8db29b56b8939fb73fa54656627383fba87c19981aa33f1890f0"
+  },
+  "source_builder_path": "H:\\新项目\\AI_TIMBER_FINAL_PACKAGE_20260919\\08_CODE\\agent\\grasshopper\\karamba_connected_builder.py",
+  "controlled_stock_change": true,
+  "loads_and_supports_equal": true,
+  "comparison_type": "Same assumed material model; changed section and stock identity.",
+  "baseline_case_transaction": "AGENT_LOOP_20260914_144931"
+}

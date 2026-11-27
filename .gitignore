@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.runtime/
+.envs/
+logs/
+outputs/
+models/*.pt
+models/*.safetensors
+models/*.tar
+models/*.part
+data/*.zip
+data/*.zip.part
+data/all/*
+!data/all/117692/
+!data/all/120235/
+!data/all/111575/

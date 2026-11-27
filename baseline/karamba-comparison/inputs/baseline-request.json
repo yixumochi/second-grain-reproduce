@@ -1,0 +1,26 @@
+{
+  "case": "baseline",
+  "upstream_transaction_id": "AGENT_LOOP_20260914_144931",
+  "input_digests": {
+    "inventory": "79b92d095877375a4576995f1536215629e20bbc147f101c2f76b737febc7f2a",
+    "design_supply": "c4d9da829a99297ea6cd6e7b52f7271cdcd88e2a395780acf5d1aa4083c9803e",
+    "allocation_before": "0b0f957a685dae652273217bae2cdacc6b01998600e015a4666b5d3278e8c3be",
+    "elements": "7c400efbba317bfe1b9f43432b10a7ed1a0c675e9f123ae674772c4e64daedb4",
+    "action": "a58d71315cb9bd3440714e728666ca18f7771b2fd3e1064d9c79edc8c62ad2c3",
+    "graph_before": "458bb209a14d262da87e645ffd0dc31808326e1f30e7bf691fc929c640675fab",
+    "panels_before": "75972165af8507e3999618ca56bf07138e16e7479b30f35a6ee31e939e29bace",
+    "framework_before": "a0563f5612ee2db24eac59bbddbc0b508ee93f5a25ee6a9973b62f5d95c3b8c4",
+    "loads_before": "3dac7007ae2825a6be28b134c420420a9c0d96fda63e420d4642611d6281516f"
+  },
+  "framework_digest": "fef7cedbc5a0c6da9e0e21599bd1a0b0dcb75a728416a6c287f5012d89d5aaeb",
+  "loads_digest": "aa026057f63944a395248d7f6d6d586fc8eafccf3d33119708ca0827e3da5ac6",
+  "common_load_definition_digest": "a0fc8b1819408d629c1531c1a6abf5a8f66f92b38e996279c0539db4fed19ab7",
+  "framework_file_sha256": "4df10d8d27fd5117bb53bf7bd88af704316a148c7eaccfac3aaeb4cc6789d2c0",
+  "loads_file_sha256": "00e7635dbaef99e9bc32f5fe8fe567697937ce52e9851e4a21f5caa0d5143e62",
+  "common_load_file_sha256": "9ea8279db9b0962b79ab916df14ea620cfe981d1d403049189572984eff5b8a3",
+  "source_builder_sha256": "9562c72f546b8db29b56b8939fb73fa54656627383fba87c19981aa33f1890f0",
+  "changed_member_ids": [],
+  "material_policy": "COMMON_RESEARCH_STIFFNESS_NOT_VERIFIED_SPECIES_OR_GRADE",
+  "engineering_approval": "UNKNOWN",
+  "request_digest": "2a31e290c546192b20dbd79d085bb5a72925a416384d15328db0c6821f0d1020"
+}

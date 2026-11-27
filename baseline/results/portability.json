@@ -1,0 +1,9 @@
+{
+  "relocated_directory": "C:\\Users\\cjhao\\Documents\\Codex\\2026-09-12\\h-paper-wip-connector-demo\\timber-baseline-relocated-check",
+  "exit_code": 0,
+  "original_project_reads_allowed": false,
+  "same_verification_bytes": true,
+  "read_audit_completed": true,
+  "stdout": "{\n  \"status\": \"PASS\",\n  \"metrics\": {\n    \"added_members\": 15,\n    \"stock_sources\": 10,\n    \"added_length_mm\": 8306.207755001127\n  },\n  \"failures\": [],\n  \"engineering_approval\": \"UNKNOWN\",\n  \"output\": \"C:\\\\Users\\\\cjhao\\\\Documents\\\\Codex\\\\2026-09-12\\\\h-paper-wip-connector-demo\\\\timber-baseline-relocated-check\\\\results\\\\baseline\"\n}\n",
+  "stderr": ""
+}

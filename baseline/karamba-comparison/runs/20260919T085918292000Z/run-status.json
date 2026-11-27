@@ -1,0 +1,22 @@
+{
+  "status": "BOTH_CASES_SOLVED", 
+  "gh_canvas_modified": false, 
+  "original_active_pointers_modified": false, 
+  "run_id": "20260919T085918292000Z", 
+  "cases": {
+    "candidate": {
+      "status": "SOLVED_RESEARCH_MODEL", 
+      "result_file_sha256": "9b8193ddaab2723cee28208160152835d46b22f9519b3ea9fc4fce18af6d6c16", 
+      "preflight_file_sha256": "f20a37e32e2abd5fe803edde5142ee39a5587ba12292601442eb615af0857ec4", 
+      "binding_digest": "25b99a5d8f4ae50b66f041abb989c2b6941a4661cf052c50d27e392db99cd1d3"
+    }, 
+    "baseline": {
+      "status": "SOLVED_RESEARCH_MODEL", 
+      "result_file_sha256": "2b573c6497f221e4074a159bdcdb429f6807f2e022761cf27ed98736831cfd3f", 
+      "preflight_file_sha256": "8e477422d4ce858c585cd23b9e8eb2ffad2137dd40ad5ceb11e0fff881e24dea", 
+      "binding_digest": "c22a13511a32e5de17c5cd92608024431bcf4bfe782d933a6f2e4a5456663c8d"
+    }
+  }, 
+  "approved_for_construction": false, 
+  "engineering_approval": "UNKNOWN"
+}

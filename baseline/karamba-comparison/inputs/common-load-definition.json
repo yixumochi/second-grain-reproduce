@@ -1,0 +1,170 @@
+{
+  "load_cases": [
+    "DL_STRUCTURAL_TIMBER",
+    "LL_FLOOR_ASSEMBLY_100PSF"
+  ],
+  "dead_load": {
+    "basis": "KARAMBA_GRAVITY_FROM_CURRENT_MEMBER_SECTIONS_AND_CURRENT_RESEARCH_MATERIAL",
+    "reference_unit_weight_kN_m3": 6.0,
+    "reference_unit_weight_source": "C:\\Program Files\\Rhino 8\\Plug-ins\\Karamba\\Materials\\MaterialProperties.csv",
+    "structural_members_included": true,
+    "surface_members_included": false,
+    "status": "PARTIAL_PERMANENT_LOAD"
+  },
+  "floor_live_load": {
+    "value_psf": 100,
+    "value_kPa": 4.788025898,
+    "floor_area_m2": 2.4999999999999996,
+    "resultant_kN": 11.970064744998565,
+    "source": "floor_codes.py; Seattle 2021 Table 1607.1 other assembly areas; USER_CONFIRMED",
+    "line_loads": [
+      {
+        "element_id": "AN_SEG__FLOOR_JOIST_001__001",
+        "parent_member_id": "FLOOR_JOIST_001",
+        "line_load_kN_m": 1.459390293710855,
+        "length_mm": 1581.138830084,
+        "tributary_width_mm": 304.800000000095,
+        "load_case": "FLOOR_LIVE",
+        "direction": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "element_id": "AN_SEG__FLOOR_JOIST_002__001",
+        "parent_member_id": "FLOOR_JOIST_002",
+        "line_load_kN_m": 2.9187805874208004,
+        "length_mm": 1581.138830084,
+        "tributary_width_mm": 609.6,
+        "load_case": "FLOOR_LIVE",
+        "direction": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "element_id": "AN_SEG__FLOOR_JOIST_003__001",
+        "parent_member_id": "FLOOR_JOIST_003",
+        "line_load_kN_m": 2.3258765396774064,
+        "length_mm": 1581.138830084,
+        "tributary_width_mm": 485.76941504199993,
+        "load_case": "FLOOR_LIVE",
+        "direction": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "element_id": "AN_SEG__FLOOR_JOIST_004__001",
+        "parent_member_id": "FLOOR_JOIST_004",
+        "line_load_kN_m": 0.8664862459674609,
+        "length_mm": 1581.138830084,
+        "tributary_width_mm": 180.96941504209485,
+        "load_case": "FLOOR_LIVE",
+        "direction": [
+          0,
+          0,
+          -1
+        ]
+      }
+    ]
+  },
+  "unresolved_load_components": [
+    {
+      "component_id": "LIVE_FACE_005_ZONE_00_B17_STRIP_001_SEG_01",
+      "role": "WALL_SURFACE",
+      "reason": "NO_EXISTING_STRUCTURAL_HOST_ON_THIS_FACE; no invented connection or support"
+    },
+    {
+      "component_id": "LIVE_FACE_005_ZONE_00_B17_STRIP_002_SEG_01",
+      "role": "WALL_SURFACE",
+      "reason": "NO_EXISTING_STRUCTURAL_HOST_ON_THIS_FACE; no invented connection or support"
+    },
+    {
+      "component_id": "LIVE_FACE_005_ZONE_00_B17_STRIP_003_SEG_01",
+      "role": "WALL_SURFACE",
+      "reason": "NO_EXISTING_STRUCTURAL_HOST_ON_THIS_FACE; no invented connection or support"
+    },
+    {
+      "component_id": "LIVE_FACE_005_ZONE_00_B17_STRIP_004_SEG_01",
+      "role": "WALL_SURFACE",
+      "reason": "NO_EXISTING_STRUCTURAL_HOST_ON_THIS_FACE; no invented connection or support"
+    },
+    {
+      "component_id": "LIVE_FACE_006_ZONE_00_B18_STRIP_001_SEG_01",
+      "role": "WALL_SURFACE",
+      "reason": "NO_EXISTING_STRUCTURAL_HOST_ON_THIS_FACE; no invented connection or support"
+    },
+    {
+      "component_id": "LIVE_FACE_006_ZONE_00_B18_STRIP_002_SEG_01",
+      "role": "WALL_SURFACE",
+      "reason": "NO_EXISTING_STRUCTURAL_HOST_ON_THIS_FACE; no invented connection or support"
+    },
+    {
+      "component_id": "LIVE_FACE_006_ZONE_00_B18_STRIP_003_SEG_01",
+      "role": "WALL_SURFACE",
+      "reason": "NO_EXISTING_STRUCTURAL_HOST_ON_THIS_FACE; no invented connection or support"
+    },
+    {
+      "component_id": "LIVE_FACE_006_ZONE_00_B18_STRIP_004_SEG_01",
+      "role": "WALL_SURFACE",
+      "reason": "NO_EXISTING_STRUCTURAL_HOST_ON_THIS_FACE; no invented connection or support"
+    },
+    {
+      "component_id": "LIVE_FACE_007_ZONE_00_B19_STRIP_001_SEG_01",
+      "role": "WALL_SURFACE",
+      "reason": "NO_EXISTING_STRUCTURAL_HOST_ON_THIS_FACE; no invented connection or support"
+    },
+    {
+      "component_id": "LIVE_FACE_007_ZONE_00_B19_STRIP_002_SEG_01",
+      "role": "WALL_SURFACE",
+      "reason": "NO_EXISTING_STRUCTURAL_HOST_ON_THIS_FACE; no invented connection or support"
+    },
+    {
+      "component_id": "LIVE_FACE_007_ZONE_00_B19_STRIP_003_SEG_01",
+      "role": "WALL_SURFACE",
+      "reason": "NO_EXISTING_STRUCTURAL_HOST_ON_THIS_FACE; no invented connection or support"
+    },
+    {
+      "component_id": "LIVE_FACE_007_ZONE_00_B19_STRIP_004_SEG_01",
+      "role": "WALL_SURFACE",
+      "reason": "NO_EXISTING_STRUCTURAL_HOST_ON_THIS_FACE; no invented connection or support"
+    },
+    {
+      "component_id": "LIVE_FACE_008_ZONE_00_B20_STRIP_001_SEG_01",
+      "role": "WALL_SURFACE",
+      "reason": "NO_EXISTING_STRUCTURAL_HOST_ON_THIS_FACE; no invented connection or support"
+    },
+    {
+      "component_id": "LIVE_FACE_008_ZONE_00_B20_STRIP_002_SEG_01",
+      "role": "WALL_SURFACE",
+      "reason": "NO_EXISTING_STRUCTURAL_HOST_ON_THIS_FACE; no invented connection or support"
+    },
+    {
+      "component_id": "LIVE_FACE_005_ZONE_00_B17_EDGE_STRIP_001_SEG_01",
+      "role": "WALL_SURFACE",
+      "reason": "NO_EXISTING_STRUCTURAL_HOST_ON_THIS_FACE; no invented connection or support"
+    },
+    {
+      "component_id": "LIVE_FACE_006_ZONE_00_B18_EDGE_STRIP_001_SEG_01",
+      "role": "WALL_SURFACE",
+      "reason": "NO_EXISTING_STRUCTURAL_HOST_ON_THIS_FACE; no invented connection or support"
+    },
+    {
+      "component_id": "LIVE_FACE_008_ZONE_00_B20_EDGE_STRIP_001_SEG_01",
+      "role": "WALL_SURFACE",
+      "reason": "NO_EXISTING_STRUCTURAL_HOST_ON_THIS_FACE; no invented connection or support"
+    }
+  ],
+  "excluded_loads": [
+    "UNRESOLVED_DEAD_LOAD",
+    "WIND",
+    "SNOW",
+    "SEISMIC",
+    "EXHIBIT_EQUIPMENT_CONCENTRATED"
+  ],
+  "load_scope": "CURRENT_PROJECT_EVIDENCE_ONLY_PARTIAL_SCREENING"
+}

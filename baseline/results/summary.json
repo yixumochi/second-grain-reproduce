@@ -1,0 +1,8 @@
+{
+  "baseline": "PASS",
+  "checks_passed": 10,
+  "unknown_checks": 5,
+  "fault_cases_rejected": 12,
+  "original_files_unchanged": true,
+  "portability": true
+}

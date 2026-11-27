@@ -1,0 +1,19 @@
+{
+  "syntax": "PASS",
+  "frozen_file_hashes": "PASS",
+  "files_checked": 9,
+  "changed_analysis_beams": [
+    {
+      "element_id": "AN_SEG__SECONDARY_BACKING__A__RAIL_01",
+      "changed_fields": [
+        "section",
+        "supply_id"
+      ]
+    }
+  ],
+  "nodes": 275,
+  "supports": 34,
+  "physical_members": 64,
+  "solver_executed": false,
+  "status": "READY_AWAITING_RHINO_EXECUTION_BRIDGE"
+}

@@ -1,0 +1,356 @@
+{
+  "schema": "AI_TIMBER_AGENT_BACKING_STOCK_LEDGER_V1",
+  "transaction_id": "AGENT_LOOP_20260914_144931",
+  "entries": [
+    {
+      "stock_instance_id": "119270_001",
+      "listing_id": "119270",
+      "material_section_family_id": "MSF_HEMLOCK_4E20D6BE43__DIMENSION_LUMBER",
+      "source_kind": "RESIDUAL_OFFCUT",
+      "available_interval_before_mm": [
+        0.0,
+        1581.138830084
+      ],
+      "cut_intervals_mm": [
+        [
+          0.0,
+          900.0
+        ],
+        [
+          903.0,
+          1282.8280202933954
+        ]
+      ],
+      "kerf_intervals_mm": [
+        [
+          900.0,
+          903.0
+        ],
+        [
+          1282.8280202933954,
+          1285.8280202933954
+        ]
+      ],
+      "residual_interval_after_mm": [
+        1285.8280202933954,
+        1581.138830084
+      ],
+      "residual_length_after_mm": 295.3108097906045,
+      "member_ids": [
+        "SECONDARY_BACKING__A__RAIL_05",
+        "SECONDARY_BACKING__A__TIE_01_L"
+      ]
+    },
+    {
+      "stock_instance_id": "118507_001",
+      "listing_id": "118507",
+      "material_section_family_id": "MSF_FIR_0626844638__DIMENSION_LUMBER",
+      "source_kind": "RESIDUAL_OFFCUT",
+      "available_interval_before_mm": [
+        3168.277660168379,
+        3657.6
+      ],
+      "cut_intervals_mm": [
+        [
+          3168.277660168379,
+          3549.691190875209
+        ]
+      ],
+      "kerf_intervals_mm": [
+        [
+          3549.691190875209,
+          3552.691190875209
+        ]
+      ],
+      "residual_interval_after_mm": [
+        3552.691190875209,
+        3657.6
+      ],
+      "residual_length_after_mm": 104.90880912479088,
+      "member_ids": [
+        "SECONDARY_BACKING__A__TIE_02_R"
+      ]
+    },
+    {
+      "stock_instance_id": "118509_001",
+      "listing_id": "118509",
+      "material_section_family_id": "MSF_FIR_0626844638__DIMENSION_LUMBER",
+      "source_kind": "RESIDUAL_OFFCUT",
+      "available_interval_before_mm": [
+        3168.277660168379,
+        4013.2
+      ],
+      "cut_intervals_mm": [
+        [
+          3168.277660168379,
+          3548.1056804617747
+        ],
+        [
+          3551.1056804617747,
+          3930.9337007551703
+        ]
+      ],
+      "kerf_intervals_mm": [
+        [
+          3548.1056804617747,
+          3551.1056804617747
+        ],
+        [
+          3930.9337007551703,
+          3933.9337007551703
+        ]
+      ],
+      "residual_interval_after_mm": [
+        3933.9337007551703,
+        4013.2
+      ],
+      "residual_length_after_mm": 79.2662992448295,
+      "member_ids": [
+        "SECONDARY_BACKING__A__TIE_02_L",
+        "SECONDARY_BACKING__A__TIE_03_L"
+      ]
+    },
+    {
+      "stock_instance_id": "118511_001",
+      "listing_id": "118511",
+      "material_section_family_id": "MSF_FIR_0626844638__DIMENSION_LUMBER",
+      "source_kind": "RESIDUAL_OFFCUT",
+      "available_interval_before_mm": [
+        3168.277660168379,
+        4013.2
+      ],
+      "cut_intervals_mm": [
+        [
+          3168.277660168379,
+          3548.1056804617747
+        ],
+        [
+          3551.1056804617747,
+          3930.9337007551703
+        ]
+      ],
+      "kerf_intervals_mm": [
+        [
+          3548.1056804617747,
+          3551.1056804617747
+        ],
+        [
+          3930.9337007551703,
+          3933.9337007551703
+        ]
+      ],
+      "residual_interval_after_mm": [
+        3933.9337007551703,
+        4013.2
+      ],
+      "residual_length_after_mm": 79.2662992448295,
+      "member_ids": [
+        "SECONDARY_BACKING__A__TIE_04_L",
+        "SECONDARY_BACKING__A__TIE_05_L"
+      ]
+    },
+    {
+      "stock_instance_id": "120235_001",
+      "listing_id": "120235",
+      "material_section_family_id": "MSF_CEDAR_D9624E0806__DIMENSION_LUMBER",
+      "source_kind": "RESIDUAL_OFFCUT",
+      "available_interval_before_mm": [
+        687.1388300841895,
+        1828.8
+      ],
+      "cut_intervals_mm": [
+        [
+          687.1388300841895,
+          1587.1388300841895
+        ]
+      ],
+      "kerf_intervals_mm": [
+        [
+          1587.1388300841895,
+          1590.1388300841895
+        ]
+      ],
+      "residual_interval_after_mm": [
+        1590.1388300841895,
+        1828.8
+      ],
+      "residual_length_after_mm": 238.66116991581043,
+      "member_ids": [
+        "SECONDARY_BACKING__A__RAIL_02"
+      ]
+    },
+    {
+      "stock_instance_id": "118162_001",
+      "listing_id": "118162",
+      "material_section_family_id": "MSF_FIR_0FB753EABE__DIMENSION_LUMBER",
+      "source_kind": "RESIDUAL_OFFCUT",
+      "available_interval_before_mm": [
+        2064.9,
+        2473.325
+      ],
+      "cut_intervals_mm": [
+        [
+          2064.9,
+          2446.31353070683
+        ]
+      ],
+      "kerf_intervals_mm": [
+        [
+          2446.31353070683,
+          2449.31353070683
+        ]
+      ],
+      "residual_interval_after_mm": [
+        2449.31353070683,
+        2473.325
+      ],
+      "residual_length_after_mm": 24.01146929316974,
+      "member_ids": [
+        "SECONDARY_BACKING__A__TIE_01_R"
+      ]
+    },
+    {
+      "stock_instance_id": "120443_001",
+      "listing_id": "120443",
+      "material_section_family_id": "MSF_FIR_0FB753EABE__DIMENSION_LUMBER",
+      "source_kind": "RESIDUAL_OFFCUT",
+      "available_interval_before_mm": [
+        2064.9,
+        3470.275
+      ],
+      "cut_intervals_mm": [
+        [
+          2064.9,
+          2964.9
+        ],
+        [
+          2967.9,
+          3349.31353070683
+        ]
+      ],
+      "kerf_intervals_mm": [
+        [
+          2964.9,
+          2967.9
+        ],
+        [
+          3349.31353070683,
+          3352.31353070683
+        ]
+      ],
+      "residual_interval_after_mm": [
+        3352.31353070683,
+        3470.275
+      ],
+      "residual_length_after_mm": 117.96146929317001,
+      "member_ids": [
+        "SECONDARY_BACKING__A__RAIL_04",
+        "SECONDARY_BACKING__A__TIE_04_R"
+      ]
+    },
+    {
+      "stock_instance_id": "118159_001",
+      "listing_id": "118159",
+      "material_section_family_id": "MSF_FIR_2F4626736E__DIMENSION_LUMBER",
+      "source_kind": "RESIDUAL_OFFCUT",
+      "available_interval_before_mm": [
+        1584.13883,
+        2197.1
+      ],
+      "cut_intervals_mm": [
+        [
+          1584.13883,
+          1965.55236070683
+        ]
+      ],
+      "kerf_intervals_mm": [
+        [
+          1965.55236070683,
+          1968.55236070683
+        ]
+      ],
+      "residual_interval_after_mm": [
+        1968.55236070683,
+        2197.1
+      ],
+      "residual_length_after_mm": 228.54763929316982,
+      "member_ids": [
+        "SECONDARY_BACKING__A__TIE_05_R"
+      ]
+    },
+    {
+      "stock_instance_id": "113209_001",
+      "listing_id": "113209",
+      "material_section_family_id": "MSF_FIR_54DBE03855__DIMENSION_LUMBER",
+      "source_kind": "RESIDUAL_OFFCUT",
+      "available_interval_before_mm": [
+        3168.277660168,
+        4572.0
+      ],
+      "cut_intervals_mm": [
+        [
+          3168.277660168,
+          4068.277660168
+        ],
+        [
+          4071.277660168,
+          4452.69119087483
+        ]
+      ],
+      "kerf_intervals_mm": [
+        [
+          4068.277660168,
+          4071.277660168
+        ],
+        [
+          4452.69119087483,
+          4455.69119087483
+        ]
+      ],
+      "residual_interval_after_mm": [
+        4455.69119087483,
+        4572.0
+      ],
+      "residual_length_after_mm": 116.30880912517023,
+      "member_ids": [
+        "SECONDARY_BACKING__A__RAIL_03",
+        "SECONDARY_BACKING__A__TIE_03_R"
+      ]
+    },
+    {
+      "stock_instance_id": "119600_001",
+      "listing_id": "119600",
+      "material_section_family_id": "MSF_FIR_A56B298152__DIMENSION_LUMBER",
+      "source_kind": "RESIDUAL_OFFCUT",
+      "available_interval_before_mm": [
+        3168.277660168,
+        4267.2
+      ],
+      "cut_intervals_mm": [
+        [
+          3168.277660168,
+          4068.277660168
+        ]
+      ],
+      "kerf_intervals_mm": [
+        [
+          4068.277660168,
+          4071.277660168
+        ]
+      ],
+      "residual_interval_after_mm": [
+        4071.277660168,
+        4267.2
+      ],
+      "residual_length_after_mm": 195.92233983200003,
+      "member_ids": [
+        "SECONDARY_BACKING__A__RAIL_01"
+      ]
+    }
+  ],
+  "checks": {
+    "no_joining": true,
+    "real_stock_only": true,
+    "existing_allocations_unchanged": true
+  }
+}

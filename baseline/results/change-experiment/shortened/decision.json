@@ -1,0 +1,11 @@
+{
+  "issue_id": "HOST_DEFICIT_3055C2BC288C",
+  "selected_action": "REVISE_SECONDARY_BACKING_ALLOCATION",
+  "selected_option_id": "BACKING_OPTION_A_HORIZONTAL_RAILS_WITH_JAMB_RETURNS",
+  "reason": [
+    "Keep topology A and reserve every unaffected cut before residual-first greedy repair."
+  ],
+  "revision_policy": "KEEP_OPTION_A_AND_LOCK_UNAFFECTED_ASSIGNMENTS",
+  "alternative_topologies_reconsidered": false,
+  "global_optimality_proven": false
+}
