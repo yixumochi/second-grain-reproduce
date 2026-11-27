@@ -4,7 +4,7 @@
 
 Second Grain asks how a building can take shape around the reclaimed timber already available. It pairs a study of what seller photographs can reveal about timber with a study of how finite stock can shape a span, a surface, or an assembly.
 
-![Second Grain project diagram. Material AI reads seller photographs to document material evidence and usable stock. Design Agent works from a brief and inventory to compare cutting, allocation, and assembly. The dashed connection shows the proposed feedback between material review and design.](assets/readme/second-grain-project-guide.png)
+![Second Grain project diagram. Material AI reads seller photographs to document material evidence and usable stock. Design Agent works from a brief and inventory to compare cutting, allocation, and assembly. The dashed connection shows the proposed feedback between material review and design.](docs/media/second-grain-project-guide.png)
 
 ### Quick Start
 
@@ -31,11 +31,17 @@ Second Grain asks how a building can take shape around the reclaimed timber alre
 
 Use seller photographs to identify visible surfaces, mark gaps in the evidence, and decide what needs a closer look before assigning a piece to a part.
 
-[![Cedar slab 99397 from two seller photographs through SAM2 masks, VGGT points, and observed photo patches on a schematic surface.](assets/readme/material-evidence.gif)](https://yixumochi.github.io/second-grain-timber/showcase/#material-workflow)
+[![Cedar slab 99397 from two seller photographs through SAM2 masks, VGGT points, and observed photo patches on a schematic surface.](docs/media/material-evidence.gif)](https://yixumochi.github.io/second-grain-timber/showcase/#material-workflow)
 
 The cedar slab study shows which surfaces the photographs support. Formal grade remains unknown.
 
-**Quick Start.** Open the material workflow and step through the saved cedar slab study. To screen the three specimens bundled with this repository, use the CUDA setup and run `bash run_test.sh`. [Material workflow](https://yixumochi.github.io/second-grain-timber/showcase/#material-workflow) · [Screening instructions](docs/reproduction.md#screen-three-specimens)
+**Quick Start.** Open the material workflow and step through the saved cedar slab study. To check the three bundled specimens without a GPU:
+
+```sh
+python scripts/run_batch.py --manifest data/examples_manifest.json --ids 117692 120235 111575 --prepare-only
+```
+
+The command checks all 10 photographs. Each listing then prints `PREPARED_NOT_RUN`. `bash run_test.sh` uses the same manifest and continues on a CUDA machine. [Material workflow](https://yixumochi.github.io/second-grain-timber/showcase/#material-workflow) · [Screening instructions](docs/reproduction.md#check-the-three-specimens)
 
 <a id="offline-allocation"></a>
 
@@ -43,9 +49,9 @@ The cedar slab study shows which surfaces the photographs support. Formal grade 
 
 Use the brief and stock limits to set the design constraints, assign cuts to available pieces, and review the resulting assembly.
 
-[![Saved Timber Shelter allocation traces reclaimed board 111581_001 into two cut parts and shows the south wall rail in the shelter model.](assets/readme/allocation-to-assembly.gif)](https://yixumochi.github.io/second-grain-timber/showcase/#film-stock-allocation)
+[![Saved Timber Shelter allocation traces reclaimed board 111581_001 into two cut parts and shows the south wall rail in the shelter model.](docs/media/allocation-to-assembly.gif)](https://yixumochi.github.io/second-grain-timber/showcase/#film-stock-allocation)
 
-[![Timber Shelter recorded displacement before and after the backing revision, compared within each load case.](assets/readme/shelter-structure-comparison.png)](https://yixumochi.github.io/second-grain-timber/showcase/#ai-structural-change)
+[![Timber Shelter recorded displacement before and after the backing revision, compared within each load case.](docs/media/shelter-structure-comparison.png)](https://yixumochi.github.io/second-grain-timber/showcase/#ai-structural-change)
 
 The shelter revision reduced displacement under the recorded positive Y wind case and increased it under dead load. [Saved structural study](https://yixumochi.github.io/second-grain-timber/showcase/#ai-structural-change)
 
@@ -64,8 +70,9 @@ Start with a case, follow the evidence behind its design decisions, then pick a 
 | [`baseline/`](baseline/README.md) | Allocation replay, saved inputs, and verification reports |
 | [`src/`](src/), [`scripts/`](scripts/) | Photograph screening code and runners |
 | [`vendor/`](vendor/), [`configs/`](configs/) | Pinned model sources and checkpoint checksums |
-| [`data/all/`](data/all/), [`audit/`](audit/) | Three specimen photo sets and recorded checks |
-| [`docs/`](docs/), [`licenses/`](licenses/) | Run instructions and source notices |
+| [`data/all/`](data/all/), [`data/examples_manifest.json`](data/examples_manifest.json), [`audit/`](audit/) | Three specimen photo sets, their manifest, and recorded checks |
+| [`archive/cloud-batches/`](archive/cloud-batches/README.md) | Earlier cloud queue, pilot, and upload-package records |
+| [`docs/`](docs/), [`licenses/`](licenses/) | Run instructions, README figures, and source notices |
 
 ## 6. Reproduction
 
@@ -79,4 +86,10 @@ python baseline/run.py
 
 Read `baseline/results/baseline/verification.json`. The replay checks 15 added members from 10 stock sources. Engineering approval remains `UNKNOWN`.
 
-For photograph screening, prepare the CUDA environment in Linux or WSL and download the model weights using the guide. Run `bash run_test.sh` to screen listings 117692, 120235, and 111575 and write their records under `outputs/`. The full photo archive is held separately. [Reproduction guide](docs/reproduction.md) · [Methods and sources](METHODS_AND_SOURCES.md)
+For the bundled photographs, the same checkout can verify paths and hashes without a GPU:
+
+```sh
+python scripts/run_batch.py --manifest data/examples_manifest.json --ids 117692 120235 111575 --prepare-only
+```
+
+Expect `117692 PREPARED_NOT_RUN`, `120235 PREPARED_NOT_RUN`, and `111575 PREPARED_NOT_RUN`. That is 4 + 3 + 3 photographs. `bash run_test.sh` passes this manifest and continues into SAM2 and VGGT on a CUDA machine. The full 762-listing run is `bash run_all.sh --manifest path/to/all_manifest.json`. The full photo archive is held separately. [Reproduction guide](docs/reproduction.md) · [Methods and sources](METHODS_AND_SOURCES.md)

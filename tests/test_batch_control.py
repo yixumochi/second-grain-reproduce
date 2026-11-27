@@ -12,7 +12,7 @@ class ControlTests(unittest.TestCase):
             def fake(job,name,seconds):
                 calls.append((job['record']['listing_id'],name))
                 return dict(status='FAILED' if job['record']['listing_id']=='120235' else 'COMPLETE',detail='MOCK_ONLY')
-            args=['run_batch.py','--ids','120235','117692','--output',tmp]
+            args=['run_batch.py','--manifest',str(ROOT/'data/examples_manifest.json'),'--ids','120235','117692','--output',tmp]
             with patch.object(batch,'preflight'),patch.object(batch,'reuse_masks',return_value=False),patch.object(batch,'stage',side_effect=fake),patch.object(sys,'argv',args):batch.main()
             result=json.loads((Path(tmp)/'batch_summary.json').read_text())['records']
             self.assertEqual(set(result),{'120235','117692'})

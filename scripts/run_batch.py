@@ -65,10 +65,15 @@ def main():
     p=argparse.ArgumentParser();p.add_argument('--all',action='store_true');p.add_argument('--ids',nargs='+')
     p.add_argument('--prepare-only',action='store_true');p.add_argument('--preflight',action='store_true')
     p.add_argument('--retry-failed',action='store_true');p.add_argument('--keep-dense',action='store_true')
+    p.add_argument('--manifest',help='Gallery manifest. The public example is data/examples_manifest.json.')
     p.add_argument('--limit',type=int);p.add_argument('--output',default='outputs');args=p.parse_args()
     if args.preflight:preflight();return
+    if not args.manifest:p.error('--manifest is required. The public example is data/examples_manifest.json.')
     if not args.all and not args.ids:p.error('Choose --all or --ids 117692 120235 111575')
-    cfg=read(ROOT/'configs/batch.json');records=read(ROOT/'data/all_manifest.json')['records']
+    manifest=Path(args.manifest)
+    if not manifest.is_absolute():manifest=ROOT/manifest
+    if not manifest.is_file():p.error('Manifest not found: '+str(manifest))
+    cfg=read(ROOT/'configs/batch.json');records=read(manifest)['records']
     ids=set(args.ids or []);known={r['listing_id'] for r in records}
     if ids-known:p.error('Unknown listing IDs: '+','.join(ids-known))
     chosen=[r for r in records if args.all or r['listing_id'] in ids]
