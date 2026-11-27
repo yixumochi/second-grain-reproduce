@@ -1,0 +1,309 @@
+{
+  "schema": "second_grain_example_galleries_v1",
+  "source_manifest_schema": "earthwise_all_verified_galleries_v1",
+  "source_created_at": "2026-09-21T15:06:35.993834+00:00",
+  "image_path_base": "directory containing this manifest",
+  "inventory_snapshot_revision": "EW_20260911T074059599568Z_a68d5a26c1",
+  "same_physical_piece_confirmed_allowed_values": [
+    true,
+    false,
+    "unknown"
+  ],
+  "listing_ids": [
+    "117692",
+    "120235",
+    "111575"
+  ],
+  "image_count": 10,
+  "records": [
+    {
+      "listing_id": "117692",
+      "title": "Old Growth Fir Beam 13.375 x 14 x 100.875",
+      "nominal_dimensions": {
+        "thickness_mm": 339.725,
+        "width_mm": 355.6,
+        "length_mm": 2562.225,
+        "length_min_mm": 2562.225,
+        "length_max_mm": 2562.225,
+        "dimension_status": "RESOLVED",
+        "length_status": "EXACT",
+        "dimension_evidence": {
+          "source": "https://ewsalvage.com/lumber-inventory/?item=117692-old_growth_fir_beam_13.375_x_14_x_100.875",
+          "captured_at": "2026-09-11T07:03:54.874980+00:00",
+          "evidence": [
+            {
+              "field": "title",
+              "text": "13.375 x 14 x 100.875",
+              "basis": "SELLER_TITLE_THICKNESS_WIDTH_LENGTH",
+              "unit_basis": "Explicit units where present; project-authorized Earthwise inch title convention"
+            }
+          ],
+          "measurement_status": "SELLER_REPORTED_NOT_INSPECTED"
+        },
+        "section_shape_status": "RECTANGULAR_CANDIDATE",
+        "thickness_in": 13.375,
+        "width_in": 14.0,
+        "length_in": 100.875,
+        "length_min_in": 100.875,
+        "length_max_in": 100.875,
+        "title_axes_in": {
+          "thickness": [
+            13.375,
+            13.375
+          ],
+          "width": [
+            14.0,
+            14.0
+          ],
+          "length": [
+            100.875,
+            100.875
+          ]
+        },
+        "thickness_min_in": 13.375,
+        "thickness_max_in": 13.375,
+        "thickness_min_mm": 339.725,
+        "thickness_max_mm": 339.725,
+        "width_min_in": 14.0,
+        "width_max_in": 14.0,
+        "width_min_mm": 355.6,
+        "width_max_mm": 355.6
+      },
+      "nominal_dimensions_basis": "seller_reported_inventory_snapshot_not_physical_measurement",
+      "source_url": "https://ewsalvage.com/lumber-inventory/?item=117692-old_growth_fir_beam_13.375_x_14_x_100.875",
+      "image_paths": [
+        "all/117692/01.jpg",
+        "all/117692/02.jpg",
+        "all/117692/03.jpg",
+        "all/117692/04.jpg"
+      ],
+      "image_count": 4,
+      "images": [
+        {
+          "path": "all/117692/01.jpg",
+          "gallery_order": 1,
+          "source_url": "https://relationhq.sfo2.cdn.digitaloceanspaces.com/20260629/ewsalvageb7c2dfb46d155af1d7fd58e90d53eb272c7082d0749e5e4f0f538e06d2e7aefa.jpg",
+          "sha256": "d9780ebf6115a141ed39fd4933249c9254109958ea9bc5dd2f9cdda7a4b65798",
+          "width_px": 4080,
+          "height_px": 3072,
+          "bytes": 3858657
+        },
+        {
+          "path": "all/117692/02.jpg",
+          "gallery_order": 2,
+          "source_url": "https://relationhq.sfo2.cdn.digitaloceanspaces.com/20260629/ewsalvagea03f39cc014b589c569ef1a55246fc7d75df7282576282765acac5b015409769.jpg",
+          "sha256": "3323d6ec0b721ea4198e27537bbb8f2b891d1a25b4ce88594708938de2db2785",
+          "width_px": 2785,
+          "height_px": 3699,
+          "bytes": 2569598
+        },
+        {
+          "path": "all/117692/03.jpg",
+          "gallery_order": 3,
+          "source_url": "https://relationhq.sfo2.cdn.digitaloceanspaces.com/20260629/ewsalvagedd16ff9783ec90935a1f23e14a04259582596ebd6234128ab76772955590cc7f.jpg",
+          "sha256": "3163ce024634b0a23be51cc6057bb5633a093c65c00bf828d1b70b0cf8aaf61e",
+          "width_px": 4080,
+          "height_px": 3072,
+          "bytes": 3214002
+        },
+        {
+          "path": "all/117692/04.jpg",
+          "gallery_order": 4,
+          "source_url": "https://relationhq.sfo2.cdn.digitaloceanspaces.com/20260629/ewsalvage7c921f65aca5bbb0011c53085b5806235299705a331cd06dbeba35f80c8d1d54.jpg",
+          "sha256": "5ba595689d5045acb3fe2903f11c80247ff4b22bb1338d14d42091030fbf291f",
+          "width_px": 3925,
+          "height_px": 2955,
+          "bytes": 3210801
+        }
+      ],
+      "same_physical_piece_confirmed": "unknown",
+      "gallery_complete": true
+    },
+    {
+      "listing_id": "120235",
+      "title": "S2S Yellow Cedar Board 1.5 x 5.5 x 72",
+      "nominal_dimensions": {
+        "thickness_mm": 38.1,
+        "width_mm": 139.7,
+        "length_mm": 1828.8,
+        "length_min_mm": 1828.8,
+        "length_max_mm": 1828.8,
+        "dimension_status": "RESOLVED",
+        "length_status": "EXACT",
+        "dimension_evidence": {
+          "source": "https://ewsalvage.com/lumber-inventory/?item=120235-s2s_yellow_cedar_board_1.5_x_5.5_x_72",
+          "captured_at": "2026-09-11T07:03:45.071011+00:00",
+          "evidence": [
+            {
+              "field": "title",
+              "text": "1.5 x 5.5 x 72",
+              "basis": "SELLER_TITLE_THICKNESS_WIDTH_LENGTH",
+              "unit_basis": "Explicit units where present; project-authorized Earthwise inch title convention"
+            }
+          ],
+          "measurement_status": "SELLER_REPORTED_NOT_INSPECTED"
+        },
+        "section_shape_status": "RECTANGULAR_CANDIDATE",
+        "thickness_in": 1.5,
+        "width_in": 5.5,
+        "length_in": 72.0,
+        "length_min_in": 72.0,
+        "length_max_in": 72.0,
+        "title_axes_in": {
+          "thickness": [
+            1.5,
+            1.5
+          ],
+          "width": [
+            5.5,
+            5.5
+          ],
+          "length": [
+            72.0,
+            72.0
+          ]
+        },
+        "thickness_min_in": 1.5,
+        "thickness_max_in": 1.5,
+        "thickness_min_mm": 38.1,
+        "thickness_max_mm": 38.1,
+        "width_min_in": 5.5,
+        "width_max_in": 5.5,
+        "width_min_mm": 139.7,
+        "width_max_mm": 139.7
+      },
+      "nominal_dimensions_basis": "seller_reported_inventory_snapshot_not_physical_measurement",
+      "source_url": "https://ewsalvage.com/lumber-inventory/?item=120235-s2s_yellow_cedar_board_1.5_x_5.5_x_72",
+      "image_paths": [
+        "all/120235/01.jpg",
+        "all/120235/02.jpg",
+        "all/120235/03.jpg"
+      ],
+      "image_count": 3,
+      "images": [
+        {
+          "path": "all/120235/01.jpg",
+          "gallery_order": 1,
+          "source_url": "https://relationhq.sfo2.cdn.digitaloceanspaces.com/20260828/ewsalvagef8b1e9ce554b3a2d3df25b05441e02427af580055d929825aae0737b46099095.jpg",
+          "sha256": "86e5c8b0d3cebfd2fd96eaa3d47c010f4d834d9f0aec4c95714acecdcc1e2e80",
+          "width_px": 4032,
+          "height_px": 3024,
+          "bytes": 15932771
+        },
+        {
+          "path": "all/120235/02.jpg",
+          "gallery_order": 2,
+          "source_url": "https://relationhq.sfo2.cdn.digitaloceanspaces.com/20260828/ewsalvageef6cd73cb27b18d962811ce3b3216c462d72a173b9a531f9fba4229c094b22dc.jpg",
+          "sha256": "617d3e13ba45135e5e217c700ee4bb45ca8c977e643993bcb7b74a8e1900b36d",
+          "width_px": 3024,
+          "height_px": 4032,
+          "bytes": 3947394
+        },
+        {
+          "path": "all/120235/03.jpg",
+          "gallery_order": 3,
+          "source_url": "https://relationhq.sfo2.cdn.digitaloceanspaces.com/20260828/ewsalvage879a5853d7951f64882588e4a1b065605c19bc28ee159f0b8552c14cf6c9573d.jpg",
+          "sha256": "d6a819d65192f271cc849ef9a9c205ccd69ce74ede6245f2054f959857e8ef58",
+          "width_px": 4032,
+          "height_px": 3024,
+          "bytes": 6132361
+        }
+      ],
+      "same_physical_piece_confirmed": "unknown",
+      "gallery_complete": true
+    },
+    {
+      "listing_id": "111575",
+      "title": "Salvaged Old Growth Fir 2 x 4 x 96",
+      "nominal_dimensions": {
+        "thickness_mm": 50.8,
+        "width_mm": 101.6,
+        "length_mm": 2438.4,
+        "length_min_mm": 2438.4,
+        "length_max_mm": 2438.4,
+        "dimension_status": "RESOLVED",
+        "length_status": "EXACT",
+        "dimension_evidence": {
+          "source": "https://ewsalvage.com/lumber-inventory/?item=111575-salvaged_old_growth_fir_2_x_4_x_96",
+          "captured_at": "2026-09-11T07:04:15.424066+00:00",
+          "evidence": [
+            {
+              "field": "title",
+              "text": "2 x 4 x 96",
+              "basis": "SELLER_TITLE_THICKNESS_WIDTH_LENGTH",
+              "unit_basis": "Explicit units where present; project-authorized Earthwise inch title convention"
+            }
+          ],
+          "measurement_status": "SELLER_REPORTED_NOT_INSPECTED"
+        },
+        "section_shape_status": "RECTANGULAR_CANDIDATE",
+        "thickness_in": 2.0,
+        "width_in": 4.0,
+        "length_in": 96.0,
+        "length_min_in": 96.0,
+        "length_max_in": 96.0,
+        "title_axes_in": {
+          "thickness": [
+            2.0,
+            2.0
+          ],
+          "width": [
+            4.0,
+            4.0
+          ],
+          "length": [
+            96.0,
+            96.0
+          ]
+        },
+        "thickness_min_in": 2.0,
+        "thickness_max_in": 2.0,
+        "thickness_min_mm": 50.8,
+        "thickness_max_mm": 50.8,
+        "width_min_in": 4.0,
+        "width_max_in": 4.0,
+        "width_min_mm": 101.6,
+        "width_max_mm": 101.6
+      },
+      "nominal_dimensions_basis": "seller_reported_inventory_snapshot_not_physical_measurement",
+      "source_url": "https://ewsalvage.com/lumber-inventory/?item=111575-salvaged_old_growth_fir_2_x_4_x_96",
+      "image_paths": [
+        "all/111575/01.jpg",
+        "all/111575/02.jpg",
+        "all/111575/03.jpg"
+      ],
+      "image_count": 3,
+      "images": [
+        {
+          "path": "all/111575/01.jpg",
+          "gallery_order": 1,
+          "source_url": "https://relationhq.sfo2.cdn.digitaloceanspaces.com/20260306/ewsalvageae0144626c18d59d4ab537398bbbed831db31b654b2f3629ac3db680ce4c93fe.jpg",
+          "sha256": "7b4cc6b0f9417a7194fe10e1d8abaafc5373a35a1b056cf5288986010850713b",
+          "width_px": 4080,
+          "height_px": 3072,
+          "bytes": 7109430
+        },
+        {
+          "path": "all/111575/02.jpg",
+          "gallery_order": 2,
+          "source_url": "https://relationhq.sfo2.cdn.digitaloceanspaces.com/20260306/ewsalvage13884e82ae2440d9d5e8c3ad8c0be7c386a23a7813efa75e0627f28210efaa86.jpg",
+          "sha256": "39dc99d3a2a2b97a0f03536aba50db4f213cd41e7a4790832b8ecbd651fe4083",
+          "width_px": 2877,
+          "height_px": 2105,
+          "bytes": 2170682
+        },
+        {
+          "path": "all/111575/03.jpg",
+          "gallery_order": 3,
+          "source_url": "https://relationhq.sfo2.cdn.digitaloceanspaces.com/20260306/ewsalvage4452be77eacc6eb4a447e73caeb7f2205038df4fa1483b0392d5d4b44083c57f.jpg",
+          "sha256": "6645934e2e13df22ce3162158ec8666017a91b2cf59f26d179a9e67fb4137f6a",
+          "width_px": 4080,
+          "height_px": 3072,
+          "bytes": 1511745
+        }
+      ],
+      "same_physical_piece_confirmed": "unknown",
+      "gallery_complete": true
+    }
+  ]
+}

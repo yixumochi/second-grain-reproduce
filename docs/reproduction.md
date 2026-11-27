@@ -5,8 +5,9 @@ The public repository contains the offline allocation baseline, the photograph-s
 | Route | Input | Output and verified scope |
 | --- | --- | --- |
 | Replay the allocation | This checkout and Python 3.10 or newer | `baseline/results/baseline/verification.json`. A local run returned exit code 0, with 15 added members from 10 stock sources. Engineering approval remains `UNKNOWN`. |
-| Screen three specimens | CUDA PyTorch, downloaded SAM2 and VGGT weights, and the three photograph sets in `data/all/` | Per-listing records under `outputs/`. Listings 117692, 120235, and 111575. |
-| Screen the full set | The same GPU setup plus the local 762-listing archive | A new `outputs/` tree. The earlier 29 GB evidence bundle is not distributed. The 762-listing GPU pass was not recorded as a completed run. |
+| Check the three specimens | This checkout and Python with Pillow | `outputs/runs/<id>/<key>/run.json` with status `PREPARED_NOT_RUN`. Listings 117692, 120235, and 111575, 10 photographs, each path and SHA-256 checked. |
+| Screen three specimens | CUDA PyTorch, downloaded SAM2 and VGGT weights, and `data/examples_manifest.json` | Per-listing records under `outputs/`. This GPU continuation was not run for the example-manifest change. |
+| Screen the full set | The same GPU setup, the local 762-listing archive, and an explicit `--manifest` | A new `outputs/` tree. The earlier 29 GB evidence bundle is not distributed. The 762-listing GPU pass was not recorded as a completed run. |
 
 ## Replay the allocation
 
@@ -47,15 +48,17 @@ Pinned revisions:
 
 `vendor/` holds the snapshots imported by the runner. `vendor_manifest.json` is checked before a batch starts.
 
-## Screen three specimens
+## Check the three specimens
 
-`data/all/117692`, `data/all/120235`, and `data/all/111575` are already in the repository.
+`data/examples_manifest.json` lists listings 117692, 120235, and 111575, ten photographs in all. From the repository root:
 
 ```sh
-bash run_test.sh
+python scripts/run_batch.py --manifest data/examples_manifest.json --ids 117692 120235 111575 --prepare-only
 ```
 
-This needs a CUDA GPU. Allow several minutes and keep more than 8 GiB free. Finished listings are written under `outputs/` and are not committed.
+Expect one `PREPARED_NOT_RUN` line per listing. The runner reads each file at `data/` plus the path stored in the manifest and rejects the listing when the SHA-256 does not match. Pillow is imported because the same command also writes preview JPEGs under `outputs/runs/`. Those outputs are not committed.
+
+`bash run_test.sh` passes the same manifest and the same three IDs, then continues with SAM2, VGGT, line detection, and the surface estimate. That continuation needs the CUDA setup above and was not run for this example. Allow several minutes and keep more than 8 GiB free.
 
 ## Full photographs
 
@@ -72,12 +75,12 @@ python data/download_data.py --check --archive /path/to/second-grain-photos.zip
 ## Full batch
 
 ```sh
-bash run_all.sh
+bash run_all.sh --manifest path/to/all_manifest.json
 ```
 
-Listings that already have a matching input, source, and config record are skipped. One listing failing does not stop the queue. The run stops when free disk drops below 8 GiB. A full pass can take many hours and can write tens of gigabytes under `outputs/`.
+The public repository does not contain the 762-listing manifest. `run_all.sh` stops until `--manifest` names the local file. Listings that already have a matching input, source, and config record are skipped. One listing failing does not stop the queue. The run stops when free disk drops below 8 GiB. A full pass can take many hours and can write tens of gigabytes under `outputs/`.
 
-`QUEUE_*_README.md` and `PILOT_FIRST.md` are notes from an earlier machine-specific upload. They are not the entry point.
+Earlier cloud queue and pilot files are in [archive/cloud-batches](../archive/cloud-batches/README.md). They are not the entry point.
 
 ## Licenses
 
